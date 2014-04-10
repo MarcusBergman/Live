@@ -1,0 +1,29 @@
+#main
+      {
+        position: relative;
+        width: 900px;
+        margin-left: auto;
+        margin-right:auto;
+        height: 500px;
+        border: 0px solid black;
+      }
+      
+      #skapa
+      {
+        position: absolute;
+        right: 0;
+        top: 300;
+      }
+	  #starta
+	  {
+	    position: absolute;
+		left: 0;
+		top: 300;
+	  }
+	  body
+          {
+      background-image:url(images/background.jpg);
+	  background-repeat:no-repeat;
+	  background-position:center;
+     
+      }
