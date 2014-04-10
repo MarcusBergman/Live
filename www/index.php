@@ -1,6 +1,9 @@
 <?php
+
+/*
  chdir('../application');
  include 'model/database.php';
+ */
  
  $query = $_SERVER['QUERY_STRING'];
  
@@ -15,6 +18,7 @@
  print($query);
  
  return;
+
  foreach ($routes as $regex => $view)
  {
    if (preg_match($regex, $query, $matches))
