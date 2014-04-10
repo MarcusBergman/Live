@@ -12,6 +12,9 @@
    '/.*/'                => 'views/error.php.html',
  );
  
+ print($query);
+ 
+ return;
  foreach ($routes as $regex => $view)
  {
    if (preg_match($regex, $query, $matches))
