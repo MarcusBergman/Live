@@ -15,7 +15,7 @@
    '/.*/'                => 'views/error.php.html',
  );
  
- print($query);
+ print("Hej! ".$query);
  
  return;
 
