@@ -1,10 +1,70 @@
+<?php
+  $db = dba_open("database.db4", "r", "db4");
+
+  $ovning = dba_fetch($_REQUEST['test'], $db);
+  
+//  move_uploaded_file($_FILES['image']['tmp_name'], 'uploaded/pic.png');
+?>
+
 <!DOCTYPE html>
 <html lang="sv">
   <head>
     <meta charset="utf-8" />
     <title>August</title>
+    <link rel="stylesheet" href= "augstyle.css"  />
   </head>
   <body>
-    Utför ett test.
+    <div id="svar1" class="svar"></div>
+	<div id="svar2" class="svar"></div>
+	<div id="svar3" class="svar"></div>
+	<div id="svar4" class="svar"></div>
+	<div id="svar5" class="svar"></div>
+
+    <div id="bilder"></div>
+	
+	<input type="submit" value="Rätta">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script> 
+    <script>
+	var svar = { "svar1":"", "svar2":"", "svar3":"", "svar4":""};
+	var facit = {"svar1":"bild1", "svar2":"bild2", "svar3":"bild3", "svar4":"bild4"};
+	
+	var bilder = [
+	<?php
+     foreach($ovning['images'] as $image) print($image['name'].",");
+	?>]
+	
+	
+	function shuffleArray(array) 
+    {
+      for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+      }
+    return array;
+    }
+  
+  
+  var blandadeBilder = shuffleArray(bilder);
+
+  for (var i=0; i<blandadeBilder.length; i++){
+	
+      $('#bilder').append('<img src="' +bilder[i]+ '" width="175px" height="150px"/>');
+
+  }
+	
+	$(function() {
+    $( "img" ).draggable({ snap: ".svar", snapMode: "inner" });
+    $( "img" ).droppable({
+      drop: function( event, ui )
+	  {
+	  }
+    });
+  });
+
+    </script>
   </body>
 </html>
