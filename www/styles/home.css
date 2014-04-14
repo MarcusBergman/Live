@@ -1,29 +1,27 @@
-#main
+  #main
       {
         position: relative;
         width: 900px;
         margin-left: auto;
         margin-right:auto;
-        height: 500px;
+        height: 900px;
         border: 0px solid black;
       }
       
-      #skapa
+ #skapa
       {
         position: absolute;
         right: 0;
         top: 300;
       }
-	  #starta
-	  {
-	    position: absolute;
-		left: 0;
-		top: 300;
-	  }
-	  body
-          {
-      background-image:url(/images/background.jpg);
-	  background-repeat:no-repeat;
-	  background-position:center;
-     
+#starta
+      {
+        position: absolute;
+        left: 0;
+	top: 300;
+      }
+#head
+      {
+	position: absolute;
+	top: -50;
       }
