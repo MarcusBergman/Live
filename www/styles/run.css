@@ -21,8 +21,8 @@ html, body, div
 .svar
 {
   float: left;
-  width: 175px;
-  height: 150px;
+  width: 8%;
+  height: 7%;
   outline: 2px dashed black;
 }	
       
@@ -35,8 +35,8 @@ html, body, div
 
 img
 {
-  width: 175px;
-  height: 150px;
+  width: 8%;
+  height: 7%;
 }
 
 input
