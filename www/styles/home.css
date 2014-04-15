@@ -27,20 +27,3 @@
   position: absolute;
   top: -50px;
 }
-
-#main2
-{
-  position: relative;
-  width: 300px;
-  margin-left: auto;
-  margin-right:auto;
-  height: 900px;
-  border: 0px solid black;
-  top: 300px;
-}
-
-#troll
-{
-  position: absolute;
-  top: 600px;
-}
