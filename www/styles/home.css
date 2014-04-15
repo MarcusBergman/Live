@@ -1,25 +1,25 @@
-  #main
-      {
-        position: relative;
-        width: 900px;
-        margin-left: auto;
-        margin-right:auto;
-        height: 900px;
-        border: 0px solid black;
-      }
-      
-      #skapa
-      {
-        position: absolute;
-        right: 0;
-        top: 300;
-      }
-      #starta
-      {
-        position: absolute;
-        left: 0;
-	top: 300;
-      }
+#main
+{
+  position: relative;
+  width: 900px;
+  margin-left: auto;
+  margin-right:auto;
+  height: 900px;
+  border: 0px solid black;
+}
+    
+#skapa
+{
+  position: absolute;
+  right: 0;
+  top: 300px;
+}
+#starta
+{
+  position: absolute;
+  left: 0;
+  top: 300px;
+}
       #head
       {
 	position: absolute;
