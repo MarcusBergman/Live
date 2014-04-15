@@ -1,8 +1,6 @@
-#background
+body
 {
-  position: absolute;
-  top: 0;
-  z-index: 1;
+  background-image: url(/images/error.jpg);  
 }
 
 #troll
