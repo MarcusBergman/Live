@@ -2,6 +2,7 @@
 {
   position: absolute;
   top: 0;
+  z-index: 1;
 }
 
 #troll
@@ -9,4 +10,5 @@
   margin-top: 300px;
   margin-left: auto;
   margin-right: auto;
+  z-index: 2;
 }
