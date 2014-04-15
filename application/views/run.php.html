@@ -44,8 +44,10 @@
 
   }
   
-    $(".svar").css("width","90%/bilder.length");	
-	
+   var bredd =  90/bilder.length;
+
+   $(".svar").css("width", bredd +"%");		
+   $("img").css("width", bredd +"%");		
 	
     $(function() {
       $( "img" ).draggable({ snap: ".svar", snapMode: "inner" });
