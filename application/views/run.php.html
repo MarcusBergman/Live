@@ -1,28 +1,27 @@
 <?php
 
+  $stylesheet = "run";
+
 ?>
 
-    <div id="svar1" class="svar"></div>
-	<div id="svar2" class="svar"></div>
-	<div id="svar3" class="svar"></div>
-	<div id="svar4" class="svar"></div>
-	<div id="svar5" class="svar"></div>
+  <div id="top"></div>
 
     <div id="bilder"></div>
 	
 	<input type="submit" value="Rätta">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script> 
+    <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
     <script>
-	var svar = { "svar1":"", "svar2":"", "svar3":"", "svar4":""};
-	var facit = {"svar1":"bild1", "svar2":"bild2", "svar3":"bild3", "svar4":"bild4"};
+	var bilder = [{file: "1.png", id: "bild1"},
+	              {file: "2.png", id: "bild2"},
+				  {file: "3.png", id: "bild3"},
+				  {file: "4.png", id: "bild4"},
+				  {file: "5.png", id: "bild5"}];
 	
-	var bilder = [
-	<?php
-     foreach($ovning['images'] as $image) print($image['name'].",");
-	?>]
-	
+	for (var i=0; i<bilder.length; i++){
+	  $('#top').append('<div class="svar" id="svar' +i+ '"></div>');
+	}
 	
 	function shuffleArray(array) 
     {
@@ -40,19 +39,47 @@
 
   for (var i=0; i<blandadeBilder.length; i++){
 	
-      $('#bilder').append('<img src="' +bilder[i]+ '" width="175px" height="150px"/>');
+      $('#bilder').append('<img src="' +bilder[i].file+ '" id="' +bilder[i].id+'" />');
 
   }
+  
+  if (bilder.length == 5)
+    $(".svar").css("margin-left","6%");
+  else if (bilder.length == 4)	
+	$(".svar").css("margin-left","10%");
+  else if (bilder.length == 3)	
+	$(".svar").css("margin-left","15%");
+  else if (bilder.length == 2)	
+	$(".svar").css("margin-left","24%");	
 	
-	$(function() {
-    $( "img" ).draggable({ snap: ".svar", snapMode: "inner" });
-    $( "img" ).droppable({
-      drop: function( event, ui )
-	  {
-	  }
+	
+    $(function() {
+      $( "img" ).draggable({ snap: ".svar", snapMode: "inner" });
+      $( ".svar" ).droppable({
+        drop: function( event, ui )
+	    {
+	      answers [this.id]=ui.draggable.attr("id");
+	    }
+      });
     });
-  });
+	
+    var answers = {};
+    var facit = {svar0:"bild1", svar1:"bild2", svar2:"bild3", svar3:"bild4", svar4: "bild5"};
+  
+    $("input[type=submit]").click(function(){
+      function checkAnswers(){
+      
+	    allCorrect = true;
 
+        for (question in facit)
+          if (facit[question] != answers[question])
+            allCorrect = false;
+
+        return allCorrect;
+      }
+
+      alert(checkAnswers());
+	});
     </script>
   </body>
 </html>
