@@ -46,9 +46,11 @@
   }
   
    var bredd =  90/bilder.length;
+   var hojd = $("img").css("height");
 
    $(".svar").css("width", bredd +"%");		
-   $("img").css("width", bredd +"%");		
+   $("img").css("width", bredd +"%");
+   $(".svar").css("height", hojd);   
 	
     $(function() {
       $( "img" ).draggable({ snap: ".svar", snapMode: "inner" });
