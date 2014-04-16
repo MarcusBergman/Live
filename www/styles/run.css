@@ -43,6 +43,13 @@ html, body, div
   width: 100%;
 }
 
+#resultat
+{
+  position: absolute;
+  left: 40%;
+  font-size: 250%;
+}
+
 input
 {
   float: right;
