@@ -61,7 +61,7 @@
     });
 	
     var answers = {};
-    var facit = {svar0:"bild1", svar1:"bild2", svar2:"bild3", svar3:"bild4", svar4: "bild5"};
+    var facit = {svar0:"bild1", svar1:"bild2", svar2:"bild3", svar3:"bild4", svar4: "bild5", svar5: "bild6"};
   
     $("input[type=submit]").click(function(){
       function checkAnswers(){
@@ -69,9 +69,11 @@
 	    allCorrect = true;
 
         for (question in facit)
-          if (facit[question] != answers[question])
+          if (facit[question] != answers[question]){
             allCorrect = false;
-
+			
+          }
+		  
         return allCorrect;
       }
 
