@@ -50,9 +50,7 @@
    $(".svar").css("width", bredd +"%");		
    $("img").css("width", bredd +"%");
    
-   var hojd = $("img").height();
-   
-   $(".svar").css("height", hojd);   
+   $(".svar").css("height", $(".svar").css("width"));   
 	
     $(function() {
       $( "img" ).draggable({ snap: ".svar", snapMode: "inner" });
