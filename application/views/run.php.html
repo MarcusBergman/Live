@@ -77,13 +77,17 @@
 		  {
             allCorrect = false;
 			$("#"+question).css("outline", "2px dashed red");
-			$("#resultat").append("Något av svaren stämmer inte.")
           }
 		  else
 		  {
             $("#"+question).css("outline", "2px dashed green");
 			$("#resiltat").append("Alla svaren stämmer!");
           }
+		
+		if (allCorrect = true)
+		  $("#resultat").append("Något av svaren stämmer inte.");
+		else
+		  $("#resiltat").append("Alla svaren stämmer!");
 		  
         return allCorrect;
       }
