@@ -23,7 +23,7 @@ html, body, div
 .svar
 {
   float: left;
-  outline: 2px dashed black;
+  border: 2px dashed black;
 }	
       
 #bilder
