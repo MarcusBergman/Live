@@ -81,17 +81,13 @@
 		  else
 		  {
             $("#"+question).css("outline", "2px dashed green");
+			$( "#"+question).draggable({ disabled: true });
           }	
  		
         return allCorrect;
       }
 		
       alert(checkAnswers());
-	  
-	  if (allCorrect = true)
-	    $("#resultat").append("Alla svaren stämmer!");
-	  else
-        $("#resultat").append("Något av svaren stämmer inte.");
 	  
 	});	
     </script>
