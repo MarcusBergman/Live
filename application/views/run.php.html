@@ -8,7 +8,7 @@
   <div id="top"></div>
 
     <div id="bilder">
-	  <div id="resultat">Test</div>
+	  <div id="resultat"></div>
 	</div>
 	
 	<input type="submit" value="Rätta">
@@ -73,13 +73,17 @@
 	    allCorrect = true;
 
         for (question in facit)
-          if (facit[question] != answers[question]){
+          if (facit[question] != answers[question])
+		  {
             allCorrect = false;
 			$("#"+question).css("outline", "2px dashed red");
+			$("#resultat").append("Något av svaren stämmer inte.")
           }
 		  else
+		  {
             $("#"+question).css("outline", "2px dashed green");
-          
+			$("#resiltat").append("Alla svaren stämmer!");
+          }
 		  
         return allCorrect;
       }
