@@ -11,6 +11,12 @@ html, body, div
   padding: 0;
 }
 
+#rubrik
+{
+  position: absolute;
+  font-size: large;
+}
+
 #top
 {
   position: relative;
