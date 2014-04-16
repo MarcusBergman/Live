@@ -53,7 +53,7 @@
    $(".svar").css("height", $(".svar").css("width")); //should be the height of the image  
 	
     $(function() {
-      $( "img" ).draggable({ snap: ".svar", snapMode: "inner", containment: "#top,#bilder" });
+      $( "img" ).draggable({ snap: ".svar", snapMode: "inner", containment: "#top"});
       $( ".svar" ).droppable({
         drop: function( event, ui )
 	    {
