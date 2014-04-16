@@ -85,7 +85,11 @@
  		
         return allCorrect;
       }
-		  
+		
+      if (allCorrect = true)
+	    $("#resultat").append("Alla svaren stämmer!");
+	  else if (allCorrect = false)
+        $("#resultat").append("Något av svaren stämmer inte.");	  
       alert(checkAnswers());
 	  
 	});
