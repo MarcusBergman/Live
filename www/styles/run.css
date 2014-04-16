@@ -53,10 +53,10 @@ html, body, div
 input
 {
   position: absolute;
-  bottom: 10%;
-  left: 30%;
-  width: 20%;
-  height: 20%;
+  bottom: 8%;
+  left: 42%;
+  width: 15%;
+  height: 9%;
   color: white;
   background-color: black;
 }
