@@ -50,7 +50,7 @@
    $(".svar").css("width", bredd +"%");		
    $("img").css("width", bredd +"%");
    
-   $(".svar").css("height", $(".svar").css("width"));   
+   $(".svar").css("height", $(".svar").css("width")); //should be the height of the image  
 	
     $(function() {
       $( "img" ).draggable({ snap: ".svar", snapMode: "inner" });
@@ -73,7 +73,7 @@
         for (question in facit)
           if (facit[question] != answers[question]){
             allCorrect = false;
-			
+			$("#"+question).css("border", "2px dashed red");
           }
 		  
         return allCorrect;
