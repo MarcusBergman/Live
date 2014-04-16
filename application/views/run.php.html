@@ -73,10 +73,10 @@
         for (question in facit)
           if (facit[question] != answers[question]){
             allCorrect = false;
-			$("#"+question).css("border", "2px dashed red");
+			$("#"+question).css("outline", "2px dashed red");
           }
 		  else
-            $("#"+question).css("border", "2px dashed green");
+            $("#"+question).css("outline", "2px dashed green");
           
 		  
         return allCorrect;
