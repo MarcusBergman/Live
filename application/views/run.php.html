@@ -81,13 +81,12 @@
 		  else
 		  {
             $("#"+question).css("outline", "2px dashed green");
-			$("#resiltat").append("Alla svaren stämmer!");
           }
 		
-		if (allCorrect = false)
-		  $("#resultat").append("Något av svaren stämmer inte.");
+		if (allCorrect = true)
+		  $("#resultat").append("Alla svaren stämmer!");
 		else
-		  $("#resiltat").append("Alla svaren stämmer!");
+		  $("#resultat").append("Något av svaren stämmer inte.");
 		  
         return allCorrect;
       }
