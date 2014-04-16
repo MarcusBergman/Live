@@ -68,9 +68,10 @@
       
 	    allCorrect = true;
 
-        for (question in facit)
+        for (var i=0; question in facit; i++)
           if (facit[question] != answers[question]){
             allCorrect = false;
+			$('"#svar'+i+'"').css("border","2px dotted red")
 			
           }
 		  
