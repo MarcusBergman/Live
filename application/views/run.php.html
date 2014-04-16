@@ -68,7 +68,6 @@
     var facit = {svar0:"bild1", svar1:"bild2", svar2:"bild3", svar3:"bild4", svar4: "bild5", svar5: "bild6"};
   
     $("input[type=submit]").click(function(){
-      function checkAnswers(){
       
 	    allCorrect = true;
 
@@ -83,10 +82,11 @@
             $("#"+question).css("outline", "2px dashed green");
           }	
  		
-        return allCorrect;
-      }
-		
-      alert(checkAnswers());
+	  if (allCorrect)
+	    $("#resultat").append("Rätt");
+	  else
+	    $("#resultat").append("Fel");
+  
 	  
 	});	
     </script>
