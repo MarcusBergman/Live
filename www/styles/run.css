@@ -23,7 +23,6 @@ html, body, div
 .svar
 {
   float: left;
-  height: 25%;
   outline: 2px dashed black;
 }	
       
@@ -34,11 +33,6 @@ html, body, div
   left: 5%;
   height: 100%;
   width: 100%;
-}
-
-img
-{
-  height: 25%;
 }
 
 input
