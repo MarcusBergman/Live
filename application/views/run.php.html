@@ -25,6 +25,7 @@
 	  foreach ($test["images"] as $image){
 	?>
 	{file: "http://august.friskola.nu/uploads/<?= $id ?>/<?= $image ?>", id: "bild<?= $i++ ?>"}<?= (count($test["images"]) >= $i ? "," : "") ?>
+	
 	           <? } ?>];
 	
 	for (var i=0; i<bilder.length; i++){
