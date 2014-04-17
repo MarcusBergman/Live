@@ -9,7 +9,6 @@ html, body
 {
   position: relative;
   left: 15%;
-  right: 15%;
   width: 100%;
   height: 100%;
 }
@@ -17,15 +16,15 @@ html, body
 #skapa
 {
   position: absolute;
-  right: 0;
-  top: 300px;
+  float: right;
+  top: 50%;
 }
 
 #starta
 {
   position: absolute;
-  left: 0;
-  top: 300px;
+  float: left;
+  top: 50%;
 }
 
 #head
