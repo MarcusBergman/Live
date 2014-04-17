@@ -1,11 +1,16 @@
+html, body
+{
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
 #main
 {
   position: relative;
+  left: 25%;
   width: 100%;
-  margin-left: auto;
-  margin-right:auto;
   height: 100%;
-  border: 0px solid black;
 }
     
 #skapa
