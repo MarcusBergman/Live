@@ -1,10 +1,10 @@
 #main
 {
   position: relative;
-  width: 900px;
+  width: 100%;
   margin-left: auto;
   margin-right:auto;
-  height: 900px;
+  height: 100%;
   border: 0px solid black;
 }
     
