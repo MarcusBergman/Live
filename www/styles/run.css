@@ -3,6 +3,7 @@ html, body
   overflow: hidden;
   height: 100%;
   width: 100%;
+  background-image: url(http://august.friskola.nu/uploads/123456/kindajean_@2X.png);
 }
 
 #rubrik
@@ -39,7 +40,7 @@ html, body
   left: 2%;
   width: 96%;
   height: 88%;
-  background-image: url(http://august.friskola.nu/uploads/123456/photography_@2X.png);
+  background-image: url(http://august.friskola.nu/uploads/123456/geometry_@2X.png);
 }
 
 #resultat
