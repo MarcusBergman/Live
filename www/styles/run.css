@@ -40,6 +40,8 @@ html, body
   left: 2%;
   width: 96%;
   height: 88%;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
   background-image: url(http://august.friskola.nu/uploads/123456/geometry.png);
 }
 
