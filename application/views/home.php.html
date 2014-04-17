@@ -6,13 +6,23 @@ include("views/header.php.html");
 ?>
   <div id="main">
     <img src="images/background2.jpg" alt="image_text" id="head" height="600" width="900">
-    <a href="run.php.html"><img src="images/starta3.jpg" alt="description_text" id="starta" width="400" height="300"/></a>
+    <img src="images/starta3.jpg" alt="description_text" id="starta" width="400" height="300"/></a>
     <a href="error.php.html"><img src="images/skapa2.jpg" alt="description_text" id="skapa" width="400" height="300"/></a>
   </div>
-  <div id="starttest"></div>
+  <div id="starttest">Hej</div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
   <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
   <script>
+  
+    $("#starta").click(function(){
+	
+	  $("#starttest").animate({
+        visibility: "visible",
+        opacity: "100%"
+	  },2000);
+	
+	});
+  
   </script>
   </body>
 </html>
