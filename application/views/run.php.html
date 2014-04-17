@@ -3,6 +3,11 @@
   $stylesheet = "run";
   include("views/header.php.html");
   
+  // Här kommer testet hämtas från databasen
+  // $test = $db->getTest($id);
+  
+  $test = array("title" => "Siffrorna", "images" => array("1.png", "2.png", "3.png", "4.png", "5.png", "6.png"));
+  $id = "123456";
 ?>
   <div id="bakgrund"></div>
   <div id="rubrik">Siffror</div>
@@ -14,12 +19,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
     <script>
-	var bilder = [{file: "http://august.friskola.nu/uploads/123456/1.png", id: "bild1"},
-	              {file: "http://august.friskola.nu/uploads/123456/2.png", id: "bild2"},
-				  {file: "http://august.friskola.nu/uploads/123456/3.png", id: "bild3"},
-				  {file: "http://august.friskola.nu/uploads/123456/4.png", id: "bild4"},
-				  {file: "http://august.friskola.nu/uploads/123456/5.png", id: "bild5"},
-				  {file: "http://august.friskola.nu/uploads/123456/6.png", id: "bild6"}];
+	var bilder = [
+	<?php 
+	  $i = 1;
+	  foreach ($test["images"] as $image){
+	?>
+	{file: "http://august.friskola.nu/uploads/<?= $id ?><?= $image ?>", id: "bild<?= $i++ ?>"}<?= (count($test["images"])>$i ? "," : "") ?>
+	           <? } ?>];
 	
 	for (var i=0; i<bilder.length; i++){
 	  $('#top').append('<div class="svar" id="svar' +i+ '"></div>');
