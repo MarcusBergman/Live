@@ -4,12 +4,10 @@
   include("views/header.php.html");
   
 ?>
+  <div id="bakgrund"></div>
   <div id="rubrik">Siffror</div>
   <div id="top"></div>
-
-    <div id="bilder">
-	  <div id="resultat"></div>
-	</div>
+  <div id="resultat"></div>
 	
 	<input type="submit" value="Rätta">
 
@@ -43,7 +41,7 @@
 
   for (var i=0; i<blandadeBilder.length; i++){
 	
-      $('#bilder').append('<img src="' +bilder[i].file+ '" id="' +bilder[i].id+'" />');
+      $('#top').append('<img src="' +bilder[i].file+ '" id="' +bilder[i].id+'" />');
 
   }
   
@@ -55,7 +53,7 @@
    $(".svar").css("height", $(".svar").css("width")); //should be the height of the image  
 	
     $(function() {
-      $( "img" ).draggable({ snap: ".svar", snapMode: "inner", containment: "#top"});
+      $( "img" ).draggable({ snap: ".svar", snapMode: "inner", containment: "#bakgrund"});
       $( ".svar" ).droppable({
         drop: function( event, ui )
 	    {

@@ -5,24 +5,20 @@ html, body
   width: 100%;
 }
 
-html, body, div
-{
-  margin: 0;
-  padding: 0;
-}
-
 #rubrik
 {
+  width: 15%;
+  height: 7%;
   position: absolute;
   left: 5%;
   top: 4%;
-  font-size: 200%;
+  font-size: 250%;
 }
 
 #top
 {
   position: relative;
-  top: 10%;
+  top: 15%;
   left: 5%;
   width: 100%;
   height: 100%;
@@ -32,15 +28,17 @@ html, body, div
 {
   float: left;
   outline: 2px dashed black;
+  margin-bottom: 2%;
 }	
       
-#bilder
+#bakgrund
 {
   position: absolute;
-  top: 50%;
-  left: 5%;
-  height: 100%;
-  width: 100%;
+  top: 11%;
+  left: 2%;
+  height: 96%;
+  width: 90%;
+  background-color: #F0F0F0;
 }
 
 #resultat
