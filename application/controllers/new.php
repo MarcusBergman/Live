@@ -4,8 +4,7 @@
   // Skicka användaren till det testet.
   
   $id = newTest();
-  header("Location: /redigera/"+$id);
-  
-  print("hewj");
+  header("Location: http://august.friskola.nu/redigera/"+$id);
+  return;
 
 ?>
