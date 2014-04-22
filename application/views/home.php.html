@@ -23,10 +23,17 @@ include("views/header.php.html");
 		backgroundColor: "white"
 	  },1800);
 	  
-	  
-	  $("body").animate({
-	    backgroundColor: "#484848",
-		},1800);
+	  $({blurRadius: 0}).animate({blurRadius: 10}, {
+        duration: 1800,
+        easing: 'swing', 
+        step: function() {
+            console.log(this.blurRadius);
+            $("#main").css({
+                "-webkit-filter": "blur("+this.blurRadius+"px)",
+                "filter": "blur("+this.blurRadius+"px)"
+            });
+        }
+      });
 	});
   
   </script>
