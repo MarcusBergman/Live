@@ -11,8 +11,10 @@ function newTest()
     for ($i = 0; $i < $length; $i++) {
         $randomString .= $characters[rand(0, strlen($characters) - 1)];
     }
+    return $randomString;
 }
-      return $randomString; 
+
+  return 57; 
 }
 
 ?>
