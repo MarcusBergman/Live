@@ -18,14 +18,14 @@ html, body
   top: 10%;
   left: 18%;
   width: 60%;
-  height: 50%;
+  height: 60%;
 }
 #starta
 {
   position: absolute;
   float: left;
   left: 15%;
-  top: 50%;
+  top: 65%;
   width: 25%;
   height: 35%;
 }
@@ -34,7 +34,7 @@ html, body
 {
   position: absolute;
   float: right;
-  top: 50%;
+  top: 65%;
   right: 15%;
   width: 25%;
   height: 35%;
