@@ -12,12 +12,11 @@ html, body
   height: 100%;
 }
 
-#head
+#augustbild
 {
   position: absolute;
   left: 24%;
   width: 50%;
-  height: 70%;
 }
 #starta
 {
@@ -26,7 +25,6 @@ html, body
   left: 15%;
   top: 58%;
   width: 25%;
-  height: 35%;
 }
     
 #skapa
@@ -36,11 +34,10 @@ html, body
   top: 58%;
   right: 15%;
   width: 25%;
-  height: 35%;
 }
 
 
-#starttest
+#popup
 {
   position: absolute;
   top: -100%;
