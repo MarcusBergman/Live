@@ -22,17 +22,13 @@ include("views/header.php.html");
         opacity: "1"
 	  },1800);
 	  
-	  $({blurRadius: 0}).animate({blurRadius: 10}, {
-        duration: 1800,
-        easing: 'swing',
-        step: function() {
-          console.log(this.blurRadius);
-          $("#main").css({
-            "-webkit-filter": "blur("+this.blurRadius+"px)",
-            "filter": "blur("+this.blurRadius+"px)"
-          });
-        }
-      });  
+	  $("#main").animate({
+        'filter': 'blur(0px)',
+        '-webkit-filter': 'blur(0px)',
+        '-moz-filter': 'blur(0px)',
+        '-o-filter': 'blur(0px)',
+        '-ms-filter': 'blur(0px)'
+	  },1800); 
 	});
   
   </script>
