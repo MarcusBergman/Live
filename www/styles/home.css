@@ -15,7 +15,7 @@ html, body
 #head
 {
   position: absolute;
-  top: -50px;
+  top: 10%;
   left: 15%;
   width: 16%;
   height: 12%;
@@ -24,6 +24,7 @@ html, body
 {
   position: absolute;
   float: left;
+  left: 15%;
   top: 50%;
   width: 25%;
   height: 35%;
