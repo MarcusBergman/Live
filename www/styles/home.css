@@ -38,9 +38,8 @@ html, body
 
 #starttest
 {
-  display: none;
   position: absolute;
-  top: 20%;
+  top: -100%;
   left: 10%;
   width: 80%;
   height: 90%;
