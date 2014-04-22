@@ -5,5 +5,7 @@
   
   $id = newTest();
   header("Location: /redigera/"+$id);
+  
+  print("hewj");
 
 ?>
