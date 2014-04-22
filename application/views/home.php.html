@@ -22,13 +22,17 @@ include("views/header.php.html");
         opacity: "1"
 	},1800);
 	  
-	$("#main").animate({
-	  -webkit-filter: "blur(10px)",
-      -moz-filter: "blur(10px)",
-      -o-filter: "blur(10px)",
-      -ms-filter: "blur(10px)",
-      filter: "blur(10px)"
-	},1800);
+	$({blurRadius: 0}).animate({blurRadius: 10}, {
+        duration: 1800,
+        easing: 'swing',
+        step: function() {
+            console.log(this.blurRadius);
+            $("#main").css({
+                "-webkit-filter": "blur("+this.blurRadius+"px)",
+                "filter": "blur("+this.blurRadius+"px)"
+            });
+        }
+    });
 	  
 	  
 	  
