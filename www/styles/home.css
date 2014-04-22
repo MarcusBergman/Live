@@ -17,8 +17,8 @@ html, body
   position: absolute;
   top: 10%;
   left: 15%;
-  width: 16%;
-  height: 12%;
+  width: 60%;
+  height: 20%;
 }
 #starta
 {
@@ -35,7 +35,7 @@ html, body
   position: absolute;
   float: right;
   top: 50%;
-  right: 32%;
+  right: 15%;
   width: 25%;
   height: 35%;
 }
