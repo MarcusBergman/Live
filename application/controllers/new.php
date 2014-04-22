@@ -5,6 +5,7 @@
   
   $id = newTest();
   header("Location: http://august.friskola.nu/redigera/"+$id);
-  return;
+  
+  exit;
 
 ?>
