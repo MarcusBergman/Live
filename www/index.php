@@ -9,15 +9,16 @@
  (
    '/^$/'                => 'views/home.php.html',
    '/^redigera\/(\d+)$/' => 'views/edit.php.html',
-   '/^testa\/(\d+)$/'      => 'views/run.php.html',   
+   '/^testa\/(\d+)$/'    => 'views/run.php.html',
+   '/^nytt$/'            => 'controllers/new.php',   
    '/.*/'                => 'views/error.php.html',
  );
  
- foreach ($routes as $regex => $view)
+ foreach ($routes as $regex => $route)
  {
    if (preg_match($regex, $query, $matches))
    {
-     include $view;
+     include $route;
      break;
    }
  }
