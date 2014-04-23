@@ -63,7 +63,7 @@ p
 {
   position: absolute;
   top: 15%;
-  left: 25%;
+  left: 35%;
   font-size: 200%;
 }
 
@@ -71,17 +71,17 @@ p
 {
   position: absolute;
   top: 40%;
-  left: 35%;
+  left: 40%;
   width: 20%;
   height: 15%;
-  font-size: 150%;
+  font-size: 200%;
 }
 
 #ok
 {
   position: absolute;
   top: 60%;
-  left: 40%;
+  left: 45%;
   width: 10%;
   height: 20%;
   font-size: 150%;
