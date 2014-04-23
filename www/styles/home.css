@@ -61,7 +61,7 @@ html, body
 p
 {
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 25%;
   font-size: 200%;
 }
@@ -69,7 +69,7 @@ p
 #testnamn
 {
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 25%;
 }
 
