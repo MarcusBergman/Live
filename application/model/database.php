@@ -4,6 +4,8 @@
 
   function newTest()
   {
+    global $db;
+    
     function randomString($length = 5) 
     {
       $characters = 'abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ';
