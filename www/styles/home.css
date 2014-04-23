@@ -71,13 +71,14 @@ p
   position: absolute;
   top: 40%;
   left: 25%;
+  height: 10%;
 }
 
 #ok
 {
   position: absolute;
-  top: 50%;
-  left: 25%;
+  top: 60%;
+  left: 35%;
   font-size: 150%;
   color: white;
   background-color: black;
