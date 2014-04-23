@@ -35,9 +35,9 @@ include("views/header.php.html");
         step: function(now,fx) 
               {
               	$(this).css('polyfilter','blur(' + Math.round(now) + 'px)'); 
-              },duration: 500
+              },
+        duration: 500
       },'swing');
-      		
     };
 	
 	
@@ -47,7 +47,20 @@ include("views/header.php.html");
     {
       $("#popup").css("top","-100%");
       $("#main").css("polyfilter",'blur(0px)');
-      $("#starta").click(blur);
+      $("#starta").click(function()
+    {
+      $("#popup").css("top", "30%");
+      $("#popup").animate({opacity: "1"},500);
+	  
+      $("#main").animate({ pixels: 8 },
+      {
+        step: function(now,fx) 
+              {
+              	$(this).css('polyfilter','blur(' + Math.round(now) + 'px)'); 
+              },
+        duration: 500
+      },'swing');
+    });
     });
   
   
