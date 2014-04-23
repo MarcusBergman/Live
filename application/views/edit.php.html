@@ -33,49 +33,14 @@
 
 <? } ?>];
 
-	for (var i=0; i<bilder.length; i++){
-	  $('#top').append('<div class="svar" id="svar' +i+ '"></div>');
-	}
 
-	function shuffleArray(array) 
-    {
-      for (var i = array.length - 1; i > 0; i--){
-        var j = Math.floor(Math.random() * (i + 1));
-        var temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
-      }
-      return array;
-    }
-  
-  
-  var blandadeBilder = shuffleArray(bilder);
+  for (var i=0; i<bilder.length; i++)
+      $('#bilder').append('<img src="' +bilder[i].file+ '" id="' +bilder[i].id+'" />');
 
-  for (var i=0; i<blandadeBilder.length; i++){
-
-      $('#top').append('<img src="' +bilder[i].file+ '" id="' +bilder[i].id+'" />');
-
-  }
-  
    var bredd =  90/bilder.length;
 
-   $(".svar").css("width", bredd +"%");		
    $("img").css("width", bredd +"%");
    
-   $(".svar").css("height", $(".svar").css("width")); //should be the height of the image  
-
-    $(function() {
-      $( "img" ).draggable({ snap: ".svar", snapMode: "inner", containment: "#bakgrund"});
-      $( ".svar" ).droppable({
-        drop: function( event, ui )
-	    {
-	      answers [this.id]=ui.draggable.attr("id");
-	    }
-      });
-    });
-	
-   
-	
  </script>
   </body>
 </html>
