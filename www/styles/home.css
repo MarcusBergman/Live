@@ -70,7 +70,8 @@ p
 {
   position: absolute;
   top: 40%;
-  left: 25%;
+  left: 45%;
+  width: 20%;
   height: 10%;
 }
 
@@ -78,7 +79,9 @@ p
 {
   position: absolute;
   top: 60%;
-  left: 35%;
+  left: 45%;
+  width: 20%;
+  height: 10%;
   font-size: 150%;
   color: white;
   background-color: black;
