@@ -49,8 +49,8 @@ html, body
 
 #kryss
 {
-  position:absolute;
+  position:relative;
   float:right;
-  width: 5%;
-  height: 4%;
+  width: 10%;
+  height: 10%;
 }
