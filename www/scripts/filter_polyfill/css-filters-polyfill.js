@@ -285,7 +285,6 @@
 		// Configure via var polyfilter_scriptpath = "/js/css-filters-polyfill/"; before loading the polyfill script
 		scriptpath:		
 			window.polyfilter_scriptpath ? window.polyfilter_scriptpath : (function(){
-				alert('Please configure the polyfill\'s absolute(!) script path before referencing the css-filters-polyfill.js, like so:\r\nvar polyfilter_scriptpath = "/js/css-filters-polyfill/";');
 				return './'
 			})(),
 		
