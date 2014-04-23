@@ -1,3 +1,10 @@
+<?php
+
+  $publicID = $matches[1];
+  $test = json_decode(dba_fetch($publicID, $db), true);
+
+?>
+
 <!DOCTYPE html>
 <html lang="sv">
   <head>
@@ -5,6 +12,6 @@
     <title>August</title>
   </head>
   <body>
-    Skapa redigera ett test.
+    Skapa redigera ett test. Testets titel äro <?= $test['title'] ?>!
   </body>
 </html>
