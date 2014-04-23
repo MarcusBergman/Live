@@ -26,7 +26,12 @@ include("views/header.php.html");
         opacity: "1"
 	  },1800);
 	  
-	  $("#main").css('polyfilter', 'blur(10px)');
+	  $("#main").animate({ pixels: 10 },
+	  {
+		  step: function(now,fx) 
+		  { $(this).css('polyfilter','blur(' + Math.round(now) + 'px)'); },
+				duration: 1800
+			},'swing');
       		
 	});
   
