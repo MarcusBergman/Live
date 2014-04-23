@@ -24,7 +24,7 @@ include("views/header.php.html");
 	
       $("#popup").css("top", "30%");
 	
-	  $("#popup").animate(opacity: "1",500);
+	  $("#popup").animate({opacity: "1"},500);
 	  
 	  $("#main").animate({ pixels: 8 },
 	  {
@@ -37,10 +37,9 @@ include("views/header.php.html");
   
     $("#kryss").click(function(){
 	
-	  $("#popup").animate({
-	    opacity: "0",
-		top: "-100%"
-	  },500)
+	  $("#popup").css("top","-100%");
+	  
+	  $("#main").css("polyfilter",'blur(0px)');
 	
 	});
   
