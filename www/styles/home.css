@@ -36,7 +36,6 @@ html, body
   width: 25%;
 }
 
-
 #popup
 {
   position: absolute;
@@ -45,5 +44,12 @@ html, body
   width: 45%;
   height: 40%;
   opacity: 0;
-  background-image: url(http://august.friskola.nu/uploads/123456/stardust.png);
+  background-color: white;
+}
+
+#kryss
+{
+  position:relative;
+  float:right;
+  width: 2%;
 }
