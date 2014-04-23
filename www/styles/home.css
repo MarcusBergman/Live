@@ -62,7 +62,7 @@ html, body
 p
 {
   position: absolute;
-  top: 15%;
+  top: 14%;
   left: 32%;
   font-size: 200%;
 }
@@ -70,7 +70,7 @@ p
 #testnamn
 {
   position: absolute;
-  top: 40%;
+  top: 42%;
   left: 38%;
   width: 22%;
   height: 15%;
@@ -80,7 +80,7 @@ p
 #ok
 {
   position: absolute;
-  top: 65%;
+  top: 68%;
   left: 45%;
   width: 10%;
   height: 18%;
