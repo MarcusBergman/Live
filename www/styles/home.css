@@ -53,4 +53,7 @@ html, body
   float:right;
   width: 6%;
   height: 10%;
+  font-size: 150%;
+  color: white;
+  background-color: black;
 }
