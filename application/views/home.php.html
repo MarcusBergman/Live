@@ -24,13 +24,13 @@ include("views/header.php.html");
 	
 	  $("#popup").animate({
         opacity: "1"
-	  },1500);
+	  },500);
 	  
 	  $("#main").animate({ pixels: 8 },
 	  {
 		  step: function(now,fx) 
 		  { $(this).css('polyfilter','blur(' + Math.round(now) + 'px)'); },
-				duration: 1500
+				duration: 500
 			},'swing');
       		
 	});
