@@ -54,7 +54,11 @@
    $(".svar").css("width", bredd +"%");		
    $("img").css("width", bredd +"%");
    
-   $(".svar").css("height", $(".svar").css("width")); //should be the height of the image  
+   $("img").load(function(){
+     var hojd = $("img").height();
+   });
+   
+   $(".svar").css("height", hojd); //should be the height of the image  
 	
     $(function() {
       $( "img" ).draggable({ snap: ".svar", snapMode: "inner", containment: "#bakgrund"});
