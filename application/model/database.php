@@ -55,5 +55,19 @@
     return $privateID;
   }
   
+  function getTestByPrivateID($id)
+  {
+    $key = dba_firstkey($db);
+
+    while($key != NULL)
+    {
+      $test = json_decode(dba_fetch($key, $db), true);
+      if($test['privateID'] == $id)
+        return $test;
+    }
+  
+    return false;
+  }
+  
   
 ?>
