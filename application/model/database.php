@@ -46,7 +46,7 @@
 
     $test['privateID'] = $privateID;
     $test['title'] = "En titel";
-    $test['images'] = array();
+    $test['images'] = array("1.png","2.png","3.png","4.png","5.png");
 
     dba_insert($publicID, json_encode($test), $db);
     
