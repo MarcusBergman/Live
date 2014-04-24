@@ -57,6 +57,8 @@
   
   function getTestByPrivateID($id)
   {
+    global $db;
+  	
     $key = dba_firstkey($db);
 
     while($key != NULL)
