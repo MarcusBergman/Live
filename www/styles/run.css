@@ -6,6 +6,18 @@ html, body
   background-image: url(http://august.friskola.nu/uploads/123456/kindajean.png);
 }
 
+#bakgrund
+{
+  position: absolute;
+  top: 11%;
+  left: 2%;
+  width: 96%;
+  height: 88%;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  background-image: url(http://august.friskola.nu/uploads/123456/geometry.png);
+}
+
 #rubrik
 {
   width: 15%;
@@ -26,31 +38,19 @@ html, body
   height: 100%;
 }
 
-#bilder
-{
-  position: absolute;
-  top: 40%;
-}
-	
 .svar
 {
   float: left;
   outline: 2px dashed black;
   margin-bottom: 2%;
 }	
-      
-#bakgrund
+
+#bilder
 {
   position: absolute;
-  top: 11%;
-  left: 2%;
-  width: 96%;
-  height: 88%;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
-  background-image: url(http://august.friskola.nu/uploads/123456/geometry.png);
+  top: 40%;
 }
-
+	
 #resultat
 {
   position: absolute;
