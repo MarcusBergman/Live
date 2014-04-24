@@ -72,5 +72,14 @@
     return false;
   }
   
+  function getTestByPublicID($id)
+  {
+    global $db;
+    
+    if ($test = dba_fetch($id, $db))
+      return json_decode($test, true);
+    else
+      return false;
+  }
   
 ?>
