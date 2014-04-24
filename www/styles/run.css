@@ -42,7 +42,6 @@ html, body
 {
   float: left;
   outline: 2px dashed black;
-  margin-bottom: 2%;
 }	
 
 #bilder
@@ -63,7 +62,7 @@ html, body
 {
   position: absolute;
   top: 27%;
-  right: 4%;
+  right: 3%;
   width: 10%;
   height: 12%;
   font-size: 150%;
