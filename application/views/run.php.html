@@ -54,8 +54,8 @@
    $(".svar").css("width", bredd +"%");		
    $("img").css("width", bredd +"%");
    
-   $("img").load(function(){
-     var height = $(this).height();
+   $("#top").load(function(){
+     var height = $("img").height();
    });
    
    $(".svar").css("height", height +"%"); //should be the height of the image  
