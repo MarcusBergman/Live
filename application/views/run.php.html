@@ -4,10 +4,11 @@
   include("views/header.php.html");
   
   // Här kommer testet hämtas från databasen
-  // $test = getTestByPublicID($id);
+  $id = "AWpTe";
+  $test = getTestByPublicID($id);
   
-  $test = array("title" => "Siffrorna", "images" => array("1.png", "2.png", "3.png", "4.png", "5.png", "6.png"));
-  $id = "123456";
+  //$test = array("title" => "Siffrorna", "images" => array("1.png", "2.png", "3.png", "4.png", "5.png", "6.png"));
+  
 ?>
   <div id="bakgrund"></div>
   <div id="rubrik"><?= $test["title"] ?> </div>
