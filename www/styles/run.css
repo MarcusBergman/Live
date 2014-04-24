@@ -53,11 +53,12 @@ html, body
   font-size: 250%;
 }
 
-input
+#rätta
 {
+  float:right;
   position: absolute;
-  bottom: 8%;
-  left: 42%;
+  top: 18%;
+  right: 5%;
   width: 15%;
   height: 9%;
   font-size: 150%;
