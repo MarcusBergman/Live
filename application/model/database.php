@@ -42,7 +42,7 @@
     while (! $keyIsNotUnique);
   
     // Nu har vi hittat både privat och publikt ID. Dags att skapa testet!
-    $test = array("1.png","2.png","3.png","4.png","5.png");
+    $test = array();
 
     $test['privateID'] = $privateID;
     $test['title'] = "En titel";
@@ -52,7 +52,7 @@
     
     mkdir("../www/uploads/".$publicID);
     
-    return $publicID;
+    return $privateID;
   }
   
   
