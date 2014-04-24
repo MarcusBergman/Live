@@ -13,7 +13,9 @@
   <div id="bakgrund"></div>
   <div id="rubrik"><?= $test["title"] ?> </div>
   <div id="resultat"></div>
-  <div id="top"></div>
+  <div id="top">
+  <div id="bilder"></div>
+  </div>
 	
 	<input type="submit" id="rätta" value="Rätta">
 
@@ -46,7 +48,7 @@
 
   for (var i=0; i<blandadeBilder.length; i++){
 	
-      $('#top').append('<img src="' +bilder[i].file+ '" id="' +bilder[i].id+'" />');
+      $('#bilder').append('<img src="' +bilder[i].file+ '" id="' +bilder[i].id+'" />');
 
   }
   
