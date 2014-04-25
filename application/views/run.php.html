@@ -75,8 +75,8 @@
 	
     var answers = {};
     var facit = {
-	  <?php for($i=1; $i<=(count($test["images"])); $i++) : ?>
-	    svar<?= $i ?>:"bild<?= $i ?>"<?= ($i<(count($test["images"])) ? ",\n" : "" ?>
+	  <?php for($i=1; $i<=count($test["images"]; $i++) : ?>
+	    svar<?= $i ?>:"bild<?= $i ?>"<?= ($i<count($test["images"]) ? ",\n" : "" ?>
       <?php endfor; ?> 		
 	};
 	
