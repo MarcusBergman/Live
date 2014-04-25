@@ -76,7 +76,7 @@
     var answers = {};
     var facit = {
 	  <?php for($i=1; $i<=5; $i++) : ?>
-	    svar<?= $i ?>:"bild<?= $i ?>" <?= $i<5 ? , :  ?>
+	    svar<?= $i ?>:"bild<?= $i ?>" <?= ($i<5) ? , :  ?>
       <?php endfor; ?> 		
 	};
 	
