@@ -77,6 +77,7 @@
     var facit = {
 	  <?php for($i=1; $i<5; $i++)?>
 	    svar<?= $i ?>:"bild<?= $i ?>",
+      <?php endfor; ?> 		
 	};
 	
     $("input[type=submit]").click(function(){
