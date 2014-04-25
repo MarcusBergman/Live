@@ -65,6 +65,7 @@ p
   top: 14%;
   left: 32%;
   font-size: 200%;
+  font-family: "New Century Schoolbook", Times, sans-serif;
 }
 
 #testnamn
@@ -75,6 +76,7 @@ p
   width: 22%;
   height: 15%;
   font-size: 200%;
+  font-family: "New Century Schoolbook", Times, sans-serif;
 }
 
 #ok
@@ -87,4 +89,5 @@ p
   font-size: 150%;
   color: white;
   background-color: black;
+  font-family: "New Century Schoolbook", Times, sans-serif;
 }
