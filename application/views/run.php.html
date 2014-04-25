@@ -74,21 +74,24 @@
     });
 	
     var answers = {};
-    var facit = {svar0:"bild1", svar1:"bild2", svar2:"bild3", svar3:"bild4", svar4: "bild5"};
+    var facit = {
+	<?php for ($i=1; $i< ?>blandadeBilder.length<? ; $i++)?>
+	  svar<?= $i ?>:"bild<?= $i ?> ",
+	};
   
     $("input[type=submit]").click(function(){
       
 	    allCorrect = true;
-        
-		for (var i = 1; i<blandadeBilder.length; i++)
-		  if (blandadeBilder[i].order != i)
+		
+        for (question in facit)
+          if (facit[question] != answers[question])
 		  {
             allCorrect = false;
-			$("#svar"+i).css("outline","2px solid red");
+			$("#"+question).css("outline","2px solid red");
           }
 		  else
 		  {
-            $("#svar"+i).css("outline", "2px dashed green");
+            $("#"+question).css("outline", "2px dashed green");
           }	
  		
 	  if (allCorrect)
