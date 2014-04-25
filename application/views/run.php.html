@@ -75,9 +75,10 @@
 	
     var answers = {};
     var facit = {
-	<?php for ($i=1; $i>=5; $i++)?>
-	  svar<?= $i ?>:"bild<?= $i ?>",
-	};
+	  for (var i=1; $i<=bilder.length; $i++)
+	  {
+	    svar+i+ : '"bild'+i+'"' (i<blandadeBilder) ? "," : "";
+	  };
   
     $("input[type=submit]").click(function(){
       
