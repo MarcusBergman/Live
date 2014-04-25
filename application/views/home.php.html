@@ -21,35 +21,6 @@ include("views/header.php.html");
   <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
   <script src="/scripts/filter_polyfill/cssParser.js"></script>
   <script src="/scripts/filter_polyfill/css-filters-polyfill.js"></script>
-  <script>
-    
-    var polyfilter_scriptpath = '/scripts/filter_polyfill/'; 
-	
-    blur = function()
-    {
-      $("#popup").css("top", "30%");
-      $("#popup").animate({opacity: "1"},500);
-	  
-      $("#main").animate({ pixels: 8 },
-      {
-        step: function(now,fx) 
-              {
-              	$(this).css('polyfilter','blur(' + Math.round(now) + 'px)'); 
-              },
-        duration: 500
-      },'swing');
-    };
-	
-	
-    $("#starta").click(blur);
-  
-    $("#kryss").click(function()
-    {
-      $("#popup").css("top","-100%");
-      $("#main").css("polyfilter",'blur(0px)');
-    });
-  
-  
-  </script>
+  <script src="/scripts/home.js"</script>
   </body>
 </html>
