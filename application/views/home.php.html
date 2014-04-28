@@ -13,7 +13,7 @@ include("views/header.php.html");
     <button id="kryss">X</button>
 	
 	<p>Ange testets namn:</p><br>
-	<form id="testform" action='/testa/'+document.getElementById("testnamn").value'>
+	<form id="testform" action="javascript:redirect();">
 	<input type="text" id="testnamn" size="5" pattern="[A-Za-z]{5}" title="Ange 5st stora eller små bokstäver" maxlength="5" required>
 	<input type="submit" id="ok" value="OK">
 	</form>

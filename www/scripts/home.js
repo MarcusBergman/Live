@@ -1,3 +1,9 @@
+function redirect(){
+
+  window.location.href = "http://august.friskola.nu/testa/"+document.getElementById("testnamn").value
+
+}
+
 var polyfilter_scriptpath = '/scripts/filter_polyfill/'; 
 
 blur = function()
