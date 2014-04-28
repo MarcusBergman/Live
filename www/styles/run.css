@@ -46,7 +46,7 @@ p
   font-size: 150%;
   color: white;
   background-color: black;
-  -webkit-border-radius: 0;
+  -webkit-appearance: none;
 }
 
 #bakgrund
@@ -111,4 +111,5 @@ p
   font-size: 150%;
   color: white;
   background-color: black;
+  -webkit-appearance: none;
 }
