@@ -35,7 +35,7 @@ p
 #testnamn
 {
   position: absolute;
-  top: 46%;
+  top: 48%;
   left: 38%;
   width: 22%;
   height: 12%;
@@ -45,10 +45,10 @@ p
 #ok
 {
   position: absolute;
-  top: 68%;
+  top: 70%;
   left: 45%;
-  width: 10%;
-  height: 14%;
+  width: 15%;
+  height: 19%;
   font-size: 150%;
   color: white;
   background-color: black;
