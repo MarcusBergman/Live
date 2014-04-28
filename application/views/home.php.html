@@ -14,7 +14,7 @@ include("views/header.php.html");
 	
 	<p>Ange testets namn:</p><br>
 	<form id="testform" action="javascript:redirect();">
-	<input type="text" id="testnamn" size="5" pattern="[A-Za-z]{5}" title="Ange 5st stora eller små bokstäver" maxlength="5" required>
+	<input type="text" id="testnamn" size="5" pattern="[A-Za-z]{5}" title="Ange 5 st stora eller små bokstäver" x-moz-errormessage="Ange 5 st stora eller små bokstäver" maxlength="5" required>
 	<input type="submit" id="ok" value="OK">
 	</form>
 	
