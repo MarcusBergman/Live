@@ -27,28 +27,60 @@ $("#kryss").click(function()
 $(document).ready(function() {
   var name = $("#testnamn");
   var nameInfo = $("#infotext");
+  var form = $("testform");
   
-  $(“#testform”).submit(function() {
-    form.submit(function() {
-      if (validateName()) { return true; }	
+  form.submit(function() {
+    if (validateName()) { return true; }	
 	  
-	  else { return false; }
+    else { return false; }
 
-    });
   });
   
-  if (name.val() == "") {
-      name.addClass("error"); // adding css error class to the control
-      nameInfo.text("Names cannot be empty!");//filling up error message
-      nameInfo.addClass("error");//add error class to info span
+  function validateName() {
+//validation for empty
+    if (name.val() == "") {
+      name.addClass("error");
+      nameInfo.text("Fältet kan inte vara tomt");
+      nameInfo.addClass("error");
       return false;
-  } 
-  
-  else {
+    } 
+    
+	else {
       name.removeClass("error");
       nameInfo.text("*");
       nameInfo.removeClass("error");
+    }
+//if it's NOT valid
+    if (name.val().length = 5) {
+      name.addClass("error");
+      nameInfo.text("Testet måste innehålla 5 bokstäver");
+      nameInfo.addClass("error");
+      return false;
+    }
+//if it's valid
+    else {
+      name.removeClass("error");
+      nameInfo.text("*");
+      nameInfo.removeClass("error");
+    }
+// validation only for characters no numbers
+    var filter = /^[a-zA-Z]*$/;
+  
+    if (filter.test(name.val())) {
+      name.removeClass("error");
+      nameInfo.text("*");
+      nameInfo.removeClass("error");
+      return true;
+    }
+  
+    else {
+      name.addClass("error");
+      nameInfo.text("Inga siffror!");
+      nameInfo.addClass("error");
+      return false;
+    }
   }
+});
   
 });
   
