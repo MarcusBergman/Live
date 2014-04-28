@@ -14,7 +14,7 @@ include("views/header.php.html");
 	
 	<p>Ange testets namn:</p><br>
 	<form id="testform" action='/testa/'+document.getElementById("testnamn").value'>
-	<input type="text" id="testnamn" size="5" pattern="[A-Za-z]{5}" title="Bara stora eller små bokstäver" maxlength="5">
+	<input type="text" id="testnamn" size="5" pattern="[A-Za-z]{5}" title="Ange 5st stora eller små bokstäver" maxlength="5" required>
 	<input type="submit" id="ok" value="OK">
 	</form>
 	
