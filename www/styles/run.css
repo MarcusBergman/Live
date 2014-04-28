@@ -46,6 +46,7 @@ p
   font-size: 150%;
   color: white;
   background-color: black;
+  -webkit-border-radius: 0;
 }
 
 #bakgrund
