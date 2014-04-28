@@ -6,7 +6,7 @@
   $id = $matches[1];
   $test = getTestByPublicID($id); 
    
-  if ($test=false) : ?>
+  if (empty($test)) : ?>
     <div id="feltest">
 	  Testet du angett finns inte.<br>
 	  Försök igen:
