@@ -4,7 +4,6 @@
   include("views/header.php.html");
   
   $id = $matches[1];
-  $test = getTestByPublicID($id);
   
   if ($test=false)
     echo '<div id="feltest">Testet du angett finns inte<br>  
@@ -14,8 +13,9 @@
 	  </div></body>
 	</html>';
   else
-      
- echo ' <div id="bakgrund"></div>
+    $test = getTestByPublicID($id);  
+?>
+  <div id="bakgrund"></div>
   <div id="rubrik"><?= $test["title"] ?> </div>
   <div id="resultat"></div>
   <div id="top">
@@ -45,4 +45,4 @@
     </script>
 	<script src="/scripts/run.js"></script>
   </body>
-</html>'; ?>
+</html>
