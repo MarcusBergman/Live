@@ -22,3 +22,12 @@ $("#kryss").click(function()
   $("#popup").css("top","-100%");
   $("#main").css("polyfilter",'blur(0px)');
 });
+
+$( "#testform" ).submit(function( event ) {
+  if ( $( "input:first" ).val().test(/[A-Za-z]{5}/)) {
+    return;
+  }
+ 
+  $( "span" ).text( "Not valid!" ).show().fadeOut( 1000 );
+  event.preventDefault();
+});
