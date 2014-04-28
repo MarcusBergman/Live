@@ -4,7 +4,8 @@
   include("views/header.php.html");
   
   $id = $matches[1];
-  
+  $test = getTestByPublicID($id); 
+   
   if ($test=false) : ?>
     <div id="feltest">
 	  Testet du angett finns inte.<br>
@@ -14,7 +15,6 @@
 	</div></body></html>
 	
 <?php  else : ?>
-  <?=  $test = getTestByPublicID($id); ?>
   <div id="bakgrund"></div>
   <div id="rubrik"><?= $test["title"] ?> </div>
   <div id="resultat"></div>
