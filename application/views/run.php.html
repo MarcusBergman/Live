@@ -4,7 +4,6 @@
   include("views/header.php.html");
   
   $id = $matches[1];
-  $test = getTestByPublicID($id);
   
   if ($test=false)
     echo '<html>
@@ -15,7 +14,8 @@
         <input type="submit" id="ok" value="OK" onclick='window.location.href = "http://august.friskola.nu/testa/"+document.getElementById("testnamn").value'>		
 	  </div></body>
 	</html>';
-  
+  else
+    $test = getTestByPublicID($id);  
 ?>
   <div id="bakgrund"></div>
   <div id="rubrik"><?= $test["title"] ?> </div>
