@@ -6,6 +6,12 @@ html, body
   -webkit-text-size-adjust: 100%;
 }
 
+input
+{
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
 #main
 {
   position: relative;
@@ -88,5 +94,4 @@ p
   font-size: 150%;
   color: white;
   background-color: black;
-  -webkit-appearance: none;
 }

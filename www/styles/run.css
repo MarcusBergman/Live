@@ -7,6 +7,12 @@ html, body
   background-image: url(http://august.friskola.nu/uploads/123456/kindajean.png);
 }
 
+input
+{
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
 #feltest
 {
   position: absolute;
