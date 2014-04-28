@@ -6,6 +6,47 @@ html, body
   background-image: url(http://august.friskola.nu/uploads/123456/kindajean.png);
 }
 
+#feltest
+{
+  position: absolute;
+  top: 30%;
+  left: 28%;
+  width: 45%;
+  height: 40%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+p
+{
+  position: absolute;
+  top: 14%;
+  left: 32%;
+  font-size: 200%;
+}
+
+#testnamn
+{
+  position: absolute;
+  top: 42%;
+  left: 38%;
+  width: 22%;
+  height: 15%;
+  font-size: 200%;
+}
+
+#ok
+{
+  position: absolute;
+  top: 68%;
+  left: 45%;
+  width: 10%;
+  height: 18%;
+  font-size: 150%;
+  color: white;
+  background-color: black;
+}
+
 #bakgrund
 {
   position: absolute;
