@@ -27,7 +27,7 @@ $("#kryss").click(function()
 $(document).ready(function() {
   var name = $("#testnamn");
   var nameInfo = $("#infotext");
-  var form = $("testform");
+  var form = $("#testform");
   
   form.submit(function() {
     if (validateName()) { return true; }	
