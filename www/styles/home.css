@@ -16,6 +16,7 @@ html, body
 #augustbild
 {
   position: absolute;
+  left: 24%;
   width: 100%;
 }
 #starta
