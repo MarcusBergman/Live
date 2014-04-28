@@ -4,11 +4,11 @@
   include("views/header.php.html");
   
   $id = $matches[1];
-  $test = getTestByPublicID($id);
   
   if ($test=false)
     echo 'fel';
-      
+  else 
+    $test = getTestByPublicID($id);  
 ?>
   <div id="bakgrund"></div>
   <div id="rubrik"><?= $test["title"] ?> </div>
