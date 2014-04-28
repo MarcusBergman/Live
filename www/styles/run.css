@@ -9,10 +9,10 @@ html, body
 #feltest
 {
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 28%;
   width: 45%;
-  height: 40%;
+  height: 50%;
   background-color: white;
   border: 1px solid black;
 }
@@ -20,7 +20,7 @@ html, body
 p
 {
   position: absolute;
-  top: 14%;
+  top: 10%;
   left: 32%;
   font-size: 200%;
 }
