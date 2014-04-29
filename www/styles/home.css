@@ -3,6 +3,7 @@ html, body
   overflow: hidden;
   height: 100%;
   width: 100%;
+  background-image: url(http://august.friskola.nu/uploads/bakgrund/kindajean.png);
   -webkit-text-size-adjust: 100%;
 }
 
@@ -22,7 +23,7 @@ input
 #augustbild
 {
   position: absolute;
-  top: 8%;
+  top: 12%;
   left: 24%;
   width: 50%;
 }
