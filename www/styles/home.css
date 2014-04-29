@@ -8,8 +8,8 @@ html, body
 }
 
 @media only all and (max-width: 480px) {
-    #augustbild {
-        width: 320px;
+    #main {
+      background-color: red;
     }
 }
 
