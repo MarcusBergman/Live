@@ -8,34 +8,11 @@ html, body
 }
 
 @media only all and (max-width: 480px) {
-    #augustbild
-	{
-      width: 100%;
+    #main {
+      background-color: red;
     }
-	#starta
-	{
-	  position: relative;
-      float: none;
-      width: 100%;	  
-	}
 }
 
-@media only all and (min-width: 481) {
-  #augustbild
-   {
-    left: 24%;
-	width: 50%;
-  }
-  #starta
-    {
-    position: absolute;
-    float: left;
-    left: 15%;
-    top: 58%;
-    width: 25%;	
-  }	
-      
-}
 
 input
 {
@@ -54,6 +31,8 @@ input
 {
   position: absolute;
   top: 12%;
+  left: 24%;
+  width: 50%;
 }
 #starta
 {
