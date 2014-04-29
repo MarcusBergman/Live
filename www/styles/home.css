@@ -24,11 +24,18 @@ html, body
       float: none;
       width: 100%;	  
 	}
+	#popup
+	{
+	  width:80%;
+	  height:60%;
+	}
 }
 
 @media only all and (min-width: 481) {
   #augustbild
    {
+    position: absolute;
+    top: 12%;
     left: 24%;
 	width: 50%;
   }
@@ -48,7 +55,12 @@ html, body
     right: 15%;
     width: 25%;
   }
-      
+  #popup
+    {
+    left: 28%;
+    width: 45%;
+    height: 40%;
+  }  
 }
 
 input
@@ -64,19 +76,10 @@ input
   height: 100%;
 }
 
-#augustbild
-{
-  position: absolute;
-  top: 12%;
-}
-
 #popup
 {
   position: absolute;
   top: -100%;
-  left: 28%;
-  width: 45%;
-  height: 40%;
   opacity: 0;
   background-color: white;
   border: 1px solid black;
