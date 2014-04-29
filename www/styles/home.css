@@ -8,11 +8,11 @@ html, body
 }
 
 @media all and (max-width: 480px) {
-  
+ 
   #augustbild{
     width:100%;
   }
-    #starta {
+  #starta {
     float: none;
     width: 100%;
   }
