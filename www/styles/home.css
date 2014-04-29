@@ -109,16 +109,16 @@ p
 	#starta
 	{
 	  float: none;
-	  top: 40%;
+	  top: 30%;
 	  left: 2%;
-	  width: 94%;
+	  width: 92%;
 	}
 	
 	#skapa
 	{
 	  float: none; 
-      top: 64%;
+      top: 60%;
       left: 2%;	
-      width: 94%;	  
+      width: 92%;	  
 	}
 }
