@@ -109,7 +109,7 @@ p
 	#starta
 	{
 	  float: none;
-	  top: 0%;
+	  top: 20%;
 	  left: 0%;
 	  width: 100%;
 	}
@@ -117,7 +117,7 @@ p
 	#skapa
 	{
 	  float: none; 
-      top: 0%;
+      top: 50%;
       left: 0%;	
       width: 100%;	  
 	}
