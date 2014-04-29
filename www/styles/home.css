@@ -14,11 +14,11 @@ html, body
   }
     #starta {
     float: none;
-    width: auto;
+    width: 100%;
   }
   #skapa {
     float: none;
-    width: auto;
+    width: 100%;
   }
   
 }
