@@ -7,13 +7,6 @@ html, body
   -webkit-text-size-adjust: 100%;
 }
 
-@media only all and (max-width: 480px) {
-    #main {
-      background-color: red;
-    }
-}
-
-
 input
 {
   -webkit-appearance: none;
@@ -103,4 +96,11 @@ p
   font-size: 150%;
   color: white;
   background-color: black;
+}
+
+@media only all and (max-width: 480px) {
+    #augustbild
+	{
+      width:100%;
+    }
 }
