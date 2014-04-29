@@ -10,15 +10,15 @@ html, body
 @media all and (min-width: 500px) {
  
   #augustbild{
-    width:100%;
+    width:auto;
   }
   #starta {
     float: none;
-    width: 100%;
+    width: auto;
   }
   #skapa {
     float: none;
-    width: 100%;
+    width: auto;
   }
   
 }
