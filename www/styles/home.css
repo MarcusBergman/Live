@@ -12,23 +12,40 @@ html, body
 	{
       width: 100%;
     }
+	
 	#starta
 	{
 	  position: relative;
       float: none;
       width: 100%;	  
 	}
+	
 	#skapa
 	{
 	  position: relative;
       float: none;
       width: 100%;	  
 	}
+	
 	#popup
 	{
 	  width:80%;
 	  height:60%;
 	}
+	
+	#kryss
+	{
+	  width: 12%;
+	  height: 20%;
+	}
+	
+    p
+       {
+      position: absolute;
+      top: 10%;
+      left: 20%;
+      font-size: 100%;
+    }
 }
 
 @media only all and (min-width: 481) {
@@ -39,6 +56,7 @@ html, body
     left: 24%;
 	width: 50%;
   }
+  
   #starta
     {
     position: absolute;
@@ -46,7 +64,8 @@ html, body
     left: 15%;
     top: 58%;
     width: 25%;	
-  }	
+  }
+  
   #skapa
     {
     position: absolute;
@@ -55,11 +74,26 @@ html, body
     right: 15%;
     width: 25%;
   }
+  
   #popup
     {
     left: 28%;
     width: 45%;
     height: 40%;
+  }
+  
+  #kryss
+    {
+    width: 6%;
+    height: 10%;
+  }
+  
+  p
+   {
+    position: absolute;
+    top: 14%;
+    left: 32%;
+    font-size: 200%;
   }  
 }
 
@@ -89,19 +123,9 @@ input
 {
   position:relative;
   float:right;
-  width: 6%;
-  height: 10%;
   font-size: 100%;
   color: white;
   background-color: black;
-}
-
-p
-{
-  position: absolute;
-  top: 14%;
-  left: 32%;
-  font-size: 200%;
 }
 
 #testnamn
