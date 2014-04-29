@@ -18,12 +18,6 @@ html, body
       float: none;
       width: 100%;	  
 	}
-	#skapa
-	{
-	  position: relative;
-      float: none;
-      width: 100%;	  
-	}
 }
 
 @media only all and (min-width: 481) {
@@ -40,14 +34,6 @@ html, body
     top: 58%;
     width: 25%;	
   }	
-  #skapa
-    {
-    position: absolute;
-    float: right;
-    top: 58%;
-    right: 15%;
-    width: 25%;
-  }
       
 }
 
@@ -68,6 +54,23 @@ input
 {
   position: absolute;
   top: 12%;
+}
+#starta
+{
+  position: absolute;
+  float: left;
+  left: 15%;
+  top: 58%;
+  width: 25%;
+}
+    
+#skapa
+{
+  position: absolute;
+  float: right;
+  top: 58%;
+  right: 15%;
+  width: 25%;
 }
 
 #popup
