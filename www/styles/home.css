@@ -7,21 +7,19 @@ html, body
   -webkit-text-size-adjust: 100%;
 }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) { 
-  #augustbild{
-    width:100%;
-  }
-  #starta {
-    float: none;
-    width: 100%;
-  }
-  #skapa {
-    float: none;
-    width: 100%;
-  }
-}
+@media only screen and (max-device-width: 480px) {
+	#augustbild { 
+	  width: 480px; 
+	}
+	#starta{
+	  float: none;
+      width: 480px;
+	}
+	#starta{ 
+	  float: none;
+      width: 480px;
+	}
+} 
 
 input
 {
