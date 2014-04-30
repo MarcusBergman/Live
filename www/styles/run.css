@@ -69,11 +69,11 @@ p
 
 #rubrik
 {
-  width: 15%;
-  height: 7%;
   position: absolute;
   left: 45%;
   top: 5.5%;
+  width: 15%;
+  height: 7%;
   font-size: 250%;
 }
 
@@ -139,19 +139,29 @@ p
   
   #testnamn
    {
-  top: 44%;
-  left: 30%;
-  width: 32%;
-  height: 12%;
-  font-size: 150%;
+    top: 44%;
+    left: 30%;
+    width: 32%;
+    height: 12%;
+    font-size: 150%;
   }
 
-#ok
-{
-  top: 70%;
+  #ok
+   {
+    top: 70%;
+    left: 35%;
+    width: 24%;
+    height: 15%;
+    font-size: 150%;
+  }
+  
+  #rubrik
+    {
   left: 35%;
-  width: 24%;
-  height: 15%;
-  font-size: 150%;
-}
+  top: 2%;
+  width: 40%;
+  height: 12%;
+  
+  font-size: 200%;
+  }
 }
