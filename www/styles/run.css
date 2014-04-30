@@ -169,12 +169,17 @@ p
     left: 5%;
   }
   
-    #rätta
+  #rätta
     {
     top: 38%;
     left: 36%;
     width: 32%;
     height: 10%;
     font-size: 100%;
+  }
+  #resultat
+    {
+    left: 26%;
+    font-size: 200%;
   }
 }
