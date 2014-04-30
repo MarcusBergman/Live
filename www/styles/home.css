@@ -130,12 +130,18 @@ p
 	p
 	{
 	  top: 10%;
-      left: 10%;
+      left: 16%;
       font-size: 150%;
 	}
 	#kryss
 	{
+	  right: 2%;
 	  width: 10%;
       height: 15%;
+	}
+	#ok
+	{
+	  width: 24%;
+      height: 18%;
 	}
 }
