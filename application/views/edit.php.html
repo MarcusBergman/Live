@@ -41,7 +41,7 @@
   for (var i=0; i<bilder.length; i++)
   {
     $('#bilder').append('<img class="bilder" src="' +bilder[i].file+ '" id="' +bilder[i].id+'" />');
-    <img src="/images/left.jpg" id="left<?= $i ?>" />
+    $('#bilder').append('<img src="/images/left.jpg" id="left<?= $i ?>" />');
   }
    var bredd =  70/bilder.length;
 
