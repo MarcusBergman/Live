@@ -98,7 +98,8 @@ p
   background-color: black;
 }
 
-@media only all and (max-width: 480px) {
+@media only all and (max-width: 480px) 
+{
     #augustbild
 	{
       width: 98%;
