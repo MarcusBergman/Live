@@ -58,7 +58,7 @@ $("input[type=submit]").click(function(){
     }
     else
     {
-      $("#"+question).css("border-left": "2px dashed green", "border-top": "2px dashed green", "border-bottom": "2px dashed green");
+      $("#"+question).css("outline", "2px dashed green");
 	  $("#"+question).html('<img src="/images/bock.png" class="bock" />')
     }	
  		
