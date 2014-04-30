@@ -59,6 +59,7 @@ $("input[type=submit]").click(function(){
     else
     {
       $("#"+question).css("outline", "2px dashed green");
+	  $("#"+question).append('<img src="/images/bock.png" class="bock" />')
     }	
  		
 	if (allCorrect)
