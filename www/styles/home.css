@@ -121,4 +121,10 @@ p
       left: 2%;	
       width: 92%;	  
 	}
+	#popup
+	{
+	  left: 4%;
+      width: 92%;
+      height: 75%;
+	}
 }
