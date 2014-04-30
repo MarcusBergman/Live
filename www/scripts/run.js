@@ -1,3 +1,5 @@
+window.onorientationchange = function() { location.reload() };
+
 for (var i=1; i<=bilder.length; i++){
   $('#top').append('<div class="svar" id="svar' +i+ '"></div>');
 }
