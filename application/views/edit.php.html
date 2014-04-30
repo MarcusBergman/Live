@@ -48,13 +48,9 @@
     <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
     <script>
  
- 	var bilder = [
-	{file: "http://august.friskola.nu/uploads//1.png", id: "bild1"},
-	{file: "http://august.friskola.nu/uploads//2.png", id: "bild2"},
-	{file: "http://august.friskola.nu/uploads//3.png", id: "bild3"},
-	{file: "http://august.friskola.nu/uploads//4.png", id: "bild4"},
-	{file: "http://august.friskola.nu/uploads//5.png", id: "bild5"}
-];
+ 	var bilder = [<?php $i = 1;foreach ($test['images'] as $image) { ?>
+	{file: "http://august.friskola.nu/uploads/<?= $test['publicID'] ?>/<?= $image ?>", id: "bild<?= $i++ ?>"}<?= (count($test["images"]) >= $i ? "," : "") ?>
+];<?php } ?>
 
 
   for (var i=0; i<bilder.length; i++)
