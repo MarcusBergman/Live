@@ -129,10 +129,29 @@ p
     width: 92%;
     height: 80%; 
   }
+  
   p
     {
     top: 10%;
     left: 10%;
     font-size: 150%; 
   }
+  
+  #testnamn
+   {
+  top: 44%;
+  left: 14%;
+  width: 32%;
+  height: 12%;
+  font-size: 150%;
+  }
+
+#ok
+{
+  top: 70%;
+  left: 35%;
+  width: 24%;
+  height: 15%;
+  font-size: 150%;
+}
 }
