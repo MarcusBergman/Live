@@ -7,11 +7,12 @@
  
  $routes = array
  (
-   '/^$/'                      => 'views/home.php.html',
-   '/^redigera\/([a-zA-Z]+)$/' => 'views/edit.php.html',
-   '/^testa\/([a-zA-Z]+)$/'    => 'views/run.php.html',
-   '/^nytt$/'                  => 'controllers/new.php',   
-   '/.*/'                      => 'views/error.php.html',
+   '/^$/'                                   => 'views/home.php.html',
+   '/^redigera\/([a-zA-Z]+)$/'              => 'views/edit.php.html',
+   '/^testa\/([a-zA-Z]+)$/'                 => 'views/run.php.html',
+   '/^nytt$/'                               => 'controllers/new.php',
+   '/^bytbild\/([a-zA-Z]+)\/(\d+)\/(\d+)$/' => 'controllers/edit.php',
+   '/.*/'                                   => 'views/error.php.html',
  );
  
  foreach ($routes as $regex => $route)
