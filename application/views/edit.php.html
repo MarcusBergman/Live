@@ -41,11 +41,16 @@
   for (var i=0; i<bilder.length; i++)
   {
     $('#bilder').append('<img class="bilder" src="' +bilder[i].file+ '" id="' +bilder[i].id+'" />');
-    $('#bilder').append('<img src="/images/left.jpg" id="left<?= $i ?>" />');
+    $('#bilder').append('<img src="/images/left.jpg" id="left<?= $i ?>" onclick="swap(<?= ?>)" />');
   }
    var bredd =  70/bilder.length;
 
    $(".bilder").css("width", bredd +"%");
+   
+   function swap(i)
+   {
+     alert(i);
+   }
    
  </script>
   </body>
