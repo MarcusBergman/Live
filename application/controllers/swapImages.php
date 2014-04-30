@@ -11,5 +11,7 @@
   $test['images'][$secondImage] = $tempImage;
   
   updateTestByPrivateID($privateID, $test);
+  
+  return;
 
 ?>
