@@ -40,7 +40,10 @@
   {
     $('#bilder').append('<img class="bilder" src="' +bilder[i].file+ '" id="' +bilder[i].id+'" />');
     if (i < (bilder.length-1))
+    {
       $('#bilder').append('<img src="/images/left.jpg" id="left'+i+'" onclick="swap('+i+')" />');
+      $('#left'+i).css("border", "1px solid red");
+    }
   }
    var bredd =  70/bilder.length;
 
