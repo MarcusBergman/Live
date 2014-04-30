@@ -120,7 +120,7 @@ p
   -webkit-appearance: none;
 }
 
-@media only all and (max-width: 480px) 
+@media only all and (max-width: 568px) 
 {
   #feltest
     {
@@ -182,4 +182,18 @@ p
     left: 8%;
     font-size: 200%;
   }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape)
+{
+  #rubrik 
+   {
+    left: 40%;
+    top: 1%;   
+  }
+  #rätta
+    {
+    top: 80%;
+  }
+
 }
