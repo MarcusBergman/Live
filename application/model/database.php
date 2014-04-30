@@ -1,11 +1,11 @@
 <?php
-
+  //öppna databasen
   $db = dba_open("model/database.db4", "c", "db4") or die( "Couldn't open Database" ); 
-
+  //funktion för att skapa ett nytt test
   function newTest()
   {
     global $db;
-    
+    //random sträng funktion för att få fram ett 5 tecken långt id
     function randomString($length = 5) 
     {
       $characters = 'abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ';
@@ -29,7 +29,7 @@
       $privateID = randomString();
       $keyIsNotUnique = "false";
       $key = dba_firstkey($db);
-
+      //loop som kollar igenom databasen och ser om private id är unikt
       while($key != NULL)
       {
         $test = json_decode(dba_fetch($key, $db), true);
@@ -47,20 +47,20 @@
     $test['privateID'] = $privateID;
     $test['title'] = "En titel";
     $test['images'] = array();
-
+    //lägger in test arrayen i databasen på det publika id:et
     dba_insert($publicID, json_encode($test), $db);
     
     mkdir("../www/uploads/".$publicID);
     
     return $privateID;
   }
-  
+  //kallar på testet efter privat id 
   function getTestByPrivateID($id)
   {
     global $db;
-  	
+    //kallar på första nyckeln i databasen	
     $key = dba_firstkey($db);
-
+    //kör loop om nyckeln finns
     while($key != NULL)
     {
       $test = json_decode(dba_fetch($key, $db), true);
@@ -68,14 +68,14 @@
         return $test;
       $key = dba_nextkey($db);
     }
-  
+    
     return false;
   }
-  
+  //Får fram det publika id:et genom det privata id:et
   function getPublicIDByPrivateID($id)
   {
     global $db;
-  	
+    	
     $key = dba_firstkey($db);
 
     while($key != NULL)
@@ -88,7 +88,7 @@
   
     return false;
   }
-  
+  //uppdaterar testets innehåll i databasen
   function updateTestByPrivateID($id, $newTest)
   {
     global $db;
@@ -108,7 +108,7 @@
     }
   
   }
-  
+  //kallar på ett test via det publika id:et
   function getTestByPublicID($id)
   {
     global $db;
