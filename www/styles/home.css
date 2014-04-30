@@ -121,27 +121,30 @@ p
       left: 2%;	
       width: 92%;	  
 	}
+	
 	#popup
 	{
 	  left: 4%;
       width: 92%;
       height: 50%;
 	}
+	
 	p
 	{
 	  top: 10%;
       left: 16%;
       font-size: 150%;
 	}
+	
 	#kryss
 	{
-	  right: 2%;
-	  width: 10%;
+	  width: 8%;
       height: 15%;
 	}
+	
 	#ok
 	{
-	  width: 24%;
+	  width: 20%;
       height: 18%;
 	}
 }
