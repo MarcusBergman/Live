@@ -127,4 +127,10 @@ p
       width: 92%;
       height: 50%;
 	}
+	p
+	{
+	  top: 5%;
+      left: 5%;
+      font-size: 100%;
+	}
 }
