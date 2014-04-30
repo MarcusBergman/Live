@@ -163,10 +163,16 @@ p
   height: 12%;
   font-size: 200%;
   }
-  #rätta
+  
+  #top
+    {
+    left: 5%;
+  }
+  
+    #rätta
     {
     top: 38%;
-    left: 40%;
+    left: 36%;
     width: 32%;
     height: 10%;
     font-size: 100%;
