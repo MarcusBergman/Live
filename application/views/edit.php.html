@@ -41,7 +41,8 @@
   for (var i=0; i<bilder.length; i++)
   {
     $('#bilder').append('<img class="bilder" src="' +bilder[i].file+ '" id="' +bilder[i].id+'" />');
-    $('#bilder').append('<img src="/images/left.jpg" id="left'+i+'" onclick="swap('+i+')" />');
+    if (i < (bilder.length-1))
+      $('#bilder').append('<img src="/images/left.jpg" id="left'+i+'" onclick="swap('+i+')" />');
   }
    var bredd =  70/bilder.length;
 
@@ -49,7 +50,12 @@
    
    function swap(i)
    {
-     alert(i);
+     $.ajax({ url:     "/bytbild/<?= $privateID ?>/"+i+"/"+(i+1), 
+                 type:    "GET",
+                 success: function() { alert("Det gick bra!");    },
+                 error:   function() { alert("Det gick dåligt!"); }
+          }
+     	);
    }
    
  </script>
