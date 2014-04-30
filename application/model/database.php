@@ -72,6 +72,23 @@
     return false;
   }
   
+  function getPublicIDByPrivateID($id)
+  {
+    global $db;
+  	
+    $key = dba_firstkey($db);
+
+    while($key != NULL)
+    {
+      $test = json_decode(dba_fetch($key, $db), true);
+      if($test['privateID'] == $id)
+        return $key;
+      $key = dba_nextkey($db);
+    }
+  
+    return false;
+  }
+  
   function getTestByPublicID($id)
   {
     global $db;
