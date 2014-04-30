@@ -4,7 +4,7 @@ html, body
   height: 100%;
   width: 100%;
   -webkit-text-size-adjust: 100%;
-  background-image: url(http://august.friskola.nu/uploads/123456/kindajean.png);
+  background-image: url(http://august.friskola.nu/images/kindajean.png);
 }
 
 input
@@ -64,7 +64,7 @@ p
   height: 88%;
   -moz-border-radius: 15px;
   border-radius: 15px;
-  background-image: url(http://august.friskola.nu/uploads/123456/geometry.png);
+  background-image: url(http://august.friskola.nu/images/geometry.png);
 }
 
 #rubrik
