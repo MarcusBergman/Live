@@ -35,7 +35,7 @@
     $('#bilder').append('<img class="bilder" src="' +bilder[i].file+ '" id="' +bilder[i].id+'" />');
     if (i < (bilder.length-1))
     {
-      $('#bilder').append('<img src="/images/arrow2.jpg" id="left'+i+'" onclick="swap('+i+')" />');
+      $('#bilder').append('<img src="/images/arrow2.jpg" class="arrows" id="left'+i+'" onclick="swap('+i+')" />');
       $('#left'+i).css("");
           
       
