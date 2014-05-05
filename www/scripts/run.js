@@ -26,19 +26,14 @@ for (var i=0; i<blandadeBilder.length; i++){
 var bredd =  84/bilder.length;
 
 $(".svar").css("width", bredd +"%");		
-$(".dragbild").css("width", bredd +"%");
-
-var image = $("img");
-
-if (image.width < image.height)
-  $("img").css("max-width", "none");    
+$(".dragbild").css("width", bredd +"%");   
   
 $("img").load(function(){
   var hojd = $(".dragbild").height();
   var image = $("img");
   $(".svar").css("height", hojd);
   if (image.width < image.height)
-    $("img").css({"height": hojd,"margin-left": "auto", "margin-right": "auto"});   
+    $("img").css("max-width","none");   
   
 });
     
