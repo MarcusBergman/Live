@@ -54,12 +54,11 @@ $("input[type=submit]").click(function(){
     if (facit[question] != answers[question])
     {
       allCorrect = false;
-	  $("#"+question).css("outline","2px solid red");
+	  $("#"+question).html('<img src="/images/rodkryss.png" class="kryss" />')
     }
     else
     {
-      $("#"+question).css("outline", "2px dashed green");
-	  $("#"+question).html('<img src="/images/bock.png" class="bock" />')
+	  $("#"+question).html('<img src="/images/gronbock2.png" class="bock" />')
     }	
  		
 	if (allCorrect)

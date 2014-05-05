@@ -8,8 +8,7 @@ var polyfilter_scriptpath = '/scripts/filter_polyfill/';
 
 blur = function()
 {
-  $("#popup").css("top", "30%");
-  $("#popup").animate({opacity: "1"},500);
+  $("#popup").css({"top": "30%", "opacity" : "1" });
 	  
   $("#main").animate({ pixels: 8 },
   {
