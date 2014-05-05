@@ -39,7 +39,7 @@ $(function() {
     $( ".svar" ).droppable({
       drop: function( event, ui )
 	  {
-	    answers [this.id]=ui.draggable.attr("id");
+	    answers [this.id]=img.attr("id");
 	  }
     });
 });
