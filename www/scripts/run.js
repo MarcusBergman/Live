@@ -58,7 +58,7 @@ $("input[type=submit]").click(function(){
     }
     else
     {
-	  $("#"+question).html('<img src="/images/gronbock2.png" class="bock" />')
+	  $("#"+question).html('<img src="/images/gronbock.png" class="bock" />')
     }	
  		
 	if (allCorrect)
