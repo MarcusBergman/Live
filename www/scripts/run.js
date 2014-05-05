@@ -27,7 +27,12 @@ var bredd =  84/bilder.length;
 
 $(".svar").css("width", bredd +"%");		
 $(".dragbild").css("width", bredd +"%");
-   
+
+var image = $("img");
+
+if (image.width < image.height)
+  image.css({"margin-left": "auto", "margin-right": "auto"});    
+  
 $("img").load(function(){
   var hojd = $(".dragbild").height();
   $(".svar").css("height", hojd);
