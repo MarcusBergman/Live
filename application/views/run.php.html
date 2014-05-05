@@ -40,7 +40,7 @@
     var facit = {
 <?php 
   $j = count($test["images"]);
-  for($i=0; $i<=$j; $i++) : ?>
+  for($i=1; $i<=$j; $i++) : ?>
     svar<?= $i ?>:"drag<?= $i ?>"<?= ($i<$j) ? ",\n" : "" ?>
 <?php endfor; ?> 		
 	};
