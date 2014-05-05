@@ -99,6 +99,11 @@ p
   top: 40%;
 }
 
+.dragbild
+{
+  float:left;
+}
+
 .bock
 {
   position: relative;

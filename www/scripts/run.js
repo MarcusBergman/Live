@@ -19,7 +19,7 @@ var blandadeBilder = shuffleArray(bilder);
 
 for (var i=0; i<blandadeBilder.length; i++){
 	
-  $('#bilder').append('<div id="drag'+i+'"></div>');	
+  $('#bilder').append('<div id="drag'+i+'" class="dragbild"></div>');	
   $('#drag'+i).append('<img src="' +bilder[i].file+ '" id="' +bilder[i].id+'" />');
 
 }
@@ -27,7 +27,7 @@ for (var i=0; i<blandadeBilder.length; i++){
 var bredd =  84/bilder.length;
 
 $(".svar").css("width", bredd +"%");		
-$("img").css("width", bredd +"%");
+$(".dragbild").css("width", bredd +"%");
    
 $("img").load(function(){
   var hojd = $("img").height();
