@@ -32,7 +32,7 @@ $("img").load(function(){
   var hojd = $(".dragbild").height();
   var image = $("img");
   $(".svar").css("height", hojd);
-  if (image.width < image.height)
+  if (image.width() < image.height())
     $("img").css("height","40%");   
   
 });
