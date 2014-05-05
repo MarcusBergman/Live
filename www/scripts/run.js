@@ -54,7 +54,7 @@ $("input[type=submit]").click(function(){
     if (facit[question] != answers[question])
     {
       allCorrect = false;
-	  $("#"+question).html('<img src="/images/rodkryss2.png" class="kryss" />')
+	  $("#"+question).html('<img src="/images/rodkryss.png" class="kryss" />')
     }
     else
     {
