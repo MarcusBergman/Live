@@ -17,7 +17,7 @@ function shuffleArray(array)
     
 var blandadeBilder = shuffleArray(bilder);
 
-for (var i=0; i<blandadeBilder.length; i++){
+for (var i=1; i<blandadeBilder.length; i++){
   $('#bilder').append('<div id="drag'+i+'" class="dragbild"></div>');	
   $('#drag'+i).append('<img src="' +bilder[i].file+ '" id="' +bilder[i].id+'" />');
 
