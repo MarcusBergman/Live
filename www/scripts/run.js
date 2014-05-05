@@ -36,7 +36,7 @@ $(".dragbild").css("width", bredd +"%");
     
 	
 $(function() {
-  $( "img" ).draggable({ snap: ".svar", snapMode: "inner", containment: "#bakgrund"});
+  $( ".dragbild" ).draggable({ snap: ".svar", snapMode: "inner", containment: "#bakgrund"});
     $( ".svar" ).droppable({
       drop: function( event, ui )
 	  {
