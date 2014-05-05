@@ -29,10 +29,10 @@ var bredd =  84/bilder.length;
 $(".svar").css("width", bredd +"%");		
 $(".dragbild").css("width", bredd +"%");
    
-$("img").load(function(){
-  var hojd = $("img").height();
-  $(".svar").css("height", hojd);
-});
+// $("img").load(function(){
+  // var hojd = $("img").height();
+  // $(".svar").css("height", hojd);
+// });
     
 	
 $(function() {
