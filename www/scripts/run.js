@@ -2,7 +2,6 @@ window.onorientationchange = function() { location.reload() };
 
 for (var i=1; i<=bilder.length; i++){
   $('#top').append('<div class="svar" id="svar' +i+ '"></div>');
-  $('#bilder').append('<div id="drag'+i+'" class="dragbild"></div>');
 }
 	
 function shuffleArray(array) 
@@ -18,9 +17,10 @@ function shuffleArray(array)
     
 var blandadeBilder = shuffleArray(bilder);
 
-for (var i=1; i<blandadeBilder.length; i++){	
+for (var i=0; i<blandadeBilder.length; i++){	
+  $('#bilder').append('<div id="drag'+i+'" class="dragbild"></div>');
   $('#drag'+i).append('<img src="' +bilder[i].file+ '" id="' +bilder[i].id+'" />');
-
+  
 }
   
 var bredd =  84/bilder.length;
