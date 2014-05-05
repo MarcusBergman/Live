@@ -29,9 +29,9 @@ $(".svar").css("width", bredd +"%");
 $(".dragbild").css("width", bredd +"%");
 
 var image = $("img");
-
+var hojden = $(".dragbild").height();
 if (image.width < image.height)
-  $("img").css({"height": $(".dragbild").height(),"margin-left": "auto", "margin-right": "auto"});    
+  $("img").css({"height": hojden,"margin-left": "auto", "margin-right": "auto"});    
   
 $("img").load(function(){
   var hojd = $(".dragbild").height();
