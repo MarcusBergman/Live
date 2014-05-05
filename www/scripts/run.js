@@ -30,10 +30,11 @@ $(".dragbild").css("width", bredd +"%");
   
 $("img").load(function(){
   var hojd = $(".dragbild").height();
-  var image = $("img");
   $(".svar").css("height", hojd);
-  if (image.width() < image.height())
-    $("img").css("height","40%");   
+  if(img.height > img.width) {
+        img.height = '100%';
+        img.width = 'auto'; 
+  }		
   
 });
     
