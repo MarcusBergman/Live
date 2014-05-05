@@ -28,13 +28,13 @@ var bredd =  84/bilder.length;
 $(".svar").css("width", bredd +"%");		
 $(".dragbild").css("width", bredd +"%");   
   
-var image = $("img");  
-if (image.width() < image.height())
-  $(this).css("height","40%");  
-  
 $("img").load(function(){
   var hojd = $(".dragbild").height();
-  $(".svar").css("height", hojd); 
+  var image = $("img");
+  $(".svar").css("height", hojd);
+  if (image.width() < image.height())
+    $("img").css("height","40%");   
+  
 });
     
 	
