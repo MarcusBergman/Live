@@ -30,7 +30,7 @@ $(".dragbild").css("width", bredd +"%");
   
 var image = $("img");  
 if (image.width() < image.height())
-  $("img").css("height","40%");  
+  $(this).css("height","40%");  
   
 $("img").load(function(){
   var hojd = $(".dragbild").height();
