@@ -33,7 +33,7 @@ $("img").load(function(){
   var image = $("img");
   $(".svar").css("height", hojd);
   if (image.height() > image.width()) 
-    $("img").css({"height":"100%","width":"auto"});		
+    $("img").css("height","40%");		
 });
     
 	
