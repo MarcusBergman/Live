@@ -4,17 +4,11 @@
   $test = getTestByPrivateID($privateID);
   $publicID = getPublicIDByPrivateID($privateID);
 
-?>
 
-<!DOCTYPE html>
-<html lang="sv">
-  <head>
-    <meta charset="utf-8" />
-    <title>August</title>
-    <link rel="stylesheet" type="text/css" href="/styles/edit.css">
-  </head>
-  <body>
-    
+ $stylesheet = "edit";
+ include("views/header.php.html");
+ 
+?>
 	 
     <div id="text">
 	<font face="Century" size="5" <h1>Ange test titeln: <h1></font>
