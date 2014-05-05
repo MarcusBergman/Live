@@ -31,7 +31,7 @@ $(".dragbild").css("width", bredd +"%");
 var image = $("img");
 
 if (image.width < image.height)
-  image.css({"height": $(".svar").height(),"margin-left": "auto", "margin-right": "auto"});    
+  image.css({"height": $(".dragbild").height(),"margin-left": "auto", "margin-right": "auto"});    
   
 $("img").load(function(){
   var hojd = $(".dragbild").height();
