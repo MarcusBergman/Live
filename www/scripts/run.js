@@ -35,7 +35,11 @@ if (image.width < image.height)
   
 $("img").load(function(){
   var hojd = $(".dragbild").height();
+  var image = $("img");
   $(".svar").css("height", hojd);
+  if (image.width < image.height)
+    $("img").css({"height": hojd,"margin-left": "auto", "margin-right": "auto"});   
+  
 });
     
 	
