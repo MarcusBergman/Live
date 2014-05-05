@@ -33,7 +33,7 @@
     <script>
 	var bilder = [
 <?php $i = 1;  foreach ($test["images"] as $image){ ?>
-	{file: "http://august.friskola.nu/uploads/<?= $id ?>/<?= $image ?>", order: "<?= $i ?>", id: "bild<?= $i++ ?>"}<?= (count($test["images"]) >= $i ? "," : "") ?>
+	{file: "http://august.friskola.nu/uploads/<?= $id ?>/<?= $image ?>", id: "bild<?= $i++ ?>"}<?= (count($test["images"]) >= $i ? "," : "") ?>
 
 <? } ?>];
 

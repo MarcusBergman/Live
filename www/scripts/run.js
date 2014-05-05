@@ -19,7 +19,8 @@ var blandadeBilder = shuffleArray(bilder);
 
 for (var i=0; i<blandadeBilder.length; i++){
 	
-  $('#bilder').append('<img src="' +bilder[i].file+ '" id="' +bilder[i].id+'" />');
+  $('#bilder').append('<div id="drag'+i+'"></div>');	
+  $('#drag'+i).append('<img src="' +bilder[i].file+ '" id="' +bilder[i].id+'" />');
 
 }
   
