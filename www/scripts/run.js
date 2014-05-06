@@ -21,25 +21,23 @@ for (var i=0; i<blandadeBilder.length; i++){
   $('#bilder').append('<div id="drag'+i+'" class="dragbild"></div>');
   $('#drag'+i).append('<img src="' +bilder[i].file+ '" id="' +bilder[i].id+'" />');
 }
- 
-$("img").load(function(){
- 
-  var bredd =  84/bilder.length;
+  
+var bredd =  84/bilder.length;
 
-  $(".svar").css("width", bredd +"%");		
-  $(".dragbild").css("width", bredd +"%");   
+$(".svar").css("width", bredd +"%");		
+$(".dragbild").css("width", bredd +"%");   
 
-  for (var i=1; i<=bilder.length; i++){
+for (var i=1; i<=bilder.length; i++){
 
   if ($('#drag'+i).height() > $('#drag'+i).width())
     $('#bild'+i).css("height", "100%"); 
 	
   else if ($('#drag'+i).width() >= $('#drag'+i).height())
 	$('#bild'+i).css("max-width", "100%");
-  }
+}
   
   
-
+$("img").load(function(){
   var hojd = $(".dragbild").height();
   var image = $("img");
   $(".svar").css("height", hojd);
