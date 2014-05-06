@@ -33,7 +33,7 @@ for (var i=1; i<=bilder.length; i++){
     $('#bild'+i).css("height", "40%"); 
 	
   else if ($('#drag'+i).width() >= $('#drag'+i).height())
-	$('#bild'+i).css("max-width", "100%");
+	$('#bild'+i).css({"max-width": "100%", "max-height" : "100%"});
 }
   
   
