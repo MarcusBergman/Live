@@ -46,7 +46,7 @@ for (var i=1; i<=bilder.length; i++){
     
 	
 $(function() {
-  $( ".dragbild" ).draggable({ snap: ".svar", snapMode: "inner", containment: "window"});
+  $( ".dragbild" ).draggable({ snap: ".svar", snapMode: "inner", containment: "#bakgrund"});
     $( ".svar" ).droppable({
       drop: function( event, ui )
 	  {
