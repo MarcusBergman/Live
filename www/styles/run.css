@@ -90,7 +90,7 @@ p
 .svar
 {
   float: left;
-  height: 40%;
+  height: 36%;
   outline: 2px dashed black;
 }	
 
@@ -103,9 +103,9 @@ p
 .dragbild
 {
   float:left;
-  height: 40%;
+  height: 36%;
   text-align: center;
-  line-height:40%;
+  line-height:36%;
 }
 
 .bock

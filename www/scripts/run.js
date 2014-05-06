@@ -30,7 +30,7 @@ $(".dragbild").css("width", bredd +"%");
 for (var i=1; i<=bilder.length; i++){
 
   if ($('#drag'+i).height() > $('#drag'+i).width())
-    $('#bild'+i).css({"height": "40%", "max-width": "100%"}); 
+    $('#bild'+i).css({"height": "36%", "max-width": "100%"}); 
 	
   else if ($('#drag'+i).width() >= $('#drag'+i).height())
 	$('#bild'+i).css({"max-width": "100%", "vertical-align": "middle"});
