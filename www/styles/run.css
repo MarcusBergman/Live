@@ -79,7 +79,7 @@ p
 
 #top
 {
-  position: relative;
+  position: absolute;
   top: 15%;
   left: 3%;
   right: 5%;
@@ -90,6 +90,7 @@ p
 .svar
 {
   float: left;
+  height: 40%;
   outline: 2px dashed black;
 }	
 

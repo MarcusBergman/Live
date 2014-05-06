@@ -37,13 +37,13 @@ for (var i=1; i<=bilder.length; i++){
 }
   
   
-$("img").load(function(){
-  var hojd = $(".dragbild").height();
-  var image = $("img");
-  $(".svar").css("height", hojd);
-  if (image.height() > image.width()) 
-    $("img").css("height","40%");		
-});
+// $("img").load(function(){
+  // var hojd = $(".dragbild").height();
+  // var image = $("img");
+  // $(".svar").css("height", hojd);
+  // if (image.height() > image.width()) 
+    // $("img").css("height","40%");		
+// });
     
 	
 $(function() {
