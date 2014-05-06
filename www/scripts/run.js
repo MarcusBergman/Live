@@ -33,7 +33,7 @@ for (var i=1; i<=bilder.length; i++){
     $('#bild'+i).css({"height": "36%", "max-width": "100%"}); 
 	
   else if ($('#drag'+i).width() >= $('#drag'+i).height())
-	$('#bild'+i).css({"max-width": "100%", "vertical-align": "middle"});
+	$('#bild'+i).css("max-width", "100%");
 }
 
 // $("img").load(function(){
