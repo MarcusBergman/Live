@@ -18,7 +18,7 @@ function shuffleArray(array)
 var blandadeBilder = shuffleArray(bilder);
 
 for (var i=1; i<blandadeBilder.length; i++){	
-  $('#bilder').append('<div id="'+blandadeBilder[i].id+'" class="dragbild" style="background-image: url('+blandadeBilder[i].file+'')"></div>');
+  $('#bilder').append('<div id="'+blandadeBilder[i].id+'" class="dragbild" style="background-image: url('+blandadeBilder[i].file+')"></div>');
   //$('#bild'+i).css('background-image', 'url(' +blandadeBilder[i].file+ ')');
 }
   
