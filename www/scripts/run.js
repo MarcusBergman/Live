@@ -18,8 +18,8 @@ function shuffleArray(array)
 var blandadeBilder = shuffleArray(bilder);
 
 for (var i=1; i<blandadeBilder.length; i++){	
-  $('#bilder').append('<div id="'+bilder[i].id+'" class="dragbild"></div>');
-  $('#bild'+i).css('background-image', 'url(' +bilder[i].file+ ')');
+  $('#bilder').append('<div id="'+blandadeBilder[i].id+'" class="dragbild"></div>');
+  $('#bild'+i).css('background-image', 'url(' +blandadeBilder[i].file+ ')');
 }
   
 var bredd =  84/bilder.length;
