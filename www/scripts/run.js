@@ -55,15 +55,6 @@ for (var i=1; i<=bilder.length; i++){
     console.log("testar bild "+i+"har höjd: "+$('#bild'+i).height()+", bredd: "+$('#bild'+i).width());
   }
 }
-
-// $("img").load(function(){
-  // var hojd = $(".dragbild").height();
-  // var image = $("img");
-  // $(".svar").css("height", hojd);
-  // if (image.height() > image.width()) 
-    // $("img").css("height","40%");		
-// });
-    
 	
 $(function() {
   $( ".dragbild" ).draggable({ snap: ".svar", snapMode: "inner", containment: "#bakgrund"});
