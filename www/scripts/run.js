@@ -31,9 +31,15 @@ $(".dragbild").css({"width": $('.svar').width(), "height": $('.svar').width()});
 for (var i=1; i<=bilder.length; i++){
 
   if ($('#bild'+i).height() > $('#bild'+i).width())
+  {
     $('#bild'+i).css({"height": "100%"}); 
+    console.log("height");
+  }
   else
+  {
     $('#bild'+i).css("width", "100%");
+    console.log("width");
+  }
 }
 
 // $("img").load(function(){
