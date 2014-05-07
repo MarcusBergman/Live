@@ -96,4 +96,5 @@ input
 .imagecontainer
 {
  height: 100%;
+ float: left;
 }
