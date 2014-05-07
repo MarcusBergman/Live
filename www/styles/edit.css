@@ -93,3 +93,7 @@ input
  float: left;
  width: 20px;
 }
+.imagecontainer
+{
+ height: 100%;
+}
