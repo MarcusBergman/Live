@@ -42,6 +42,20 @@ for (var i=1; i<=bilder.length; i++){
   }
 }
 
+for (var i=1; i<=bilder.length; i++){
+
+  if ($('#bild'+i).height() > $('#bild'+i).width())
+  {
+    $('#bild'+i).css({"height": "100%"}); 
+    console.log("height");
+  }
+  else
+  {
+    $('#bild'+i).css("width", "100%");
+    console.log("testar bild "+i+"har höjd: "+$('#bild'+i).height()+", bredd: "+$('#bild'+i).width());
+  }
+}
+
 // $("img").load(function(){
   // var hojd = $(".dragbild").height();
   // var image = $("img");
