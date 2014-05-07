@@ -24,16 +24,15 @@ for (var i=0; i<blandadeBilder.length; i++){
   
 var bredd =  84/bilder.length;
 
-$(".svar").css("width", bredd +"%");		
-$(".dragbild").css("width", bredd +"%");   
+$(".svar").css("width", bredd +"%").css("height", bredd +"%");
+$(".dragbild").css("width", bredd +"%").css("height", bredd +"%");
   
 for (var i=1; i<=bilder.length; i++){
 
   if ($('#drag'+i).height() > $('#drag'+i).width())
-    $('#bild'+i).css({"height": "36%", "max-width": "100%"}); 
-	
-  else if ($('#drag'+i).width() >= $('#drag'+i).height())
-	$('#bild'+i).css("max-width", "100%");
+    $('#bild'+i).css({"height": "100%"}); 
+  else
+    $('#bild'+i).css("width", "100%");
 }
 
 // $("img").load(function(){
