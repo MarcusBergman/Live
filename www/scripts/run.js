@@ -18,7 +18,7 @@ function shuffleArray(array)
 var blandadeBilder = shuffleArray(bilder);
 
 for (var i=0; i<blandadeBilder.length; i++){	
-  $('#bilder').append('<div id="drag'+i+'" class="dragbild"></div>');
+  $('#bilder').append('<div id="'+bilder[i].id+'" class="dragbild"></div>');
   $('#drag'+i).css('background-image', 'url(' +bilder[i].file+ ')');
 }
   
@@ -41,27 +41,13 @@ for (var i=1; i<=bilder.length; i++){
     console.log("testar bild "+i+"har höjd: "+$('#bild'+i).height()+", bredd: "+$('#bild'+i).width());
   }
 }
-
-for (var i=1; i<=bilder.length; i++){
-
-  if ($('#bild'+i).height() > $('#bild'+i).width())
-  {
-    $('#bild'+i).css({"height": "100%"}); 
-    console.log("height");
-  }
-  else
-  {
-    $('#bild'+i).css("width", "100%");
-    console.log("testar bild "+i+"har höjd: "+$('#bild'+i).height()+", bredd: "+$('#bild'+i).width());
-  }
-}
 	
 $(function() {
   $( ".dragbild" ).draggable({ snap: ".svar", snapMode: "inner", containment: "#bakgrund"});
     $( ".svar" ).droppable({
       drop: function( event, ui )
 	  {
-	    answers [this.id]=ui.draggable.children().attr("id");
+	    answers [this.id]=ui.draggable.attr("id");
 	  }
     });
 });
