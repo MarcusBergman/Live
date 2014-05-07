@@ -38,7 +38,7 @@ for (var i=1; i<=bilder.length; i++){
   else
   {
     $('#bild'+i).css("width", "100%");
-    console.log("width");
+    console.log("testar bild "+i+"har höjd: "+$('#bild'+i).height()+", bredd: "+$('#bild'+i).width());
   }
 }
 
