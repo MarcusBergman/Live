@@ -19,7 +19,7 @@ var blandadeBilder = shuffleArray(bilder);
 
 for (var i=0; i<blandadeBilder.length; i++){	
   $('#bilder').append('<div id="'+bilder[i].id+'" class="dragbild"></div>');
-  $('#drag'+i).css('background-image', 'url(' +bilder[i].file+ ')');
+  $('#bild'+i).css('background-image', 'url(' +bilder[i].file+ ')');
 }
   
 var bredd =  84/bilder.length;
