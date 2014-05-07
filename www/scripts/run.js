@@ -19,8 +19,6 @@ var blandadeBilder = shuffleArray(bilder);
 
 for (var i=1; i<blandadeBilder.length; i++){	
   $('#bilder').append('<div id="'+bilder[i].id+'" class="dragbild"></div>');
-}
-for (var i=1; i<blandadeBilder.length; i++){	
   $('#bild'+i).css('background-image', 'url(' +bilder[i].file+ ')');
 }
   
