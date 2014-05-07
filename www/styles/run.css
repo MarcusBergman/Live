@@ -102,7 +102,10 @@ p
 .dragbild
 {
   float:left;
-  text-align: center;
+  background-size: contain;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .bock
