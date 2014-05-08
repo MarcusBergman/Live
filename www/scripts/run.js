@@ -1,3 +1,5 @@
+function redirect(){ window.location.href = "http://august.friskola.nu/testa/"+document.getElementById("testnamn").value }
+
 window.onorientationchange = function() { location.reload() };
 
 for (var i=1; i<=bilder.length; i++){
