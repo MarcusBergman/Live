@@ -39,10 +39,9 @@ $(function() {
 });
 	
 var answers = {};
+var count = 0;
 	
 $("input[type=submit]").click(function(){
-  
-  var count = 0;
   
   count++;
   
