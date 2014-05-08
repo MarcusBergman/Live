@@ -29,7 +29,7 @@ $(".svar").css("height", $('.svar').width());
 $(".dragbild").css({"width": $('.svar').width(), "height": $('.svar').width()});
 	
 $(function() {
-  $( ".dragbild" ).draggable({ snap: ".svar", snapMode: "inner", containment: "document"});
+  $( ".dragbild" ).draggable({ snap: ".svar", snapMode: "inner", containment: "#bakgrund"});
     $( ".svar" ).droppable({
       drop: function( event, ui )
 	  {
