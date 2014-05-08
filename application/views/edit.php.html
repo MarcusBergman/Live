@@ -32,7 +32,7 @@
 
   for (var i=0; i<bilder.length; i++)
   {
-    $('#bilder').append('<div class="imagecontainer">style="background-image: url('+Bilder[i].file+')'"  /><img class="trash" src="/images/delete.png "/></div>');
+    $('#bilder').append('<div class="imagecontainer">style="background-image: url('')'"  /><img class="trash" src="/images/delete.png "/></div>');
     if (i < (bilder.length-1))
     {
       $('#bilder').append('<img src="/images/arrow2.jpg" class="arrows" id="left'+i+'" onclick="swap('+i+')" />');
