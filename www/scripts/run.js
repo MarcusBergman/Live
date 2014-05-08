@@ -42,6 +42,10 @@ var answers = {};
 	
 $("input[type=submit]").click(function(){
   
+  var count = 0;
+  
+  count++;
+  
   allCorrect = true;
   
   for (question in facit)
