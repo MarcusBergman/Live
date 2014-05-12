@@ -33,7 +33,7 @@
   for (var i=0; i<bilder.length; i++)
   {
     $('#bilder').append('<div class="imagecontainer"></div>');
-	$('.imagecontainer').css('background-image', 'url('+bilder[1++].file+')');
+	$('.imagecontainer').css('background-image', 'url('+bilder[i].file+')');
     if (i < (bilder.length-1))
     {
       $('#bilder').append('<div class="arrows" id="left'+i+'"></div>');
