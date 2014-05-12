@@ -110,7 +110,7 @@ input
   border: 1px solid black;
 }
 
-#trashdiv
+.trashdiv
 {
   position: relative;
   top: 81%;
