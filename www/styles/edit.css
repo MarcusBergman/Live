@@ -105,3 +105,11 @@ input
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.trash
+{
+  position: relative;
+  top: 110%;
+  left: 25%;
+  width: 50%;
+}
