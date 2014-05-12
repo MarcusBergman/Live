@@ -65,13 +65,17 @@ input
   width: 75px;
   height: 50px;
 }
-#addicon
+#add
 {
- position: absolute;
- top: 40%;
- left: 88%;
- height: 100px;
- width: 100px;
+  position: absolute;
+  top: 40%;
+  right: 12%;
+  width: 15%;
+  background-image: url('/images/addicon.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
 }
 #text
 {
