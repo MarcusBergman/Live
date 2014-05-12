@@ -31,8 +31,8 @@
 
   for (var i=0; i<bilder.length; i++)
   {
-    $('#bilder').append('<div class="imagecontainer"><img src="/images/delete.png" class="trash" /></div>');
-	$('.imagecontainer').css('background-image', 'url('+bilder[i].file+')');
+    $('#bilder').append('<div id="bild'+i'" class="imagecontainer"><img src="/images/delete.png" class="trash" /></div>');
+	$('#bild'+i).css('background-image', 'url('+bilder[i].file+')');
     
 	if (i < (bilder.length-1))
     {
