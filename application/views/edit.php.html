@@ -38,7 +38,11 @@
     {
       $('#bilder').append('<div class="arrows" id="left'+i+'"></div>');
       $('#left'+i).css('background-image', 'url("/images/arrow2.jpg")');
-	  $('#left'+i).click(swap(i));
+	  $('#left'+i).click(function(){
+	  
+	    swap(i);
+	  
+	  });
           
       
     }
