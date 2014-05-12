@@ -94,6 +94,9 @@ input
 }
 .imagecontainer
 {
- height: 50%;
- float: left;
+  height: 50%;
+  float: left;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
