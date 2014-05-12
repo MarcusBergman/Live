@@ -107,7 +107,7 @@ input
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  border: 5px black;
+  border: 1px black;
 }
 
 .trash
