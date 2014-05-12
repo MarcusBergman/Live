@@ -11,7 +11,8 @@
    '/^redigera\/([a-zA-Z]+)$/'              => 'views/edit.php.html',
    '/^testa\/([a-zA-Z]+)$/'                 => 'views/run.php.html',
    '/^nytt$/'                               => 'controllers/new.php',
-   '/^bytbild\/([a-zA-Z]+)\/(\d+)\/(\d+)$/' => 'controllers/swapImages.php',
+   '/^bytBild\/([a-zA-Z]+)\/(\d+)\/(\d+)$/' => 'controllers/swapImages.php',
+   '/^taBordBild\/([a-zA-Z]+)\/(\d+)$/'     => 'controllers/deleteImage.php',
    '/.*/'                                   => 'views/error.php.html',
  );
  
