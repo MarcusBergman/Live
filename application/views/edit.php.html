@@ -49,11 +49,13 @@
    var bredd =  50/bilder.length;
 
    $(".imagecontainer").css("width", bredd +"%");
+   $(".imagecontainer").css("height", $('.imagecontainer').width());
    $(".arrows").css("width", bredd/1.5 +"%");
+   $(".arrows").css("height", "height", $('.imagecontainer').width());
    
    function swap(i)
    {
-     $.ajax({ url:     "/bytbild/<?= $privateID ?>/"+i+"/"+(i+1), 
+     $.ajax({ url:     "/bytBild/<?= $privateID ?>/"+i+"/"+(i+1), 
                  type:    "GET",
                  success: function() { alert("Det gick bra!");    },
                  error:   function() { alert("Det gick dåligt!"); }
