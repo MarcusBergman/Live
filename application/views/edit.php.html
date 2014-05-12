@@ -63,6 +63,15 @@
      	);
    }
    
+   function taBortBild(i)
+   {
+     $.ajax({ url:     "/taBortBild/<?= $privateID ?>/"+i+", 
+                 type:    "GET",
+                 success: function() { alert("Det gick bra!");    },
+                 error:   function() { alert("Det gick dåligt!"); }
+          }
+     	);
+   }
    
  </script>
   </body>
