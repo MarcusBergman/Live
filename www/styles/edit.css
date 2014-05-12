@@ -91,10 +91,11 @@ input
 {
  float: left;
  width: 200px;
+ height: 20%;
 }
 .imagecontainer
 {
-  height: 50%;
+  height: 20%;
   float: left;
   background-size: contain;
   background-position: center;
