@@ -24,7 +24,7 @@ var polyfilter_scriptpath = '/scripts/filter_polyfill/';
 
 blur = function()
 {
-  $("#popup").css("top", "30%");
+  $("#popup").css("top", "24%");
 	  
   $("#bakgrund").animate({ pixels: 8 },
   {
