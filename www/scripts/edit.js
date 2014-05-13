@@ -18,3 +18,8 @@ $(".imagecontainer").css("width", bredd +"%");
 $(".imagecontainer").css("height", $('.imagecontainer').width());
 $(".arrows").css("width", bredd/3 +"%");
 $(".arrows").css("height", $('.imagecontainer').width());
+
+$("#add").click(function()
+{
+  alert("ladda upp en bild!");
+});
