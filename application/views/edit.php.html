@@ -69,7 +69,12 @@
    {
      $.ajax({ url:    "/taBortBild/<?= $privateID ?>/"+i, 
              type:    "GET",
-             success: function() { alert("Det gick bra!"); },
+             success: function() 
+			 { 
+			   $('#bild'+i).css("background-image", "none");
+               $('#trash'+i).remove();			   
+			 
+			 },
              error:   function() { alert("Det gick dåligt!"); }
            }
      	  )	  
