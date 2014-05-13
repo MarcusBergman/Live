@@ -52,8 +52,7 @@
     $.ajax({ url:     "/bytBild/<?= $privateID ?>/"+i+"/"+(i+1), 
              type:    "GET",
              success: function()
-			 {
-               alert("Det gick bra!"); 
+			 { 
                $('#bild'+i).css('background-image', 'url('+bilder[(i+1)].file+')');
 			   $('#bild'+(i+1)).css('background-image', 'url('+bilder[i].file+')');
 			   temp = bilder[i];
