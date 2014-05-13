@@ -9,14 +9,11 @@
  include("views/header.php.html");
  
 ?>
-	 
     <div id="text">
-	<font face="Century" size="5" <h1>Ange test titeln: <h1></font>
+	  <font face="Century" size="5" <h1>Ange test titeln: <h1></font>
 	</div>
 	<input type="text" name="" value="" id="titel" size="10"/>
-	
-
-	
+		
 	<div id="bilder"></div>
 	<div id="add"></div>
 
@@ -29,7 +26,6 @@
 	 num: "<?= $i-1 ?>",
 	 id: "bild<?= $i++ ?>"}<?= (count($test["images"]) >= $i ? "," : "") ?>
 <?php } ?>];
-
 
   for (var i=0; i<bilder.length; i++)
   {
@@ -60,6 +56,9 @@
                alert("Det gick bra!"); 
                $('#bild'+i).css('background-image', 'url('+bilder[(i+1)].file+')');
 			   $('#bild'+(i+1)).css('background-image', 'url('+bilder[i].file+')');
+			   temp = bilder[i];
+			   bilder[i] = bilder[(i+1)];
+			   bilder[i+1] = temp;
 			 },
              error:   function() { alert("Det gick dåligt!"); }
            }
