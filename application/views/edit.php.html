@@ -55,20 +55,16 @@
   {
     $.ajax({ url:     "/bytBild/<?= $privateID ?>/"+i+"/"+(i+1), 
              type:    "GET",
-             success: function() { alert("Det gick bra!");    },
+             success: function()
+			 {
+               alert("Det gick bra!"); 
+               $('#bild'+i).css('background-image', 'url('+bilder[i].file+')');			   
+			 },
              error:   function() { alert("Det gick dåligt!"); }
            }
      	  )	  
    }
-   
-  $(document).ajaxSuccess(function()
-  {
-    for (var i=0; i<bilder.length; i++)
-    {
-	  $('#bild'+i).css('background-image', 'url('+bilder[i].file+')');
-    }
-  });
-   
+ 
   </script>
   </body>
 </html>
