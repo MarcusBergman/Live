@@ -61,7 +61,7 @@
      	  );
    }
    
-  $( document ).ajaxComplete(swap(i)
+  $( document ).ajaxComplete(function(swap()
   {
     $('#bild'+i).css('background-image', 'url('+bilder[i].file+')');
   });
