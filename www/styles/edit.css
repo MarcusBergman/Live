@@ -35,10 +35,10 @@ input
 #add
 {
   position: absolute;
-  top: 34%;
-  right: 2%;
-  width: 15%;
-  height: 20%;
+  top: 48%;
+  left: 38%;
+  width: 12%;
+  height: 16%;
   background-image: url('/images/addicon.jpg');
   background-size: contain;
   background-position: center;
