@@ -44,23 +44,28 @@
     }
   }
   
-   var bredd =  72/bilder.length;
+  var bredd =  72/bilder.length;
 
-   $(".imagecontainer").css("width", bredd +"%");
-   $(".imagecontainer").css("height", $('.imagecontainer').width());
-   $(".arrows").css("width", bredd/3 +"%");
-   $(".arrows").css("height", $('.imagecontainer').width());
+  $(".imagecontainer").css("width", bredd +"%");
+  $(".imagecontainer").css("height", $('.imagecontainer').width());
+  $(".arrows").css("width", bredd/3 +"%");
+  $(".arrows").css("height", $('.imagecontainer').width());
    
-   function swap(i)
-   {
-     $.ajax({ url:     "/bytBild/<?= $privateID ?>/"+i+"/"+(i+1), 
-                 type:    "GET",
-                 success: function() { alert("Det gick bra!");    },
-                 error:   function() { alert("Det gick dåligt!"); }
+  function swap(i)
+  {
+    $.ajax({ url:     "/bytBild/<?= $privateID ?>/"+i+"/"+(i+1), 
+            type:    "GET",
+         success: function() { alert("Det gick bra!");    },
+           error:   function() { alert("Det gick dåligt!"); }
           }
-     	);
+     	  );
    }
    
- </script>
+  $( document ).ajaxComplete(function(swap(i))
+  {
+    $('#bild'+i).css('background-image', 'url('+bilder[i].file+')');
+  });
+   
+  </script>
   </body>
 </html>
