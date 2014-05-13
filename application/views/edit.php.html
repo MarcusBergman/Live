@@ -25,7 +25,9 @@
     <script>
  
  	var bilder = [<?php $i = 1;foreach ($test['images'] as $image) { ?>
-	{file: "http://august.friskola.nu/uploads/<?= $publicID ?>/<?= $image ?>", id: "bild<?= $i++ ?>"}<?= (count($test["images"]) >= $i ? "," : "") ?>
+	{file: "http://august.friskola.nu/uploads/<?= $publicID ?>/<?= $image ?>", 
+	 num: "<?= $i-1 >",
+	 id: "bild<?= $i++ ?>"}<?= (count($test["images"]) >= $i ? "," : "") ?>
 <?php } ?>];
 
 
@@ -40,7 +42,7 @@
       $('#left'+i).css('background-image', 'url("/images/arrow2.jpg")');
 	  $('#left'+i).click(function(){
 	    var test = i;
-	    eval("alert("+test+");");
+	    alert(bilder[i].num);
 	    //swap(test);
 	  
 	  });     
