@@ -26,7 +26,7 @@
  
  	var bilder = [<?php $i = 1;foreach ($test['images'] as $image) { ?>
 	{file: "http://august.friskola.nu/uploads/<?= $publicID ?>/<?= $image ?>", 
-	 num: "<?= $i-1 >",
+	 num: "<?= $i-1 ?>",
 	 id: "bild<?= $i++ ?>"}<?= (count($test["images"]) >= $i ? "," : "") ?>
 <?php } ?>];
 
