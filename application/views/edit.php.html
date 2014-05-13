@@ -36,11 +36,11 @@
     $('#bilder').append('<div id="bild'+i+'" class="imagecontainer"><div class="trashdiv"><img src="/images/delete.png" class="trash" /></div></div>');
 	$('#bild'+i).css('background-image', 'url('+bilder[i].file+')');
     
-	if (i < (bilder.length-1))
+    if (i < (bilder.length-1))
     {
       $('#bilder').append('<div class="arrows" id="left'+i+'"></div>');
       $('#left'+i).css('background-image', 'url("/images/arrow2.jpg")');
-      eval('$("#left'+i+'").click(function(){ alert('+i+'); }); ');
+      eval('$("#left'+i+'").click(function(){ swap('+i+'); }); ');
     }
   }
   
