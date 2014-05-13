@@ -11,6 +11,13 @@ html, body, div
   padding: 0;
 }
 
+#bakgrund
+{
+  position: absolute;
+  width: 100%;
+  height:100%;
+}
+
 #bilder
 {
   position: absolute;

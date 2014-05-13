@@ -57,7 +57,7 @@ blur = function()
 {
   $("#popup").css("top", "30%");
 	  
-  $("body").animate({ pixels: 8 },
+  $("#bakgrund").animate({ pixels: 8 },
   {
     step: function(now,fx) 
     {
@@ -72,5 +72,5 @@ $("#add").click(blur);
 $("#kryss").click(function()
 {
   $("#popup").css("top","-100%");
-  $("body").css("polyfilter",'blur(0px)');
+  $("#bakgrund").css("polyfilter",'blur(0px)');
 });
