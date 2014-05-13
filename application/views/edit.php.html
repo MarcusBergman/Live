@@ -29,9 +29,10 @@
 
   for (var i=0; i<bilder.length; i++)
   {
-    $('#bilder').append('<div id="bild'+i+'" class="imagecontainer"><div class="trashdiv"><img src="/images/delete.png" class="trash" /></div></div>');
+    $('#bilder').append('<div id="bild'+i+'" class="imagecontainer"><div id="trash'+i+'" class="trashdiv"><img src="/images/delete.png" class="trash" /></div></div>');
 	$('#bild'+i).css('background-image', 'url('+bilder[i].file+')');
-    
+    eval('$("#trash'+i+'").click(function(){ taBortBild('+i+'); }); ');
+	
     if (i < (bilder.length-1))
     {
       $('#bilder').append('<div class="arrows" id="left'+i+'"></div>');
@@ -63,7 +64,16 @@
            }
      	  )	  
    }
- 
+   
+   function taBortBild(i)
+   {
+     $.ajax({ url:     "/taBortBild/<?= $privateID ?>/"+i+", 
+             type:    "GET",
+             success: function() { alert("Det gick dåligt!"); },
+             error:   function() { alert("Det gick dåligt!"); }
+           }
+     	  )	  
+   }
   </script>
   </body>
 </html>

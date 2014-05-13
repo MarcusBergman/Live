@@ -12,7 +12,7 @@
    '/^testa\/([a-zA-Z]+)$/'                 => 'views/run.php.html',
    '/^nytt$/'                               => 'controllers/new.php',
    '/^bytBild\/([a-zA-Z]+)\/(\d+)\/(\d+)$/' => 'controllers/swapImages.php',
-   '/^taBordBild\/([a-zA-Z]+)\/(\d+)$/'     => 'controllers/deleteImage.php',
+   '/^taBortBild\/([a-zA-Z]+)\/(\d+)$/'     => 'controllers/deleteImage.php',
    '/.*/'                                   => 'views/error.php.html',
  );
  
