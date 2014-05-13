@@ -33,6 +33,37 @@
 	 num: "<?= $i-1 ?>",
 	 id: "bild<?= $i++ ?>"}<?= (count($test["images"]) >= $i ? "," : "") ?>
 <?php } ?>];
+
+  function swap(i)
+  {
+    $.ajax({ url:     "/bytBild/<?= $privateID ?>/"+i+"/"+(i+1), 
+             type:    "GET",
+             success: function()
+			 { 
+               $('#bild'+i).css('background-image', 'url('+bilder[(i+1)].file+')');
+			   $('#bild'+(i+1)).css('background-image', 'url('+bilder[i].file+')');
+			   temp = bilder[i];
+			   bilder[i] = bilder[(i+1)];
+			   bilder[i+1] = temp;
+			 },
+             error:   function() { alert("Det gick dåligt!"); }
+           }
+     	  )	  
+   }
+   
+   function taBortBild(i)
+   {
+     $.ajax({ url:    "/taBortBild/<?= $privateID ?>/"+i, 
+              type:    "GET",
+              success: function() 
+			  { 
+			    $('#bild'+i).css("background-image", "none");
+                $('#trash'+i).remove();			   
+			  },
+              error:   function() { alert("Det gick dåligt!"); }
+           }
+     	  )	  
+   }
   </script>
   <script src="/scripts/filter_polyfill/cssParser.js"></script>
   <script src="/scripts/filter_polyfill/css-filters-polyfill.js"></script>
