@@ -12,8 +12,14 @@
     <div id="text">
 	  <font face="Century" size="5" <h1>Ange test titeln: <h1></font>
 	</div>
-	<input type="text" name="" value="" id="titel" size="10"/>
-		
+	<input type="text" id="titel" size="10" />
+	<div id="popup">
+      <button id="kryss">X</button>
+	  <form id="bildform" >
+	    <input type="text" id="" required>
+	  </form>
+    </div>
+  	
 	<div id="bilder"></div>
 	<div id="add"></div>
 
@@ -26,60 +32,9 @@
 	 num: "<?= $i-1 ?>",
 	 id: "bild<?= $i++ ?>"}<?= (count($test["images"]) >= $i ? "," : "") ?>
 <?php } ?>];
-
-  for (var i=0; i<bilder.length; i++)
-  {
-    $('#bilder').append('<div id="bild'+i+'" class="imagecontainer"><div id="trash'+i+'" class="trashdiv"><img src="/images/delete.png" class="trash" /></div></div>');
-	$('#bild'+i).css('background-image', 'url('+bilder[i].file+')');
-    eval('$("#trash'+i+'").click(function(){ taBortBild('+i+'); }); ');
-	
-    if (i < (bilder.length-1))
-    {
-      $('#bilder').append('<div class="arrows" id="left'+i+'"></div>');
-      $('#left'+i).css('background-image', 'url("/images/arrow2.jpg")');
-      eval('$("#left'+i+'").click(function(){ swap('+i+'); }); ');
-    }
-  }
-  
-  var bredd =  72/bilder.length;
-
-  $(".imagecontainer").css("width", bredd +"%");
-  $(".imagecontainer").css("height", $('.imagecontainer').width());
-  $(".arrows").css("width", bredd/3 +"%");
-  $(".arrows").css("height", $('.imagecontainer').width());
-   
-  function swap(i)
-  {
-    $.ajax({ url:     "/bytBild/<?= $privateID ?>/"+i+"/"+(i+1), 
-             type:    "GET",
-             success: function()
-			 { 
-               $('#bild'+i).css('background-image', 'url('+bilder[(i+1)].file+')');
-			   $('#bild'+(i+1)).css('background-image', 'url('+bilder[i].file+')');
-			   temp = bilder[i];
-			   bilder[i] = bilder[(i+1)];
-			   bilder[i+1] = temp;
-			 },
-             error:   function() { alert("Det gick dåligt!"); }
-           }
-     	  )	  
-   }
-   
-   function taBortBild(i)
-   {
-     $.ajax({ url:    "/taBortBild/<?= $privateID ?>/"+i, 
-             type:    "GET",
-             success: function() 
-			 { 
-			   $('#bild'+i).css("background-image", "none");
-               $('#trash'+i).remove();			   
-			 
-			 },
-             error:   function() { alert("Det gick dåligt!"); }
-           }
-     	  )	  
-   }
-   
   </script>
+  <script src="/scripts/filter_polyfill/cssParser.js"></script>
+  <script src="/scripts/filter_polyfill/css-filters-polyfill.js"></script>
+  <script src="/scripts/edit.js"></script>
   </body>
 </html>
