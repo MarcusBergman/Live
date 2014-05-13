@@ -39,14 +39,13 @@ for (var i=0; i<bilder.length; i++)
    function taBortBild(i)
    {
      $.ajax({ url:    "/taBortBild/<?= $privateID ?>/"+i, 
-             type:    "GET",
-             success: function() 
-			 { 
-			   $('#bild'+i).css("background-image", "none");
-               $('#trash'+i).remove();			   
-			 
-			 },
-             error:   function() { alert("Det gick dåligt!"); }
+              type:    "GET",
+              success: function() 
+			  { 
+			    $('#bild'+i).css("background-image", "none");
+                $('#trash'+i).remove();			   
+			  },
+              error:   function() { alert("Det gick dåligt!"); }
            }
      	  )	  
    }
