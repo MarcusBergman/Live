@@ -54,14 +54,14 @@
   function swap(i)
   {
     $.ajax({ url:     "/bytBild/<?= $privateID ?>/"+i+"/"+(i+1), 
-            type:    "GET",
-         success: function() { alert("Det gick bra!");    },
-           error:   function() { alert("Det gick dåligt!"); }
-          }
+             type:    "GET",
+             success: function() { alert("Det gick bra!");    },
+             error:   function() { alert("Det gick dåligt!"); }
+           }
      	  );
    }
    
-  $( document ).ajaxComplete(function(swap(i))
+  $( document ).ajaxComplete(swap(i)
   {
     $('#bild'+i).css('background-image', 'url('+bilder[i].file+')');
   });
