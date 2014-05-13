@@ -19,6 +19,6 @@ $(".imagecontainer").css("height", $('.imagecontainer').width());
 $(".arrows").css("width", bredd/3 +"%");
 $(".arrows").css("height", $('.imagecontainer').width());
 
-$("#add").click(function());
+$("#add").click();
 
 $('#fileinput').trigger('click'); 
