@@ -32,19 +32,6 @@ input
   height: 50px;
 }
 
-#add
-{
-  position: absolute;
-  top: 70%;
-  left: 38%;
-  width: 12%;
-  height: 16%;
-  background-image: url('/images/addicon.jpg');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat; 
-}
-
 #text
 {
   position: relative;
@@ -97,4 +84,17 @@ input
   top: 6%;
   left: 6%;
   width: 84%;
+}
+
+#add
+{
+  position: absolute;
+  top: 80%;
+  left: 38%;
+  width: 12%;
+  height: 16%;
+  background-image: url('/images/addicon.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; 
 }
