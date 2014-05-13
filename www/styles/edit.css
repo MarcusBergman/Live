@@ -92,6 +92,8 @@ input
   background-position: center;
   background-repeat: no-repeat;
   border: 1px solid black;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .trashdiv
