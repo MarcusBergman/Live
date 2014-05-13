@@ -58,7 +58,8 @@
              success: function()
 			 {
                alert("Det gick bra!"); 
-               $('#bild'+i).css('background-image', 'url('+bilder[i].file+')');			   
+               $('#bild'+i).css('background-image', 'url('+bilder[(i+1)].file+')');
+			   $('#bild'+(i+1)).css('background-image', 'url('+bilder[i].file+')');
 			 },
              error:   function() { alert("Det gick dåligt!"); }
            }
