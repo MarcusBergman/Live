@@ -40,12 +40,7 @@
     {
       $('#bilder').append('<div class="arrows" id="left'+i+'"></div>');
       $('#left'+i).css('background-image', 'url("/images/arrow2.jpg")');
-	  $('#left'+i).click(function(){
-	    var test = i;
-	    alert(bilder[i].num);
-	    //swap(test);
-	  
-	  });     
+      eval('$("#left"'+i+').click(function(){ alert('+i+'); }); ');
     }
   }
   
