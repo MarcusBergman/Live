@@ -14,6 +14,7 @@
    '/^bytBild\/([a-zA-Z]+)\/(\d+)\/(\d+)$/' => 'controllers/swapImages.php',
    '/^taBortBild\/([a-zA-Z]+)\/(\d+)$/'     => 'controllers/deleteImage.php',
    '/.*/'                                   => 'views/error.php.html',
+   '/^laddaUppBild\/([a-zA-Z]+)\/(\d+)$/'   => 'controllers/upload.php',
  );
  
  foreach ($routes as $regex => $route)
