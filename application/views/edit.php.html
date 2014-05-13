@@ -53,17 +53,18 @@
    
   function swap(i)
   {
-    $.ajax({url:     "/bytBild/<?= $privateID ?>/"+i+"/"+(i+1), 
+    $.ajax({ url:     "/bytBild/<?= $privateID ?>/"+i+"/"+(i+1), 
             type:    "GET",
-            success: function() 
-			{ 
-			  $('#bild'+i).css('background-image', 'url('+bilder[i].file+')');
-			  $('#bild'+i+1).css('background-image', 'url('+bilder[i].file+')');
-			},
-            error:   function() { alert("Det gick dåligt!"); }
+         success: function() { alert("Det gick bra!");    },
+           error:   function() { alert("Det gick dåligt!"); }
           }
-    );
-  }
+     	  );
+   }
+   
+  $( document ).ajaxComplete(function(swap(i))
+  {
+    $('#bild'+i).css('background-image', 'url('+bilder[i].file+')');
+  });
    
   </script>
   </body>
