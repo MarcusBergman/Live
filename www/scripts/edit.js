@@ -18,28 +18,3 @@ $(".imagecontainer").css("width", bredd +"%");
 $(".imagecontainer").css("height", $('.imagecontainer').width());
 $(".arrows").css("width", bredd/3 +"%");
 $(".arrows").css("height", $('.imagecontainer').width());
-  
-
-var polyfilter_scriptpath = '/scripts/filter_polyfill/'; 
-
-blur = function()
-{
-  $("#popup").css("top", "24%");
-	  
-  $("#bakgrund").animate({ pixels: 8 },
-  {
-    step: function(now,fx) 
-    {
-      $(this).css('polyfilter','blur(' + Math.round(now) + 'px)'); 
-    },
-      duration: 500
-  },'swing');
-};
-		
-$("#add").click(blur);
-  
-$("#kryss").click(function()
-{
-  $("#popup").css("top","-100%");
-  $("#bakgrund").css("polyfilter",'blur(0px)');
-});
