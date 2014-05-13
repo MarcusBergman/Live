@@ -10,7 +10,7 @@
   
   if($firstImage  >=0     && 
      $firstImage  < $num &&
-     $secondImage <=0     &&
+     $secondImage >=0     &&
      $secondImage < $num &&
      $firstImage  != $secondImage
      ) 
