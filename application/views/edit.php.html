@@ -67,7 +67,7 @@
    
    function taBortBild(i)
    {
-     $.ajax({ url:     "/taBortBild/<?= $privateID ?>/"+i+", 
+     $.ajax({ url:    "/taBortBild/<?= $privateID ?>/"+i, 
              type:    "GET",
              success: function() { alert("Det gick dåligt!"); },
              error:   function() { alert("Det gick dåligt!"); }
