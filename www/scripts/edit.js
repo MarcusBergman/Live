@@ -1,54 +1,24 @@
 for (var i=0; i<bilder.length; i++)
-  {
-    $('#bilder').append('<div id="bild'+i+'" class="imagecontainer"><div id="trash'+i+'" class="trashdiv"><img src="/images/delete.png" class="trash" /></div></div>');
-	$('#bild'+i).css('background-image', 'url('+bilder[i].file+')');
-    eval('$("#trash'+i+'").click(function(){ taBortBild('+i+'); }); ');
-	
-    if (i < (bilder.length-1))
-    {
-      $('#bilder').append('<div class="arrows" id="left'+i+'"></div>');
-      $('#left'+i).css('background-image', 'url("/images/arrow2.jpg")');
-      eval('$("#left'+i+'").click(function(){ swap('+i+'); }); ');
-    }
-  }
-  
-  var bredd =  72/bilder.length;
+{
+  $('#bilder').append('<div id="bild'+i+'" class="imagecontainer"><div id="trash'+i+'" class="trashdiv"><img src="/images/delete.png" class="trash" /></div></div>');
+  $('#bild'+i).css('background-image', 'url('+bilder[i].file+')');
+  eval('$("#trash'+i+'").click(function(){ taBortBild('+i+'); }); ');
 
-  $(".imagecontainer").css("width", bredd +"%");
-  $(".imagecontainer").css("height", $('.imagecontainer').width());
-  $(".arrows").css("width", bredd/3 +"%");
-  $(".arrows").css("height", $('.imagecontainer').width());
-   
-  function swap(i)
+  if (i < (bilder.length-1))
   {
-    $.ajax({ url:     "/bytBild/<?= $privateID ?>/"+i+"/"+(i+1), 
-             type:    "GET",
-             success: function()
-			 { 
-               $('#bild'+i).css('background-image', 'url('+bilder[(i+1)].file+')');
-			   $('#bild'+(i+1)).css('background-image', 'url('+bilder[i].file+')');
-			   temp = bilder[i];
-			   bilder[i] = bilder[(i+1)];
-			   bilder[i+1] = temp;
-			 },
-             error:   function() { alert("Det gick dåligt!"); }
-           }
-     	  )	  
-   }
-   
-   function taBortBild(i)
-   {
-     $.ajax({ url:    "/taBortBild/<?= $privateID ?>/"+i, 
-              type:    "GET",
-              success: function() 
-			  { 
-			    $('#bild'+i).css("background-image", "none");
-                $('#trash'+i).remove();			   
-			  },
-              error:   function() { alert("Det gick dåligt!"); }
-           }
-     	  )	  
-   }
+    $('#bilder').append('<div class="arrows" id="left'+i+'"></div>');
+    $('#left'+i).css('background-image', 'url("/images/arrow2.jpg")');
+    eval('$("#left'+i+'").click(function(){ swap('+i+'); }); ');
+  }
+}
+  
+var bredd =  72/bilder.length;
+
+$(".imagecontainer").css("width", bredd +"%");
+$(".imagecontainer").css("height", $('.imagecontainer').width());
+$(".arrows").css("width", bredd/3 +"%");
+$(".arrows").css("height", $('.imagecontainer').width());
+  
 
 var polyfilter_scriptpath = '/scripts/filter_polyfill/'; 
 
