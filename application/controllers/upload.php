@@ -6,13 +6,13 @@
 
   $uploads_dir = 'uploads';
   print ("innan foreach");
-  foreach ($_FILES["pictures"]["error"] as $key => $error) {
+  foreach ($_FILES["picture"]["error"] as $key => $error) {
     print ("innan if");
 	if ($error == UPLOAD_ERR_OK) {
         print ("här är jag");
-		$tmp_name = $_FILES["pictures"]["tmp_name"][$key];
+		$tmp_name = $_FILES["picture"]["tmp_name"][$key];
 		print ($tmp_name);
-        $name = $_FILES["pictures"]["name"][$key];
+        $name = $_FILES["picture"]["name"][$key];
 		print ($name);
         move_uploaded_file($tmp_name, "$uploads_dir/$publicID");
 		
