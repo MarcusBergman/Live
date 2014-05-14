@@ -4,7 +4,7 @@
   $test = getTestByPrivateID($privateID);
   $publicID = getPublicIDByPrivateID($privateID);
 
-  $uploads_dir = 'uploads';
+  $uploads_dir = '/var/www/august.friskola.nu/Live/www/uploads';
   print ("innan foreach");
   print_r ($_FILES);
   
