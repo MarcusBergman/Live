@@ -22,7 +22,6 @@ $(".arrows").css("height", $('.imagecontainer').width());
 $(document).ready(function() {
   $('#add').on('click', function() {
     $('#fileinput')[0].click();
-	$('#filesubmit')[0].click();
     });
 });
 
