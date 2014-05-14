@@ -19,8 +19,7 @@
 	<div id="add">
 	<div id="file">
 	  <form id="uppladdning" method="post" enctype="multipart/form-data" action="/laddaUppBild/<?= $privateID ?>">  
-        <input name="picture" type="file" id="fileinput"/>
-	    <input type="submit" id="filesubmit" />
+        <input name="picture" onchange="this.form.submit()" type="file" id="fileinput"/>
 	  </form>
     </div>
 	</div>
