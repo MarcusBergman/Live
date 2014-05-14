@@ -19,7 +19,9 @@ $(".imagecontainer").css("height", $('.imagecontainer').width());
 $(".arrows").css("width", bredd/3 +"%");
 $(".arrows").css("height", $('.imagecontainer').width());
 
-$('#fileinput').trigger('click'); 
-
-$("#add").click(function(){});
+$(document).ready(function() {
+  $('#add').on('click', function() {
+    $('#fileinput')[0].click();
+    });
+});
 
