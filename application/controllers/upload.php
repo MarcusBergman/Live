@@ -15,7 +15,7 @@
 		print ($tmp_name);
         $name = $_FILES["picture"]["name"];
 		print ($name);
-        move_uploaded_file($tmp_name, "$uploads_dir/$publicID");
+        move_uploaded_file($tmp_name, "$uploads_dir/$publicID/$name");
 		
     }
 
