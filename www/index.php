@@ -13,8 +13,8 @@
    '/^nytt$/'                               => 'controllers/new.php',
    '/^bytBild\/([a-zA-Z]+)\/(\d+)\/(\d+)$/' => 'controllers/swapImages.php',
    '/^taBortBild\/([a-zA-Z]+)\/(\d+)$/'     => 'controllers/deleteImage.php',
-   '/.*/'                                   => 'views/error.php.html',
-   '/^laddaUppBild\/([a-zA-Z]+)$/'          => 'controllers/upload.php'
+   '/^laddaUppBild\/([a-zA-Z]+)$/'          => 'controllers/upload.php',
+   '/.*/'                                   => 'views/error.php.html'
  );
  
  foreach ($routes as $regex => $route)
