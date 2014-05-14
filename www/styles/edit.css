@@ -115,11 +115,13 @@ html, body, div
   width: 84%;
 }
 
-#fileinput
+#uppladdning
 {
   position: absolute;
   top: 70%;
   left: 40%;
+  width: 30%;
+  height: 34%;
 }
 
 #add
