@@ -4,7 +4,7 @@
   $test = getTestByPrivateID($privateID);
   $publicID = getPublicIDByPrivateID($privateID);
 
-   header("Location: http://august.friskola.nu/redigera/$publicID");
+   header("Location: http://august.friskola.nu/redigera/$privateID");
   
   $uploads_dir = '/var/www/august.friskola.nu/Live/www/uploads';
   
