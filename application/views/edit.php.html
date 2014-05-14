@@ -59,7 +59,10 @@
               success: function() 
 			  { 
 			    $('#bild'+i).css("background-image", "none");
-                $('#trash'+i).remove();			   
+                $('#trash'+i).remove();	
+				temp = bilder[i];
+			    bilder.splice(i, 1);
+			    bilder[i] = temp;
 			  },
               error:   function() { alert("Det gick dåligt!"); }
            }
