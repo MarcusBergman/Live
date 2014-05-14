@@ -17,6 +17,9 @@
 		print ($name);
         move_uploaded_file($tmp_name, "$uploads_dir/$publicID/$name");
 		
+		$test['images'][] = $name;
+		updateTestByPrivateID($privateID, $test);
+		
     }
 
 ?>
