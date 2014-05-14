@@ -5,8 +5,10 @@
   $publicID = getPublicIDByPrivateID($privateID);
 
   $uploads_dir = 'uploads';
+  print ("innan foreach");
   foreach ($_FILES["pictures"]["error"] as $key => $error) {
-    if ($error == UPLOAD_ERR_OK) {
+    print ("innan if");
+	if ($error == UPLOAD_ERR_OK) {
         print ("här är jag");
 		$tmp_name = $_FILES["pictures"]["tmp_name"][$key];
 		print ($tmp_name);
