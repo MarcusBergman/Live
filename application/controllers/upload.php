@@ -1,11 +1,11 @@
 <?php
   
-  header("Location: http://august.friskola.nu/redigera/$publicID");
-  
   $privateID = $matches[1];
   $test = getTestByPrivateID($privateID);
   $publicID = getPublicIDByPrivateID($privateID);
 
+   header("Location: http://august.friskola.nu/redigera/$publicID");
+  
   $uploads_dir = '/var/www/august.friskola.nu/Live/www/uploads';
   
   if ($_FILES["picture"]["error"] == UPLOAD_ERR_OK) 
