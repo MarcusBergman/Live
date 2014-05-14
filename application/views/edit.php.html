@@ -59,7 +59,8 @@
               success: function() 
 			  { 
 			    $('#bild'+i).css("background-image", "none");
-                $('#trash'+i).remove();			   
+                $('#trash'+i).remove();	
+				bilder.splice(i, 1);
 			  },
               error:   function() { alert("Det gick dåligt!"); }
            }
