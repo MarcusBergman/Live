@@ -6,6 +6,7 @@
 
   $uploads_dir = 'uploads';
   print ("innan foreach");
+  print_r ($_FILES);
   foreach ($_FILES["picture"]["error"] as $key => $error) {
     print ("innan if");
 	if ($error == UPLOAD_ERR_OK) {
