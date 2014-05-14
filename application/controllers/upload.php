@@ -1,5 +1,5 @@
 <?php
-
+  
   $privateID = $matches[1];
   $test = getTestByPrivateID($privateID);
   $publicID = getPublicIDByPrivateID($privateID);
@@ -21,5 +21,5 @@
 		updateTestByPrivateID($privateID, $test);
 		
     }
-
+  return;
 ?>
