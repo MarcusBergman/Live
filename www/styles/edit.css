@@ -115,11 +115,13 @@ html, body, div
   width: 84%;
 }
 
-.hiddenfile 
+#fileinput
 {
- width: 0px;
- height: 0px;
- overflow: hidden;
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  width: 10%;
+  height: 14%;
 }
 
 #add
