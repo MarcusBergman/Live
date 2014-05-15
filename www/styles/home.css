@@ -5,6 +5,7 @@ html, body
   width: 100%;
   background-image: url(http://august.friskola.nu/images/kindajean.png);
   -webkit-text-size-adjust: 100%;
+  font-family: 'Oswald', sans-serif;
 }
 
 input
