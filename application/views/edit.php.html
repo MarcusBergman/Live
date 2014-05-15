@@ -45,6 +45,7 @@
     $.ajax({ url: "/uppdateraTitel/<?= $privateID ?>", 
 	type: "POST" , 
 	data: {"title": $('#title').val()},
+	success: function(){ $('#title').css("border-style","none") } ,
 	error: function() {alert("det gick dåligt");}
 	})
   }
