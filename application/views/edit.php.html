@@ -38,7 +38,7 @@
 
   function updateTitle()
   {
-    $.ajax({ url: "/uppdateraTitel/<?= $privateID ?>", type: "POST"})
+    $.post("/uppdateraTitel/<?= $privateID ?>");
   }
 
   function swap(i)
