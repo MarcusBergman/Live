@@ -1,3 +1,8 @@
+$('#title').on('change keydown paste input', function() 
+{
+  updateTitle();
+})
+
 for (var i=0; i<bilder.length; i++)
 {
   $('#bilder').append('<div id="bild'+i+'" class="imagecontainer"><div id="trash'+i+'" class="trashdiv"><img src="/images/delete.png" class="trash" /></div></div>');
