@@ -13,8 +13,8 @@
     <div id="text">
 	  <font face="Oswald" size="5" >Testets namn:</font>
 	</div>
-	<form id="titelform" method="post" action="/uppdateraTitel/<?= $privateID ?>">
-	  <input name="titel" type="text" onchange="this.form.submit()" id="titel" size="10" />
+	<form id="titelform" method="post">
+	  <input name="titel" type="text" onchange="updateTitle()" id="titel" size="10" />
 	</form>  
 	<div id="bilder"></div>
 	<div id="add">
@@ -35,6 +35,11 @@
    num: "<?= $i-1 ?>",
    id: "bild<?= $i++ ?>"}<?= (count($test["images"]) >= $i ? "," : "") ?>
 <?php } ?>];
+
+  function updateTitle()
+  {
+    $.ajax({ url: "/uppdateraTitel/<?= $privateID ?>", type: "POST"})
+  }
 
   function swap(i)
   {
