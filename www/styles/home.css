@@ -36,8 +36,7 @@ input
   width: 25%;
   height: 17%;
   text-align: center;
-  display: table-cell;
-  vertical-align: middle;
+  vertical-align: 50%;
   background-color: black;
   color: white;
 }
