@@ -3,9 +3,9 @@
   $privateID = $matches[1];
   $test = getTestByPrivateID($privateID);
 
-  $titel = $_POST["titel"];
+  $title = $_POST["title"];
   
-  $test['title'] = $titel;
+  $test['title'] = $title;
   updateTestByPrivateID($privateID, $test); 
 
   return;  
