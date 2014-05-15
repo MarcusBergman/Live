@@ -38,7 +38,11 @@
 
   function updateTitle()
   {
-    $.ajax({ url: "/uppdateraTitel/<?= $privateID ?>", type: "POST" , data: {"titel": $('#fileinput').val()}
+    $.ajax({ url: "/uppdateraTitel/<?= $privateID ?>", 
+	type: "POST" , 
+	data: {"titel": $('#fileinput').val()},
+	success: function() {alert("det gick bra");}
+	error: function() {alert("det gick dåligt");}
 	})
   }
 
