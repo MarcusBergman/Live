@@ -53,7 +53,7 @@ html, body, div
 }
 #text3
 {
-  
+  position: absolute;
   top: 1%;
   left: 11%;
   text-decoration: underline;
