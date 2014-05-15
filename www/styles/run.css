@@ -8,6 +8,11 @@ html, body
   background-image: url(http://august.friskola.nu/images/kindajean.png);
 }
 
+input, select, textarea, button
+{
+  font-family:inherit;
+}
+
 input
 {
   -webkit-appearance: none;
