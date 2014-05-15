@@ -12,7 +12,7 @@ for (var i=0; i<bilder.length; i++)
   if (i < (bilder.length-1))
   {
     $('#bilder').append('<div class="arrows" id="left'+i+'"></div>');
-    $('#left'+i).css('background-image', 'url("/images/arrow2.jpg")');
+    $('#left'+i).css('background-image', 'url("/images/swap.png")');
     eval('$("#left'+i+'").click(function(){ swap('+i+'); }); ');
   }
 }
