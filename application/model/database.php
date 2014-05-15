@@ -45,7 +45,7 @@
     $test = array();
 
     $test['privateID'] = $privateID;
-    $test['title'] = "";
+    $test['title'] = "En Titel";
     $test['images'] = array();
     //lägger in test arrayen i databasen på det publika id:et
     dba_insert($publicID, json_encode($test), $db);
