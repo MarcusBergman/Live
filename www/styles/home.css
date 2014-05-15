@@ -35,6 +35,15 @@ input
   top: 58%;
   width: 25%;
 }
+
+#redigera
+{
+  position: absolute;
+  float: left;
+  left: 45%;
+  top: 58%;
+  width: 25%;
+}
     
 #skapa
 {
@@ -115,10 +124,18 @@ p
 	  width: 92%;
 	}
 	
+	#redigera
+	{
+	  float: none;
+	  top: 55%;
+	  left: 2%;
+	  width: 92%;
+	}
+	
 	#skapa
 	{
 	  float: none; 
-      top: 60%;
+      top: 85%;
       left: 2%;	
       width: 92%;	  
 	}
