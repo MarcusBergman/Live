@@ -39,7 +39,6 @@
     $.ajax({ url: "/uppdateraTitel/<?= $privateID ?>", 
 	type: "POST" , 
 	data: {"title": $('#title').val()},
-	success: function() {alert("det gick bra");},
 	error: function() {alert("det gick dåligt");}
 	})
   }
