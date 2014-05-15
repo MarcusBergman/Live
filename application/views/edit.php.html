@@ -13,8 +13,8 @@
     <div id="text">
 	  <font face="Oswald" size="5" >Testets namn:</font>
 	</div>
-	<form id="titelform" method="post">
-	  <input name="titel" type="text" onchange="updateTitle();" id="titel" size="10" />
+	<form id="titleform" method="post">
+	  <input name="title" type="text" onchange="updateTitle();" id="title" size="10" />
 	</form>  
 	<div id="bilder"></div>
 	<div id="add">
@@ -40,7 +40,7 @@
   {
     $.ajax({ url: "/uppdateraTitel/<?= $privateID ?>", 
 	type: "POST" , 
-	data: {"titel": $('#fileinput').val()},
+	data: {"title": $('#title').val()},
 	success: function() {alert("det gick bra");}
 	error: function() {alert("det gick dåligt");}
 	})
