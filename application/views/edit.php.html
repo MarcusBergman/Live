@@ -13,8 +13,9 @@
     <div id="text">
 	  <font face="Century" size="5" >Ange test titeln:</font>
 	</div>
-	<input type="text" id="titel" size="10" />
-	  
+	<form id="titelform" method="post" action="/uppdateraTitel/<?= $privateID ?>">
+	  <input name="titel" type="text" onchange="this.form.submit()" id="titel" size="10" />
+	</form>  
 	<div id="bilder"></div>
 	<div id="add">
 	<div id="file">
