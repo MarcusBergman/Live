@@ -126,7 +126,7 @@
 										xmlHttp.onreadystatechange = function(){
 											if(xmlHttp.readyState === 4){
 												if(xmlHttp.status === 0){
-													if(window.console) console.log('Could not fetch external CSS via HTTP-Request ' + href + '. Probably because of cross origin limitations. Try turning on CORS headers on the machine serving the stylesheets, like so: https://gist.github.com/Schepp/6338742');
+													//if(window.console) console.log('Could not fetch external CSS via HTTP-Request ' + href + '. Probably because of cross origin limitations. Try turning on CORS headers on the machine serving the stylesheets, like so: https://gist.github.com/Schepp/6338742');
 													if(!polyfilter._stylesheets[index].content){
 														polyfilter._pending_stylesheets--;
 														polyfilter._stylesheets[index].content = xmlHttp.responseText;
