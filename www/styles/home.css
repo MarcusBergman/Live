@@ -47,6 +47,10 @@ input
   left: 37%;
   top: 58%;
   width: 25%;
+  height: 17%;
+  font-size: 205%;
+  background-color: black;
+  color: white;
 }
     
 #skapa
@@ -56,6 +60,10 @@ input
   left: 67%;
   top: 58%;
   width: 25%;
+  height: 17%;
+  font-size: 205%;
+  background-color: black;
+  color: white;
 }
 
 #popup
