@@ -2,8 +2,7 @@ var testigera = "";
 
 function redirect()
 {
-  
-  window.location.href = '"http://august.friskola.nu/'testigera'/"'+document.getElementById("testnamn").value
+  window.location.href = '"http://august.friskola.nu/'+testigera+'/"'+document.getElementById("testnamn").value
 }
 		
 $("#starta").click(function()
