@@ -25,9 +25,10 @@ var bredd =  84/bilder.length;
 
 $(".svar").css("width", bredd +"%");
 $(".svar").css("height", $('.svar').width());
-$(".dragbild").css({"width": $('.svar').width(), "height": $('.svar').width()});
+$(".dragbild").css("height", $('.dragbild').width());
 	
-$(function() {
+$(function()
+{
   $( ".dragbild" ).draggable({ snap: ".svar", snapMode: "inner", containment: "#bakgrund"});
     $( ".svar" ).droppable({
       drop: function( event, ui )
@@ -36,6 +37,11 @@ $(function() {
 	  }
     });
 });
+
+$('.dragbild').on('dragstart', function (event)
+{
+  $(".dragbild").css({"width": $('.svar').width(), "height": $('.svar').width()});
+}
 	
 var answers = {};
 var count = 0;
