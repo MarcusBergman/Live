@@ -19,6 +19,11 @@ for (var i=0; i<bilder.length; i++)
   
 var bredd =  72/bilder.length;
 
+if (bredd > 24)
+{
+  bredd = 24;
+}
+
 $(".imagecontainer").css("width", bredd +"%");
 $(".imagecontainer").css("height", $('.imagecontainer').width());
 $(".arrows").css("width", bredd/3 +"%");
