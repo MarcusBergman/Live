@@ -86,27 +86,18 @@ p
   width: 75px;
   height: 50px;
 }
-
+u
+{
+  font-size: 250%;
+}
 #text
 {
   position: relative;
   top: 13%;
   left: 11%;
-}
-
-#text2
-{
-  position: relative;
-  top: 16%;
-  left: 11%;
-}
-
-#text3
-{
-  position: absolute;
-  top: 1%;
-  left: 10%;
-  text-decoration: underline;
+  width: 50%;
+  height: 25%;
+  font-size: 150%;
 }
 
 #title
