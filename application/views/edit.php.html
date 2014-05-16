@@ -72,6 +72,9 @@
 			   temp = bilder[i];
 			   bilder[i] = bilder[(i+1)];
 			   bilder[i+1] = temp;
+			   var $pil = $("#left"+i);
+               $pil.removeClass("spinEffect");
+               setTimeout(function(){$pil.addClass("spinEffect")},0);
 			 },
              error:   function() { alert("Det gick dåligt!"); }
            }
