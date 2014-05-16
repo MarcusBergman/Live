@@ -136,7 +136,7 @@ p
 	#starta
 	{
 	  float: none;
-	  top: 25%;
+	  top: 22%;
 	  left: 2%;
 	  width: 92%;
 	}
@@ -144,7 +144,7 @@ p
 	#redigera
 	{
 	  float: none;
-	  top: 55%;
+	  top: 52%;
 	  left: 2%;
 	  width: 92%;
 	}
@@ -152,7 +152,7 @@ p
 	#skapa
 	{
 	  float: none; 
-      top: 85%;
+      top: 82%;
       left: 2%;	
       width: 92%;	  
 	}
