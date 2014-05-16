@@ -1,6 +1,7 @@
+var testigera = "";
+
 function redirect()
 {
-  var testigera = "";
   
   window.location.href = '"http://august.friskola.nu/'testigera'/"'+document.getElementById("testnamn").value
 }
