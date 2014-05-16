@@ -181,8 +181,7 @@ u
 
 #add
 {
-  cursor: pointer;
-  position: absolute;
+  position: relative;
   top: 60%;
   left: 42.5%;
   width: 12%;
