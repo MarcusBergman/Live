@@ -3,12 +3,18 @@ html, body
   overflow: hidden;
   height: 100%;
   width: 100%;
+  font-family: 'Oswald', sans-serif;
 }
 
 html, body, div
 {
   margin: 0;
   padding: 0;
+}
+
+input, select, textarea, button
+{
+  font-family: inherit;
 }
 
 #bakgrund
@@ -59,7 +65,6 @@ p
   background-color: black;
   -webkit-appearance: none;
 }
-
 
 #bilder
 {
