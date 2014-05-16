@@ -18,6 +18,49 @@ html, body, div
   height:100%;
 }
 
+#feltest
+{
+  position: absolute;
+  top: 20%;
+  left: 28%;
+  width: 45%;
+  height: 50%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+p
+{
+  position: absolute;
+  top: 10%;
+  left: 26%;
+  font-size: 200%;
+}
+
+#testnamn
+{
+  position: absolute;
+  top: 48%;
+  left: 38%;
+  width: 22%;
+  height: 12%;
+  font-size: 200%;
+}
+
+#ok
+{
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  width: 18%;
+  height: 15%;
+  font-size: 150%;
+  color: white;
+  background-color: black;
+  -webkit-appearance: none;
+}
+
+
 #bilder
 {
   position: absolute;
@@ -45,12 +88,14 @@ html, body, div
   top: 13%;
   left: 11%;
 }
+
 #text2
 {
   position: relative;
   top: 16%;
   left: 11%;
 }
+
 #text3
 {
   position: absolute;
@@ -59,19 +104,17 @@ html, body, div
   text-decoration: underline;
 }
 
-
-
- #title
- {
+#title
+{
   position: absolute;
   top: 13%;
   left: 22%;
   width: 15%;
   height: 5%;
   font-size: 150%;
- }
+}
  
- #popup
+#popup
 {
   position: absolute;
   top: -100%;
