@@ -12,11 +12,11 @@
   {
     $tmp_name = $_FILES["picture"]["tmp_name"];
     $name = $_FILES["picture"]["name"];
-	array explode ( string "." , string $name);
-	$name = count($test[images]) . explode[1];
-    move_uploaded_file($tmp_name, "$uploads_dir/$publicID/$name");
+	$explodedName = explode ("." , $name);
+	$newName = count($test['images']) .".". $explodedName[1];
+    move_uploaded_file($tmp_name, "$uploads_dir/$publicID/$newName");
 		
-    $test['images'][] = $name;
+    $test['images'][] = $newName;
 	updateTestByPrivateID($privateID, $test);
 		
   }
