@@ -1,12 +1,11 @@
 #blackBar
 {
   position: absolute;
-  width: 100%;
+  width: 98%;
+  padding-right: 2%;
   height: 4%;
   background-color: black;
   color: white;
-  padding-top: 2%;
-  padding-right: 4%;
   text-align: right;
   font-family: 'Oswald';
   font-size: 100%;
