@@ -206,7 +206,7 @@ u
   font-size: 150%;
 }
 
-#testid + div
+#info
 {
   display: none;
   position: absolute;
