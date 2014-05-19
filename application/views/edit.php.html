@@ -4,10 +4,9 @@
   $test = getTestByPrivateID($privateID);
   $publicID = getPublicIDByPrivateID($privateID);
 
-
- $stylesheet = "edit";
- include("views/header.php.html");
- if (empty($test)) { ?>
+  $stylesheet = "edit";
+  include("views/header.php.html");
+  if (empty($test)) { ?>
     <div id="feltest">
 	  <p>Testet du angett finns inte.<br>
 	  Försök igen:</p>
@@ -34,6 +33,10 @@
         <input name="picture" onchange="this.form.submit()" type="file" id="fileinput"/>
 	  </form>
     </div>
+	</div>
+	<div id="testid">
+	  PrivatID = <?= $privateID ?><br>
+	  PubliktID = <?= $publicID ?>
 	</div>
   </div>
   

@@ -19,6 +19,11 @@ $("#redigera").click(function()
   $("#popup").css("top", "30%");
 });
   
+$("#skapa").click(function()
+{
+  window.location.href = 'http://august.friskola.nu/nytt'
+});  
+  
 $("#kryss").click(function()
 {
   $("#popup").css("top","-100%");
