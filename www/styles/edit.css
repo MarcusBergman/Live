@@ -206,6 +206,24 @@ u
   font-size: 150%;
 }
 
+#info
+{
+  display: none;
+  position: absolute;
+  width: 0px;
+  height: 0px;
+}
+
+#testid:hover + div
+{
+  display: block;
+  position: absolute;
+  left: 15%;
+  top: 70%;
+  width: 10%;
+  height: 10%;
+}
+
 .arrows:hover { 
   -webkit-transform: rotate(360deg); 
   -moz-transform: rotate(360deg); 
