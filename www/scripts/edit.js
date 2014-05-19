@@ -34,4 +34,3 @@ $(document).ready(function() {
     $('#fileinput')[0].click();
     });
 });
-
