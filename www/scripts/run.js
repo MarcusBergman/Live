@@ -25,8 +25,8 @@ var bredd =  84/bilder.length;
 
 $(".svar").css("width", bredd +"%");
 $(".svar").css("height", $('.svar').width());
-$(".dragbild").css({"width": $('.svar').width(), "height": $('.svar').width()});
-	
+$(".dragbild").css({"width": "24%", "height": "24%");
+
 $(function()
 {
   $( ".dragbild" ).draggable({ snap: ".svar", snapMode: "inner", containment: "#bakgrund"});
