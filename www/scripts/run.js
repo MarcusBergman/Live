@@ -37,9 +37,9 @@ $(function()
     });
 });
 
-$('.dragbild').on('dragstart', function (event, ui)
+$('ui-draggable').on('dragstart', function (event, ui)
 {
-   var id = ui.draggable.attr("id")
+   var id = event.target.attr("id")
    $(id).css({"width": $('.svar').width(), "height": $('.svar').width()});
 });
 	
