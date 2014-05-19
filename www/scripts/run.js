@@ -39,8 +39,7 @@ $(function()
 
 $('.dragbild').on('dragstart', function (event)
 {
-  var startDrag = ui.draggable.attr("id");
-  $(startDrag).css({"width": $('.svar').width(), "height": $('.svar').width()});
+  $(ui.draggable).css({"width": $('.svar').width(), "height": $('.svar').width()});
 });
 	
 var answers = {};
