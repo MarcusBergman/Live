@@ -40,7 +40,7 @@ $(function()
 $('.dragbild').on('dragstart', function (event)
 {
    var dragBild = $(event.target).attr("id");
-  $('dragBild').css({"width": $('.svar').width(), "height": $('.svar').width()});
+  dragBild.css({"width": $('.svar').width(), "height": $('.svar').width()});
 });
 	
 var answers = {};
