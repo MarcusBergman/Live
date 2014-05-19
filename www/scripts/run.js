@@ -51,12 +51,12 @@ $("input[type=submit]").click(function(){
     if (facit[question] != answers[question])
     {
       allCorrect = false;
-	  $("#"+question).html('<img src="/images/rodkryss.png" class="kryss" />')
+	  $("#"+question).html('<img src="/images/rodkryss.png" class="kryss" />');
     }
     else
     {
-	  $("#"+question).html('<img src="/images/gronbock.png" class="bock" />')
-	  $(question).draggable('disable');
+	  $("#"+question).html('<img src="/images/gronbock.png" class="bock" />');
+	  $("#"+facit[question]).draggable('disable');
     }	
  		
 	if (allCorrect)
