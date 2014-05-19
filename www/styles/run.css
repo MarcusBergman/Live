@@ -115,6 +115,8 @@ p
 .dragbild
 {
   float: left;
+  width: 24%;
+  height: 24%;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
