@@ -21,7 +21,7 @@ for (var i=0; i<blandadeBilder.length; i++){
   $('#bilder').append('<div id="'+blandadeBilder[i].id+'" class="dragbild" style="background-image: url('+blandadeBilder[i].file+')"></div>');
 }
   
-$(".dragbild").css({"width": "24%", "height": "24%"});
+$(".dragbild").css({"width": "4%", "height": "4%"});
   
 var bredd =  84/bilder.length;
 
