@@ -11,7 +11,7 @@
    '/^redigera\/([a-zA-Z]+)$/'              => 'views/edit.php.html',
    '/^testa\/([a-zA-Z]+)$/'                 => 'views/run.php.html',
    '/^nytt$/'                               => 'controllers/new.php',
-   '/^uppdateraTitel\/([a-zA-Z]+)$/'       => 'controllers/updateTitle.php',
+   '/^uppdateraTitel\/([a-zA-Z]+)$/'        => 'controllers/updateTitle.php',
    '/^bytBild\/([a-zA-Z]+)\/(\d+)\/(\d+)$/' => 'controllers/swapImages.php',
    '/^taBortBild\/([a-zA-Z]+)\/(\d+)$/'     => 'controllers/deleteImage.php',
    '/^laddaUppBild\/([a-zA-Z]+)$/'          => 'controllers/upload.php',
