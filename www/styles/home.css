@@ -8,6 +8,12 @@ html, body
   font-family: 'Oswald', sans-serif;
 }
 
+html, body, div
+{
+  margin: 0;
+  padding: 0;
+}
+
 input, select, textarea, button
 {
   font-family: inherit;
