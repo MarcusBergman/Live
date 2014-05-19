@@ -1,8 +1,9 @@
 #blackBar
 {
   position: absolute;
-  width: 98%;
-  padding-right: 2%;
+  width: 99%;
+  padding-right: 1%;
+  padding-top: 1%;
   height: 4%;
   background-color: black;
   color: white;
