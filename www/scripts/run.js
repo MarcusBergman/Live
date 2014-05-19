@@ -37,10 +37,11 @@ $(function()
     });
 });
 
-// $('.dragbild').on('dragstart', function (event)
-// {
-   // .css({"width": $('.svar').width(), "height": $('.svar').width()});
-// });
+$('.dragbild').on('dragstart', function (event)
+{
+   var id = ui.draggable.attr("id")
+   $(id).css({"width": $('.svar').width(), "height": $('.svar').width()});
+});
 	
 var answers = {};
 var count = 0;
