@@ -25,7 +25,6 @@ var bredd =  84/bilder.length;
 
 $(".svar").css("width", bredd +"%");
 $(".svar").css("height", $('.svar').width());
-//$(".dragbild").css({"width": $('.svar').width(), "height": $('.svar').width()});
 	
 $(function()
 {
@@ -38,10 +37,10 @@ $(function()
     });
 });
 
-// $('.dragbild').on('dragstart', function (event)
-// {
-  // $(".dragbild").css({"width": $('.svar').width(), "height": $('.svar').width()});
-// });
+$('.dragbild').on('dragstart', function (event)
+{
+  $(".dragbild").css({"width": $('.svar').width(), "height": $('.svar').width()});
+});
 	
 var answers = {};
 var count = 0;
