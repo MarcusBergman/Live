@@ -37,12 +37,6 @@ $(function()
 	  }
     });
 });
-
-// $('.dragbild').on('dragstart', function (event, ui)
-// {
-   // var id = ui.draggable.attr("id")
-   // $(id).css({"width": $('.svar').width(), "height": $('.svar').width()});
-// });
 	
 var answers = {};
 var count = 0;
@@ -62,7 +56,7 @@ $("input[type=submit]").click(function(){
     else
     {
 	  $("#"+question).html('<img src="/images/gronbock.png" class="bock" />')
-	  $("#").draggable('disable');
+	  $("#"+this.id).draggable('disable');
     }	
  		
 	if (allCorrect)
