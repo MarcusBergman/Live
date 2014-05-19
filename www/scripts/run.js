@@ -56,7 +56,7 @@ $("input[type=submit]").click(function(){
     else
     {
 	  $("#"+question).html('<img src="/images/gronbock.png" class="bock" />')
-	  $("#"+this.id).draggable('disable');
+	  $("#"+question.id).draggable('disable');
     }	
  		
 	if (allCorrect)
