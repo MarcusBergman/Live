@@ -25,7 +25,7 @@ var bredd =  84/bilder.length;
 
 $(".svar").css("width", bredd +"%");
 $(".svar").css("height", $('.svar').width());
-$(".dragbild").css({"width": $('.svar').width(), "height": $('.svar').width()});
+//$(".dragbild").css({"width": $('.svar').width(), "height": $('.svar').width()});
 	
 $(function()
 {
