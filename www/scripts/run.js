@@ -29,7 +29,8 @@ $(".dragbild").css("height", $('.dragbild').width());
 	
 $(function()
 {
-  $( ".dragbild" ).draggable({ start: function( event, ui ) { $("#"+this.id).css({"width": $('.svar').width(), "height": $('.svar').width()});  }, snap: ".svar", snapMode: "inner", containment: "#bakgrund"});
+  $( ".dragbild" ).draggable({ start: function( event, ui ) { $("#"+this.id).css({"width": $('.svar').width(), "height": $('.svar').width(), "float" : "none"});  }, 
+                               snap: ".svar", snapMode: "inner", containment: "#bakgrund"});
     $( ".svar" ).droppable({
       drop: function( event, ui )
 	  {
