@@ -26,7 +26,6 @@ var bredd =  84/bilder.length;
 $(".svar").css("width", bredd +"%");
 $(".svar").css("height", $('.svar').width());
 $(".dragbild").css("height", $('.dragbild').width());
-$(".dragbild").css({"position": "absolute","float": "none"});
 	
 $(function()
 {
@@ -35,6 +34,8 @@ $(function()
     $( ".svar" ).droppable({
       drop: function( event, ui )
 	  {
+	    var dragID = ui.draggable.attr("id");
+		$(dragID).css("position", "absolute");
 	    answers [this.id]=ui.draggable.attr("id");
 	  }
     });
