@@ -27,9 +27,16 @@ $(".svar").css("width", bredd +"%");
 $(".svar").css("height", $('.svar').width());
 $(".dragbild").css("height", $('.dragbild').width());
 	
+$(function($) {
+    var currentMousePos = { x: -1, y: -1 };
+    $(document).mousemove(function(event) {
+        currentMousePos.x = event.pageX;
+        currentMousePos.y = event.pageY;
+    });
+});	
 $(function()
 {
-  $(".dragbild" ).draggable({ start: function( event, ui ){ $("#"+this.id).css({"width": $('.svar').width(), "height": $('.svar').width(), position : "absolute", "z-index":"2"});}, 
+  $(".dragbild" ).draggable({ start: function( event, ui ){ $("#"+this.id).css({"width": $('.svar').width(), "height": $('.svar').width(), position : "absolute", "z-index":"2"});}, //musens kordinater
                                snap: ".svar", snapMode: "inner", containment: "#bakgrund"});
     $(".svar" ).droppable({
       drop: function( event, ui )
