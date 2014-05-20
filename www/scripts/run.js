@@ -37,17 +37,19 @@ $(function()
 {
   $(".dragbild" ).draggable({ start: function( event, ui )
   { 
-    $("#"+this.id).css({"width": $('.svar').width(),
-	"height": $('.svar').width(),
-	position : "absolute", 
-	"top": "500px", 
-	"left": "500px" ,
+    // $("#"+this.id).css({"width": $('.svar').width(),
+	// "height": $('.svar').width(),
+	// position : "absolute", 
+	// "top": "500px", 
+	// "left": "500px" ,
 	"z-index":"2"});
   }, 
                                snap: ".svar", snapMode: "inner", containment: "#bakgrund"});
     $(".svar" ).droppable({
       drop: function( event, ui )
 	  {
+	    var dragID = ui.draggable.attr("id");
+	    $("#"+dragID).css({"width": $('.svar').width(),"height": $('.svar').width()});
 	    answers [this.id]=ui.draggable.attr("id");
 	  }
     });
