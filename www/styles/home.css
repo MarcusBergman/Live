@@ -43,15 +43,13 @@ input
 h1
 {
   position: relative;
-  top: 8%;
+  top: 5%;
   text-align: center;
   font-size: 300%;
 }
 
 h2
 {
-  position: relative;
-  top: 12%;
   text-align: center;
   font-size: 250%;
 }
