@@ -5,7 +5,7 @@ $('#title').on('change keydown paste input', function()
 
 for (var i=0; i<bilder.length; i++)
 {
-  $('#bilder').append('<div id="bild'+i+'" class="imagecontainer"><div id="trash'+i+'" class="trashdiv"><img src="/images/delete.png" class="trash" /></div></div>');
+  $('#bilder').append('<div id="bild'+i+'" class="imagecontainer"><div id="trash'+i+'" class="trashdiv" style="background-image: url("/images/delete.png")"></div></div>');
   $('#bild'+i).css('background-image', 'url('+bilder[i].file+')');
   eval('$("#trash'+i+'").click(function(){ taBortBild('+i+'); }); ');
 
