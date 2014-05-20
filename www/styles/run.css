@@ -114,17 +114,10 @@ p
   height: 100%;
 }
 
-.dragBild
+.dragbild
 {
   float: left;
   width: 18%;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.dragBild2
-{
-  float: none;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

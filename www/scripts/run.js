@@ -18,18 +18,18 @@ function shuffleArray(array)
 var blandadeBilder = shuffleArray(bilder);
 
 for (var i=0; i<blandadeBilder.length; i++){	
-  $('#bilder').append('<div id="'+blandadeBilder[i].id+'" class="dragBild" style="background-image: url('+blandadeBilder[i].file+')"></div>');
+  $('#bilder').append('<div id="'+blandadeBilder[i].id+'" class="dragbild" style="background-image: url('+blandadeBilder[i].file+')"></div>');
 }
   
 var bredd =  84/bilder.length;
 
 $(".svar").css("width", bredd +"%");
 $(".svar").css("height", $('.svar').width());
-$(".dragBild").css("height", $('.dragBild').width());
+$(".dragbild").css("height", $('.dragbild').width());
 	
 $(function()
 {
-  $( ".dragBild" ).draggable({ start: function( event, ui ) { $("#"+this.id).css({"width": $('.svar').width(), "height": $('.svar').width()}).removeClass('dragBild').addClass('dragBild2');}, 
+  $( ".dragbild" ).draggable({ start: function( event, ui ) { $("#"+this.id).css({"width": $('.svar').width(), "height": $('.svar').width()});}, 
                                snap: ".svar", snapMode: "inner", containment: "#bakgrund"});
     $( ".svar" ).droppable({
       drop: function( event, ui )
