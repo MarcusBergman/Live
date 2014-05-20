@@ -29,13 +29,13 @@ $(".dragbild").css("height", $('.dragbild').width());
 	
 $(function()
 {
-  $( ".dragbild" ).draggable({ start: function( event, ui ) { $("#"+this.id).css({"width": $('.svar').width(), "height": $('.svar').width(),"position":"absolute"});}, 
+  $( ".dragbild" ).draggable({ start: function( event, ui ) { $("#"+this.id).css({"width": $('.svar').width(), "height": $('.svar').width(), position: "absolute"});}, 
                                snap: ".svar", snapMode: "inner", containment: "#bakgrund"});
     $( ".svar" ).droppable({
       drop: function( event, ui )
 	  {
-	    var dragID = ui.draggable.attr("id");
-		$(dragID).css("position", "absolute");
+	    // var dragID = ui.draggable.attr("id");
+		// $(dragID).css("position", "absolute");
 	    answers [this.id]=ui.draggable.attr("id");
 	  }
     });
