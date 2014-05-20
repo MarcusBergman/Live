@@ -37,12 +37,12 @@ $(function()
 {
   $(".dragbild" ).draggable({ start: function( event, ui )
   { 
-    // $("#"+this.id).css({"width": $('.svar').width(),
-	// "height": $('.svar').width(),
-	// position : "absolute", 
-	// "top": "500px", 
-	// "left": "500px" ,
-	"z-index":"2"});
+    // // $("#"+this.id).css({"width": $('.svar').width(),
+	// // "height": $('.svar').width(),
+	// // position : "absolute", 
+	// // "top": "500px", 
+	// // "left": "500px" ,
+	// "z-index":"2"});
   }, 
                                snap: ".svar", snapMode: "inner", containment: "#bakgrund"});
     $(".svar" ).droppable({
