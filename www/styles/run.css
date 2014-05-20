@@ -121,6 +121,7 @@ p
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  display: inline-block;
 }
 
 .bock
