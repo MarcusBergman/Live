@@ -39,6 +39,19 @@ input
   left: 24%;
   width: 50%;
 }
+
+h1
+{
+  text-align: center;
+  font-size: 250%;
+}
+
+h2
+{
+  text-align: center;
+  font-size: 200%;
+}
+
 #starta
 {
   position: absolute;
