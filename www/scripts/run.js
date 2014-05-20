@@ -34,7 +34,8 @@ $(function()
     $( ".svar" ).droppable({
       drop: function( event, ui )
 	  {
-		ui.draggable.attr("id").css("position","absolute");
+	    var dragID = ui.draggable.attr("id");
+		$(dragID).css("position","absolute");
 	    answers [this.id]=ui.draggable.attr("id");
 	  }
     });
