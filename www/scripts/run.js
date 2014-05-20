@@ -36,7 +36,6 @@ $(function()
 	  {
 	    var dragID = ui.draggable.attr("id");
 		$(dragID).css("position", "absolute");
-		$(".dragbild").css("float", "none");
 	    answers [this.id]=ui.draggable.attr("id");
 	  }
     });
