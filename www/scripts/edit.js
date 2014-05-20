@@ -22,7 +22,7 @@ var bredd =  72/bilder.length;
 if (bredd > 24)
 {
   bredd = 24;
-  $('#bilder').css("left","15%");
+  $('#bilder').css("left","22%");
 }
 
 $(".imagecontainer").css("width", bredd +"%");
