@@ -37,7 +37,7 @@ $(function()
 {
   $(".dragbild" ).draggable({ start: function( event, ui )
   { 
-    $("#"+this.id).css({"width": $('.svar').width(), "height": $('.svar').width(), position : "absolute", "top": currentMousePos.y ,"z-index":"2"});
+    $("#"+this.id).css({"width": $('.svar').width(), "height": $('.svar').width(), position : "absolute", "top": currentMousePos.y, "left": currentMousePos.x ,"z-index":"2"});
   }, 
                                snap: ".svar", snapMode: "inner", containment: "#bakgrund"});
     $(".svar" ).droppable({
