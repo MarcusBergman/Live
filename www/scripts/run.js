@@ -29,9 +29,9 @@ $(".dragbild").css("height", $('.dragbild').width());
 	
 $(function()
 {
-  $( ".dragbild" ).draggable({ start: function( event, ui ){ $("#"+this.id).css({"width": $('.svar').width(), "height": $('.svar').width(), position : "absolute"});}, 
+  $(".dragbild" ).draggable({ start: function( event, ui ){ $("#"+this.id).css({"width": $('.svar').width(), "height": $('.svar').width(), position : "absolute"});}, 
                                snap: ".svar", snapMode: "inner", containment: "#bakgrund"});
-    $( ".svar" ).droppable({
+    $(".svar" ).droppable({
       drop: function( event, ui )
 	  {
 	    answers [this.id]=ui.draggable.attr("id");
