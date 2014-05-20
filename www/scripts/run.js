@@ -35,7 +35,7 @@ $(function()
       drop: function( event, ui )
 	  {
 	    var dragID = ui.draggable.attr("id");
-		$(dragID).css("position", "absolute").removeClass('dragbild').addClass('dragbild2');
+		$(dragID).css("position", "absolute");
 	    answers [this.id]=ui.draggable.attr("id");
 	  }
     });
