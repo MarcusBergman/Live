@@ -35,7 +35,7 @@ $(function()
       drop: function( event, ui )
 	  {
 	    var dragID = ui.draggable.attr("id");
-		$(dragID).css("float","none");
+		$(dragID).css({"position": "absolute", "float": "none"});
 	    answers [this.id]=ui.draggable.attr("id");
 	  }
     });
