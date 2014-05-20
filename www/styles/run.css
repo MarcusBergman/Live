@@ -116,7 +116,7 @@ p
 
 .dragbild
 {
-  position: relative;
+  float: left;
   width: 18%;
   background-size: contain;
   background-position: center;
