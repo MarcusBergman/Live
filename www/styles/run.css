@@ -144,7 +144,8 @@ p
 {
   position: absolute;
   top: 65%;
-  left: 33%;
+  width: 100%;
+  text-align: center;
   font-size: 250%;
 }
 
