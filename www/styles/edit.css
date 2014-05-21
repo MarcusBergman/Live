@@ -221,8 +221,16 @@ u
   
   #title
     {
-    left: 34%;
+    left: 33%;
 	width: 40%;
 	font-size: 100%;
+  }
+  
+  #add
+    {
+	position: absolute;
+	top: 50%;
+	width: 14%;
+	height: 16%;
   }
 }
