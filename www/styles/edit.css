@@ -18,6 +18,12 @@ input, select, textarea, button
   font-family: inherit;
 }
 
+input
+{
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
 #bakgrund
 {
   position: absolute;
@@ -267,6 +273,12 @@ u
 	top: 11%; 
     left: 22%;
 	height: 7%;
+  }
+  
+  .trashdiv
+    {
+	width: 30%;
+	height: 30%;
   }
   
   #add
