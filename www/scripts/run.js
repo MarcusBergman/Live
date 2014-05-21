@@ -23,11 +23,11 @@ for (var i=0; i<blandadeBilder.length; i++){
   if (i <= 5)
     $("#"+blandadeBilder[i].id).css("top","0%");
   else if (i > 5 && i <= 10)	
-    $("#"+blandadeBilder[i].id).css("top","40%");
+    $("#"+blandadeBilder[i].id).css("top","36%");
   else if (i > 10 && i <= 15)	
-    $("#"+blandadeBilder[i].id).css("top","80%");
+    $("#"+blandadeBilder[i].id).css("top","72%");
   else
-    $("#"+blandadeBilder[i].id).css("top","120%");  
+    $("#"+blandadeBilder[i].id).css("top","108%");  
 	
   $("#"+blandadeBilder[i].id).css("left", (i%5)*18+"%")	
 }
