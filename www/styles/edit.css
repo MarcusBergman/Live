@@ -271,11 +271,7 @@ u
   
   u
     {
-	position: absolute;
-	top: 0%;
-	font-size: 150%;'
-	color: white;
-	z-index: 101;
+	display: none;
   }
   
   #text
