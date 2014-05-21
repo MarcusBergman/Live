@@ -48,7 +48,7 @@ $(function()
   $(".dragbild" ).draggable({ 
     start: function( event, ui )
   { 
-    $("#"+this.id).css({"width": $('.svar').width(),"height": $('.svar').width(), "top": mousePosY, "left": mousePosX});
+    $("#"+this.id).css({"width": $('.svar').width(),"height": $('.svar').width(), "top": +mousePosY+, "left": +mousePosX+});
   }, 
     snap: ".svar", snapMode: "inner", stack: ".dragbild" ,containment: "#bakgrund"});
     $(".svar" ).droppable({
