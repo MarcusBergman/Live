@@ -45,7 +45,7 @@ $(function()
   { 
     $("#"+this.id).css({"width": $('.svar').width(),"height": $('.svar').width()});
 	$( document ).on( "mousemove", function( event ) {
-      $("#"+this.id).offset({left: event.pageX, top: event.pageY});
+      $("#"+this.id).position({left: event.pageX, top: event.pageY});
     });
   }, 
     snap: ".svar", snapMode: "inner", stack: ".dragbild" ,containment: "#bakgrund"});
