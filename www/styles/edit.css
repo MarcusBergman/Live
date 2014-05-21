@@ -238,6 +238,7 @@ u
   
   .trashdiv
     {
+	left: 60%;
 	width: 30%;
 	height: 30%;
 	-moz-border-radius: 0px;
@@ -285,6 +286,7 @@ u
   
   .trashdiv
     {
+	left: 60%;
 	width: 30%;
 	height: 30%;
   }
