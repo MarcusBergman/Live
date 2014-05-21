@@ -4,6 +4,12 @@
 
 August kommer att vara ett system ämnat för lärare och elever på högstadiet.
 
+Vår .htacces redirectar dig till index.php eller anpassad feldokumentsida (404 error page).
+
+index.php redirectar dig till de olika vyerna beroende på vad du skriver i URL:n.
+
+Vi använder databasen db4.
+
 Man har tre alternativ på main sidan. Du kan skapa ett test, redigera ett befintligt test eller starta ett test. Väljer du att skapa test kommer du in på på http://august.friskola.nu/redigera/"RandomPrivatID". Testet skapar också ett publikt ID. På redigerar sidan kan man lägga upp bilder och sortera dom i den ordning man önskar.
 Det privata ID använder du när du ska redigera ditt test och det publika ID används till användare som ska starta testet.
 
