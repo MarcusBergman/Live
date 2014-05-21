@@ -275,6 +275,7 @@ u
 	top: 0%;
 	font-size: 150%;'
 	color: white;
+	z-index: 101;
   }
   
   #text
