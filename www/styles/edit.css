@@ -236,6 +236,14 @@ u
 	font-size: 100%;
   }
   
+  .trashdiv
+    {
+	width: 30%;
+	height: 30%;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+  }
+  
   #add
     {
 	position: absolute;
