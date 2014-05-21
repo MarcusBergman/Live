@@ -19,6 +19,15 @@ var blandadeBilder = shuffleArray(bilder);
 
 for (var i=0; i<blandadeBilder.length; i++){	
   $('#bilder').append('<div id="'+blandadeBilder[i].id+'" class="dragbild" style="background-image: url('+blandadeBilder[i].file+')"></div>');
+  
+  if (i <= 5)
+    $(blandadeBilder[i].id).css({"top":"45%", "left": "%"});
+  else if (i > 5 && i <= 10)	
+    $(blandadeBilder[i].id).css({"top":"75%", "left": "%"});
+  else if (i > 10 && i <= 15)	
+    $(blandadeBilder[i].id).css({"top":"105%", "left": "%"});
+  else
+    $(blandadeBilder[i].id).css({"top":"135%", "left": "%"});  
 }
   
 var bredd =  84/bilder.length;
@@ -32,8 +41,7 @@ $(function()
   $(".dragbild" ).draggable({ 
     start: function( event, ui )
   { 
-    $("#"+this.id).css({"width": $('.svar').width(),"height": $('.svar').width(), position: "absolute"});
-	$("#bilder").append('<div class="platstagare"></div>');
+    $("#"+this.id).css({"width": $('.svar').width(),"height": $('.svar').width()});
   }, 
     snap: ".svar", snapMode: "inner", stack: ".dragbild" ,containment: "#bakgrund"});
     $(".svar" ).droppable({
