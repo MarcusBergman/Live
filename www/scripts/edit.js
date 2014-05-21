@@ -1,3 +1,5 @@
+window.onorientationchange = function() { location.reload() };
+
 $('#title').on('change keydown paste input', function() 
 {
   updateTitle();
