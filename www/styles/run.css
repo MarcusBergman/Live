@@ -219,6 +219,7 @@ p
     height: 10%;
     font-size: 100%;
   }
+  
   #resultat
     {
     font-size: 150%;
@@ -229,9 +230,12 @@ p
 {
   #rubrik 
    {
-    left: 40%;
-    top: 1%;   
+    top: 1%;
+    width: 100%;
+    text-align: center;
+    color: white;	
   }
+  
   #rätta
     {
     top: 86%;
