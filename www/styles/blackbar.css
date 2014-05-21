@@ -11,3 +11,11 @@
   font-family: 'Oswald';
   font-size: 140%;
 }
+
+@media only all and (max-width: 568px) 
+{
+  #blackBar
+    {
+   height: 6%; 
+  }
+}
