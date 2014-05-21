@@ -242,3 +242,14 @@ u
 	font-size: 100%;
   }
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape)
+{
+  u
+    {
+	position: absolute;
+	top: 1%;
+	font-size: 100%;
+	color: white;
+  }
+}
