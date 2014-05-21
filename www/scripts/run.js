@@ -37,16 +37,17 @@ var bredd =  84/bilder.length;
 $(".svar").css("width", bredd +"%");
 $(".svar").css("height", $('.svar').width());
 $(".dragbild").css("height", $('.dragbild').width());
+
+$( document ).on( "mousemove", function( event ) {
+  var mousePosY = event.pageY;
+  var mousePosX = event.pageX;
+});
 	
 $(function()
 {
   $(".dragbild" ).draggable({ 
     start: function( event, ui )
   { 
-    $( document ).on( "mousemove", function( event ) {
-      var mousePosY = event.pageY;
-	  var mousePosX = event.pageX;
-    });
     $("#"+this.id).css({"width": $('.svar').width(),"height": $('.svar').width(), "top": mousePosY, "left": mousePosX});
   }, 
     snap: ".svar", snapMode: "inner", stack: ".dragbild" ,containment: "#bakgrund"});
