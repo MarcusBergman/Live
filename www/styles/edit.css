@@ -253,6 +253,12 @@ u
 	color: white;
   }
   
+  #text
+    {
+	position: absolute;
+	top: 0%;
+  }
+  
   #title
     {
 	top: 16%; 
