@@ -10,6 +10,7 @@
   text-align: right;
   font-family: 'Oswald';
   font-size: 140%;
+  z-index: 100;
 }
 
 @media only all and (max-width: 568px) 
