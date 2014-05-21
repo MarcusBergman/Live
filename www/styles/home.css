@@ -32,14 +32,6 @@ input
   height: 100%;
 }
 
-#augustbild
-{
-  position: absolute;
-  top: 12%;
-  left: 24%;
-  width: 50%;
-}
-
 h1
 {
   position: relative;
@@ -146,13 +138,16 @@ p
 }
 
 @media only all and (max-width: 568px) 
-{
-    #augustbild
+{	
+    h1
 	{
-      width: 98%;
-	  top: 4%;
-	  left: -1%;
-    }
+	  display:none;
+	}
+	
+	h2
+	{
+	  display:none;
+	}
 	
 	#starta
 	{
