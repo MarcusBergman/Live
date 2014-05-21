@@ -33,7 +33,7 @@ $(function()
     start: function( event, ui )
   { 
     $("#"+this.id).css({"width": $('.svar').width(),"height": $('.svar').width(), position: "absolute"});
-	$("#bilder").prepend('<div class="platstagare"></div>');
+	$("#bilder").append('<div class="platstagare"></div>');
   }, 
     snap: ".svar", snapMode: "inner", stack: ".dragbild" ,containment: "#bakgrund"});
     $(".svar" ).droppable({
