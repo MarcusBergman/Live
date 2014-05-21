@@ -208,3 +208,14 @@ u
   -o-transform: rotate(360deg);
   -ms-transform: rotate(360deg); 
 }
+
+@media only all and (max-width: 568px) 
+{
+  #text
+    {
+    top: 5%;
+    left: 2%;
+    width: 98%;
+    font-size: 100%;	
+  }
+}
