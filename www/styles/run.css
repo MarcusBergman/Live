@@ -126,7 +126,7 @@ p
 
 .platstagare
 {
-  position: absolute;
+  position: relative;
   width: 24%;
   height: 243px;
   clear: both;
