@@ -31,7 +31,7 @@ input, select, textarea, button
   top: 7%;
   left: 2%;
   width: 96%;
-  height: 88%;
+  height: 94%;
   background-color: white;
   -moz-border-radius: 15px;
   border-radius: 15px;
@@ -118,7 +118,7 @@ u
 #title
 {
   position: absolute;
-  top: 17%;
+  top: 16%;
   left: 19%;
   width: 30%;
   height: 5%;
