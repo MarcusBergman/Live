@@ -224,6 +224,7 @@ u
   
   #title
     {
+	top: 16%;
     left: 33%;
 	width: 40%;
 	font-size: 100%;
@@ -253,7 +254,6 @@ u
 	position: absolute;
 	top: 0%;
 	font-size: 100%;
-	color: white;
   }
   
   #text
