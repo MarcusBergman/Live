@@ -21,7 +21,7 @@ for (var i=0; i<blandadeBilder.length; i++){
   $('#bilder').append('<div id="'+blandadeBilder[i].id+'" class="dragbild" style="background-image: url('+blandadeBilder[i].file+')"></div>');
   
   if (i <= 5)
-    $("#"+blandadeBilder[i].id).css("top","5%");
+    $("#"+blandadeBilder[i].id).css("top","0%");
   else if (i > 5 && i <= 10)	
     $("#"+blandadeBilder[i].id).css("top","75%");
   else if (i > 10 && i <= 15)	
