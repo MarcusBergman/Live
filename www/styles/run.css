@@ -73,7 +73,7 @@ p
   top: 13%;
   left: 2%;
   width: 96%;
-  height: 150%;
+  height: 88%;
   -moz-border-radius: 15px;
   border-radius: 15px;
   background-image: url(http://august.friskola.nu/images/geometry.png);
@@ -116,7 +116,6 @@ p
 
 .dragbild
 {
-  position: absolute;
   z-index: 1;
   float: left;
   width: 18%;
