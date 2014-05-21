@@ -37,18 +37,16 @@ var bredd =  84/bilder.length;
 $(".svar").css("width", bredd +"%");
 $(".svar").css("height", $('.svar').width());
 $(".dragbild").css("height", $('.dragbild').width());
-
-$( document ).on( "mousemove", function( event ) {
-  var mousePosY = event.pageY;
-  var mousePosX = event.pageX;
-});
 	
 $(function()
 {
   $(".dragbild" ).draggable({ 
     start: function( event, ui )
   { 
-    $("#"+this.id).css({"width": $('.svar').width(),"height": $('.svar').width(), "top": mousePosY, "left": mousePosX});
+    $("#"+this.id).css({"width": $('.svar').width(),"height": $('.svar').width()});
+	$( document ).on( "mousemove", function( event ) {
+      $("#"+this.id).offset({left:e.pageX,top:e.pageY});
+    });
   }, 
     snap: ".svar", snapMode: "inner", stack: ".dragbild" ,containment: "#bakgrund"});
     $(".svar" ).droppable({
