@@ -43,7 +43,11 @@ $(function()
   $(".dragbild" ).draggable({ 
     start: function( event, ui )
   { 
-    $("#"+this.id).css({"width": $('.svar').width(),"height": $('.svar').width(), "top": event.pageY, "left": event.pageX});
+    $( document ).on( "mousemove", function( event ) {
+      var mousePosY = event.pageY;
+	  var mousePosX = event.pageX;
+    });
+    $("#"+this.id).css({"width": $('.svar').width(),"height": $('.svar').width(), "top": mousePosY, "left": mousePosX});
   }, 
     snap: ".svar", snapMode: "inner", stack: ".dragbild" ,containment: "#bakgrund"});
     $(".svar" ).droppable({
