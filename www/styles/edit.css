@@ -90,16 +90,6 @@ p
  
 }
 
-#titel
-{
-  float: right;
-  position: absolute;
-  bottom: 10%;
-  right: 10%;
-  width: 75px;
-  height: 50px;
-}
-
 u
 {
   font-size: 175%;
@@ -118,7 +108,7 @@ u
 #title
 {
   position: absolute;
-  top: 16%;
+  top: 15%;
   left: 19%;
   width: 30%;
   height: 5%;
