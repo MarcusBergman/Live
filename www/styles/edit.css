@@ -218,4 +218,11 @@ u
     width: 98%;
     font-size: 100%;	
   }
+  
+  #title
+    {
+    left: 24%;
+	width: 40%;
+	font-size: 100%;
+  }
 }
