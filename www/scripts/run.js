@@ -44,9 +44,6 @@ $(function()
     start: function( event, ui )
   { 
     $("#"+this.id).css({"width": $('.svar').width(),"height": $('.svar').width()});
-	$( document ).on( "mousemove", function( event ) {
-      $("#"+this.id).position({left: event.pageX, top: event.pageY});
-    });
   }, 
     snap: ".svar", snapMode: "inner", stack: ".dragbild" ,containment: "#bakgrund"});
     $(".svar" ).droppable({
