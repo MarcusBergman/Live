@@ -124,6 +124,14 @@ p
   background-repeat: no-repeat;
 }
 
+.platstagare
+{
+  position: relative;
+  width: 24%;
+  height: 243px;
+  clear: both;
+}
+
 .bock
 {
   position: relative;
