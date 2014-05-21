@@ -239,13 +239,13 @@ p
   #rätta
     {
     top: 86%;
-	right: 6%;
-	width: 5%;
+	left: 86%;
   }
   
   #resultat
     {
     top: 86%;
+	left: 5%;
 	text-align: left;
   }
 }
