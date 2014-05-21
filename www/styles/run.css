@@ -199,11 +199,11 @@ p
   
   #rubrik
     {
-  left: 35%;
   top: 2%;
-  width: 40%;
+  width: 100%;
   height: 12%;
-  font-size: 200%;
+  text-align: center;
+  font-size: 100%;
   }
   
   #top
