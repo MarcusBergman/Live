@@ -248,8 +248,14 @@ u
   u
     {
 	position: absolute;
-	top: 1%;
+	top: 0%;
 	font-size: 100%;
 	color: white;
+  }
+  
+  #title
+    {
+	top: 16%; 
+    left: 14%;
   }
 }
