@@ -233,4 +233,12 @@ u
 	width: 14%;
 	height: 16%;
   }
+  
+  #testid
+    {
+    top: 50%;
+	width: 60%;
+	height: 50%;
+	font-size: 100%;
+  }
 }
