@@ -233,7 +233,8 @@ p
     top: 1%;
     width: 100%;
     text-align: center;
-    color: white;	
+    color: white;
+    z-index: 101;	
   }
   
   #rätta

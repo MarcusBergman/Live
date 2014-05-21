@@ -264,11 +264,17 @@ u
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape)
 {
+  #bakgrund2
+   {
+    top: 5%;  
+  }
+  
   u
     {
 	position: absolute;
 	top: 0%;
-	font-size: 100%;
+	font-size: 150%;'
+	color: white;
   }
   
   #text
