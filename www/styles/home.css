@@ -180,6 +180,16 @@ p
       height: 50%;
 	}
 	
+	#testnamn
+       {
+      position: relative;
+      top: 50%;
+      left: 30%;
+      width: 40%;
+      height: 15%;
+      font-size: 175%;
+}
+	
 	p
 	{
 	  top: 10%;
