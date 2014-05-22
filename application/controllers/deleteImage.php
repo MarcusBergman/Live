@@ -19,6 +19,9 @@
     updateTestByPrivateID($privateID, $test);
   
   }
-  return;
+
+print_r($newArray);  
+  
+  //return;
 
 ?>
