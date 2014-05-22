@@ -195,6 +195,13 @@ u
   width: 100%;
 }
 
+.trashdiv .lock
+{
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out; 
+  -o-transition: all 1s ease-in-out; 
+  -ms-transition: all 1s ease-in-out; 
+}
 .trashdiv:hover .lock, .trashdiv.hover .lock
 {
   -webkit-transform: rotate(55deg) translate(-13px,-8px);
