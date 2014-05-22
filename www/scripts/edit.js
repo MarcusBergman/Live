@@ -7,7 +7,7 @@ $('#title').on('change keydown paste input', function()
 
 for (var i=0; i<bilder.length; i++)
 {
-  $('#bilder').append('<div id="bild'+i+'" class="imagecontainer"><div id="trash'+i+'" class="trashdiv"></div></div>');
+  $('#bilder').append('<div id="bild'+i+'" class="imagecontainer"><div id="trash'+i+'" class="trashdiv"><img class="lock" src="/images/lock.png" /></div></div>');
   $('#bild'+i).css('background-image', 'url('+bilder[i].file+')');
   eval('$("#trash'+i+'").click(function(){ taBortBild('+i+'); }); ');
 
