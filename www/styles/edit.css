@@ -278,7 +278,7 @@ u
   }
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape)
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) and (orientation : landscape)
 {
   #bakgrund2
    {
@@ -321,19 +321,4 @@ u
     top: 79%;
 	left: 6%;
   }
-}
-
-@media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) and (orientation : landscape)
-{
-  #add
-    {
-    top: 80%;
-	left: 60%;
-  }
-  
-  #testid
-    {
-	top: 80%;
-	left: 4%;
-  }  
 }
