@@ -182,8 +182,8 @@ p
 	
 	#testnamn
        {
-      position: relative;
-      top: 50%;
+      position: absolute;
+      top: 60%;
       left: 30%;
       width: 40%;
       height: 15%;
