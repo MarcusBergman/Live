@@ -322,3 +322,48 @@ u
 	left: 6%;
   }
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:landscape)
+{
+    #bakgrund2
+   {
+    top: 5%;  
+  }
+  
+  u
+    {
+	display: none;
+  }
+  
+  #text
+    {
+	position: absolute;
+	top: 0%;
+  }
+  
+  #title
+    {
+	top: 11%; 
+    left: 22%;
+	height: 7%;
+  }
+  
+  .trashdiv
+    {
+	left: 70%;
+	width: 30%;
+	height: 30%;
+  }
+  
+  #add
+    {
+    top: 80%;
+	left: 66%;
+  }
+  
+  #testid
+   {
+    top: 79%;
+	left: 6%;
+  }
+}
