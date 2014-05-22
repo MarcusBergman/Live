@@ -209,3 +209,76 @@ p
       height: 18%;
 	}
 }
+
+@media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2)
+{	
+    h1
+	{
+	  display:none;
+	}
+	
+	h2
+	{
+	  display:none;
+	}
+	
+	#starta
+	{
+	  float: none;
+	  top: 22%;
+	  left: 2%;
+	  width: 92%;
+	}
+	
+	#redigera
+	{
+	  float: none;
+	  top: 47%;
+	  left: 2%;
+	  width: 92%;
+	}
+	
+	#skapa
+	{
+	  float: none; 
+      top: 72%;
+      left: 2%;	
+      width: 92%;	  
+	}
+	
+	#popup
+	{
+	  left: 4%;
+      width: 92%;
+      height: 50%;
+	}
+	
+	#testnamn
+       {
+      position: absolute;
+      top: 40%;
+      left: 26%;
+      width: 40%;
+      height: 15%;
+      font-size: 175%;
+}
+	
+	p
+	{
+	  top: 10%;
+      left: 16%;
+      font-size: 150%;
+	}
+	
+	#kryss
+	{
+	  width: 8%;
+      height: 15%;
+	}
+	
+	#ok
+	{
+	  width: 22%;
+      height: 18%;
+	}
+}
