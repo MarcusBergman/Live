@@ -20,8 +20,7 @@
   
   }
 
-print_r($newArray);  
   
-  //return;
+ return;
 
 ?>
