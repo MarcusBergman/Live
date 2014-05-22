@@ -190,10 +190,10 @@ u
 
 .trashdiv:hover .lock, .trashdiv.hover .lock
 {
-  -webkit-transform: rotate(45deg) translate(-1px,-6px);
-  -moz-transform: rotate(45deg) translate(-1px,-6px); 
-  -o-transform: rotate(45deg) translate(-1px,-6px);
-  -ms-transform: rotate(45deg) translate(-1px,-6px);
+  -webkit-transform: rotate(45deg) translate(-2px,-7px);
+  -moz-transform: rotate(45deg) translate(-2px,-7px); 
+  -o-transform: rotate(45deg) translate(-2px,-7px);
+  -ms-transform: rotate(45deg) translate(-2px,-7px);
 }
 
 #file
