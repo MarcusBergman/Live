@@ -188,6 +188,14 @@ u
   width: 100%;
 }
 
+.trashdiv:hover .lock, .trashdiv.hover .lock
+{
+  -webkit-transform: rotate(45deg); 
+  -moz-transform: rotate(45deg); 
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+}
+
 #file
 {
   width: 0px;
