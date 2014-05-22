@@ -28,7 +28,7 @@
     {
       $newName = randomString().".". $explodedName[1];
     }
-    while(file_exists("$uploads_dir/$publicID/$newName"))
+    while(file_exists("$uploads_dir/$publicID/$newName"));
     
     move_uploaded_file($tmp_name, "$uploads_dir/$publicID/$newName");
 		
