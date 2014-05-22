@@ -1,5 +1,15 @@
 <?php
   
+  function randomString($length = 5) 
+  {
+    $characters = 'abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ';
+    $string = '';
+    for ($i = 0; $i < $length; $i++) 
+      $string .= $characters[rand(0, strlen($characters) - 1)];
+      
+    return $string;
+   }  
+  
   $privateID = $matches[1];
   $test = getTestByPrivateID($privateID);
   $publicID = getPublicIDByPrivateID($privateID);
@@ -12,8 +22,14 @@
   {
     $tmp_name = $_FILES["picture"]["tmp_name"];
     $name = $_FILES["picture"]["name"];
-	$explodedName = explode ("." , $name);
-	$newName = count($test['images']) .".". $explodedName[1];
+    $explodedName = explode ("." , $name);
+    
+    do
+    {
+      $newName = randomString().".". $explodedName[1];
+    }
+    while(file_exists("$uploads_dir/$publicID/$newName"))
+    
     move_uploaded_file($tmp_name, "$uploads_dir/$publicID/$newName");
 		
     $test['images'][] = $newName;
