@@ -155,6 +155,13 @@ u
   -ms-transition: all 1s ease-in-out; 
 }
 
+.arrows:hover { 
+  -webkit-transform: rotate(360deg); 
+  -moz-transform: rotate(360deg); 
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg); 
+}
+
 .imagecontainer
 {
   float: left;
@@ -224,13 +231,6 @@ u
   width: 30%;
   height: 40%;
   font-size: 150%;
-}
-
-.arrows:hover { 
-  -webkit-transform: rotate(360deg); 
-  -moz-transform: rotate(360deg); 
-  -o-transform: rotate(360deg);
-  -ms-transform: rotate(360deg); 
 }
 
 @media only all and (max-width: 568px) 
@@ -321,4 +321,19 @@ u
     top: 79%;
 	left: 6%;
   }
+}
+
+@media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) and (orientation : landscape)
+{
+  #add
+    {
+    top: 80%;
+	left: 60%;
+  }
+  
+  #testid
+    {
+	top: 80%;
+	left: 4%;
+  }  
 }
