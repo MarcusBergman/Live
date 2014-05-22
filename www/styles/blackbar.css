@@ -3,13 +3,13 @@
   position: absolute;
   width: 99%;
   padding-right: 1%;
-  padding-bottom: 0.5%;
-  height: 3.75%;
+  height: 34px;
   background-color: black;
   color: white;
   text-align: right;
   font-family: 'Oswald';
-  font-size: 140%;
+  font-size: 28px;
+  vertical-align: middle;
   z-index: 100;
 }
 
