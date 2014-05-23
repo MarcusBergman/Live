@@ -3,26 +3,6 @@ html, body
   overflow: hidden;
   height: 100%;
   width: 100%;
-  background-image: url(http://august.friskola.nu/images/kindajean.png);
-  -webkit-text-size-adjust: 100%;
-  font-family: 'Oswald', sans-serif;
-}
-
-html, body, div
-{
-  margin: 0;
-  padding: 0;
-}
-
-input, select, textarea, button
-{
-  font-family: inherit;
-}
-
-input
-{
-  -webkit-appearance: none;
-  -webkit-border-radius: 0;
 }
 
 #main
