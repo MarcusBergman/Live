@@ -16,8 +16,7 @@
 @media only all and (max-width: 568px) 
 {
   #blackBar
-    {
-   height: 30px;
-       
+  {
+    height: 30px;
   }
 }
