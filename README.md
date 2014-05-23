@@ -17,7 +17,7 @@ tills ordningen stämmer.
 Man har tre alternativ på main sidan. Du kan skapa ett test, redigera ett befintligt test eller starta ett test. Väljer du att skapa test kommer du in på på http://august.friskola.nu/redigera/"RandomPrivatID". Testet skapar också ett publikt ID. På redigerar sidan kan man lägga upp bilder och sortera dom i den ordning man önskar.
 Det privata ID använder du när du ska redigera ditt test och det publika ID används till användare som ska starta testet.
 
-![En Tie-fighter](/images/main.png)
+![En Tie-fighter](www/images/main.png)
 
 ### Teknisk beskrivning
 
