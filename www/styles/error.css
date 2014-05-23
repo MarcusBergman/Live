@@ -24,6 +24,7 @@ h1
   width: 200px;
   height: 200px;
   outline: 2px dashed black;
+  background-color: white;
 }
 
 #svar1
