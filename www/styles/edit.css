@@ -223,7 +223,7 @@ u
 a#testLink:link
 {
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a#testLink:hover
