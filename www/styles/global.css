@@ -2,6 +2,13 @@ html
 {
   background-color: purple;
 }
+
+html, body, div
+{
+  margin: 0;
+  padding: 0;
+}
+
 body
 {
   background-image: url(http://august.friskola.nu/images/kindajean.png);
