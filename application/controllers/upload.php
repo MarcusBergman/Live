@@ -26,9 +26,7 @@
 		
       $test['images'][] = $newName;
       updateTestByPrivateID($privateID, $test);
-	}
-    else
-      exit;	
+	}	
   }
   exit;
 ?>
