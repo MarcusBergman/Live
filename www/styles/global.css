@@ -34,6 +34,30 @@ input, select, textarea, button
   z-index: 100;
 }
 
+a:link
+{
+  text-decoration:none;
+  background-color: white;
+}
+
+a:visited
+{
+  text-decoration:none;
+  background-color: white;
+}
+
+a:hover
+{
+  text-decoration:underline;
+  background-color: white;
+}
+
+a:active
+{
+  text-decoration:underline;
+  background-color: white;
+}  
+
 @media only all and (max-width: 568px) 
 {
   #blackBar
