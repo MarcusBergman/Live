@@ -29,7 +29,7 @@ Så här ser det ut när man har laddat upp några bilder:
 
 ![En Tie-fighter](www/images/editpics.png)
 
-Man kan byta plats på bilderna och ta bort dom.
+Man byter plats på bilderna när man trycker på pilarna och tar bort bilder när man använder papperskorgen.
 
 ### Teknisk beskrivning
 
