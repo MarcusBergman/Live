@@ -37,7 +37,7 @@ I www katalogen ligger allt som servas på nätet. Vi har inte så många filer 
 
 Application det som styr hemsidan själva intelligensen. Här ligger alla vyer, controllers och vår databas.
 
-* systemet bygger på MVC. Model-View-Controller (MVC) är ett designmönster som används inom systemutveckling. I komplexa datorapplikationer kan det vara lämpligt att separera data (Model) och presentation (View) så att inte datahanteringen får konsekvenser på grund av förändringar i presentationslagret, samt att data kan omorganiseras utan behöva ändra i presentationslagret. MVC löser detta problem genom att separera data och affärslogiken från presentationen och användarinteraktionen, genom att introducera en mellanliggande komponent: Controllern.
+* systemet bygger Model-View-Controller (MVC). Vilket är ett designmönster som används inom systemutveckling. I komplexa datorapplikationer kan det vara lämpligt att separera data (Model) och presentation (View) så att inte datahanteringen får konsekvenser på grund av förändringar i presentationslagret, samt att data kan omorganiseras utan behöva ändra i presentationslagret. MVC löser detta problem genom att separera data och affärslogiken från presentationen och användarinteraktionen, genom att introducera en mellanliggande komponent: Controllern.
 * Routern utgörs av två filer: .htaccess och index.php, där hamnar besökare först
 
 #### Routern: .htaccess och index.php
