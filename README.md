@@ -11,7 +11,7 @@ vilka som ligger fel. Man kan då flytta om de felaktiga, och välja att rätta 
 tills ordningen stämmer.
 
 
-I www katalogen ligger allt som servas på nätet. Vi har inte så många filer i www katalogen eftersom det är högre säkerhet att ha så lites om möjligt som servas på nätet. I www ligger själva designen på hemsidan styles, images och scripts. Men också index.php och .htacces.
+I www katalogen ligger allt som servas på nätet. Vi har inte så många filer i www katalogen eftersom det är högre säkerhet att ha så lite som möjligt som servas på nätet. I www ligger själva designen på hemsidan styles, images och scripts. Men också index.php och .htacces.
 
 Vår .htacces redirectar dig till index.php eller anpassad feldokumentsida (404 error page).
 
