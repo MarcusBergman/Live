@@ -2,6 +2,7 @@
 
  chdir('../application');
  include 'model/database.php';
+ include 'controllers/helpers.php';
 
  $query = $_SERVER['QUERY_STRING'];
  
