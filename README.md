@@ -21,7 +21,7 @@ Det privata ID använder du när du ska redigera ditt test och det publika ID an
 
 ![En Tie-fighter](www/images/main.png)
 
-####Så här ser sidan ut där man skapar och redigerar sitt test:
+####Skapa test och redigera test sidan:
 
 ![En Tie-fighter](www/images/edit.png)
 
