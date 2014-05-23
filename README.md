@@ -1,6 +1,6 @@
 # August
 
-### AUtomatisk GraderingsUtensil för Seriella Teckningar
+## AUtomatisk GraderingsUtensil för Seriella Teckningar
 
 August är ett system ämnat för lärare och elever på högstadiet.
 
