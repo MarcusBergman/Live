@@ -104,7 +104,26 @@ a
   font-size: 250%;
 }
 
-a:link
+a#hem:link
 {
   color: black;
+  text-decoration: underline;
+}
+
+a#hem:hover
+{
+  color: black;
+  text-decoration: underline;
+}
+
+a#hem:visited
+{
+  color: black;
+  text-decoration: none;
+}
+
+a#hem:active
+{
+  color: black;
+  text-decoration: none;
 }
