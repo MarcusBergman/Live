@@ -37,3 +37,5 @@ $(document).ready(function() {
     $('#fileinput')[0].click();
     });
 });
+
+$("#testLink").attr('title', 'Gå till testet');
