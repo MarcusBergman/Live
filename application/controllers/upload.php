@@ -13,13 +13,12 @@
     $tmp_name = $_FILES["picture"]["tmp_name"];
     $name = $_FILES["picture"]["name"];
     $explodedName = explode ("." , $name);
-	$extensions = array('png', 'gif', 'jpg', 'jpeg','PNG', 'GIF', 'JPG', 'JPEG');
     
     do
     {
       $newName = randomString().".". $explodedName[1];
     }
-    while(file_exists("$uploads_dir/$publicID/$newName") && in_array($explodedName, $extensions));
+    while(file_exists("$uploads_dir/$publicID/$newName"));
     
     move_uploaded_file($tmp_name, "$uploads_dir/$publicID/$newName");
 		
