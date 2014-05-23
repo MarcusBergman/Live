@@ -21,6 +21,16 @@ Så här ser det ut när du kommer in på sidan:
 
 ![En Tie-fighter](www/images/main.png)
 
+Så här ser sidan ut där man skapar och redigerar sitt test:
+
+![En Tie-fighter](www/images/edit.png)
+
+Så här ser det ut när man har laddat upp några bilder:
+
+![En Tie-fighter](www/images/editpics.png)
+
+Man kan byta plats på bilderna och ta bort dom.
+
 ### Teknisk beskrivning
 
 I www katalogen ligger allt som servas på nätet. Vi har inte så många filer i www katalogen eftersom det är högre säkerhet att ha så lites om möjligt som servas på nätet. I www ligger själva designen på hemsidan styles, images och scripts. Men också index.php och .htaccess.
