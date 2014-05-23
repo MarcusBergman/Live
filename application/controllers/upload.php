@@ -4,7 +4,7 @@
   $test = getTestByPrivateID($privateID);
   $publicID = getPublicIDByPrivateID($privateID);
 
-   header("Location: http://august.friskola.nu/redigera/$privateID");
+  header("Location: http://august.friskola.nu/redigera/$privateID");
   
   $uploads_dir = '/var/www/august.friskola.nu/Live/www/uploads';
   
@@ -23,7 +23,7 @@
     move_uploaded_file($tmp_name, "$uploads_dir/$publicID/$newName");
 		
     $test['images'][] = $newName;
-	updateTestByPrivateID($privateID, $test);
+    updateTestByPrivateID($privateID, $test);
 		
   }
   exit;
