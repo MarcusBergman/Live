@@ -1,15 +1,5 @@
 <?php
   
-  function randomString($length = 5) 
-  {
-    $characters = 'abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ';
-    $string = '';
-    for ($i = 0; $i < $length; $i++) 
-      $string .= $characters[rand(0, strlen($characters) - 1)];
-      
-    return $string;
-   }  
-  
   $privateID = $matches[1];
   $test = getTestByPrivateID($privateID);
   $publicID = getPublicIDByPrivateID($privateID);
