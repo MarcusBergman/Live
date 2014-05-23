@@ -75,4 +75,3 @@ Vi använder databasen "the Berkeley Database" (DB4). Som erbjuder en inbyggda d
 
 * Vad måste man göra för att få uppladdning av bilder att fungera?
 
-![En Tie-fighter](http://spelprogrammering.nu/bilder/tie.png)
