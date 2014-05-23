@@ -55,6 +55,9 @@ h1
   width: 200px;
   height: 200px;
   font-size: 175px;
+  line-height: 200px;
+  vertical-align: middle;
+  text-align: center;
 }
 
 #fyratva
@@ -65,7 +68,11 @@ h1
   width: 200px;
   height: 200px;
   font-size: 175px;
+  line-height: 200px;
+  vertical-align: middle;
+  text-align: center;
 }
+
 #noll
 {
   position: relative;
@@ -74,4 +81,7 @@ h1
   width: 200px;
   height: 200px;
   font-size: 175px;
+  line-height: 200px;
+  vertical-align: middle;
+  text-align: center;
 }
