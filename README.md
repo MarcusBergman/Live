@@ -17,6 +17,8 @@ tills ordningen stämmer.
 Man har tre alternativ på main sidan. Du kan skapa ett test, redigera ett befintligt test eller starta ett test. Väljer du att skapa test kommer du in på på http://august.friskola.nu/redigera/"RandomPrivatID". Testet skapar också ett publikt ID. På redigerar sidan kan man lägga upp bilder och sortera dom i den ordning man önskar.
 Det privata ID använder du när du ska redigera ditt test och det publika ID används till användare som ska starta testet.
 
+![En Tie-fighter](/images/main.png)
+
 ### Teknisk beskrivning
 
 I www katalogen ligger allt som servas på nätet. Vi har inte så många filer i www katalogen eftersom det är högre säkerhet att ha så lites om möjligt som servas på nätet. I www ligger själva designen på hemsidan styles, images och scripts. Men också index.php och .htaccess.
