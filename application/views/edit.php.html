@@ -24,16 +24,16 @@
     <div id="text">
 	  <u>Redigera test</u><br>
 	  Testets namn:<br>
-      Testets bilder:
+    Testets bilder:
 	</div>
 	<input name="title" type="text" value="<?= $test['title'] ?>" id="title" size="14" /> 
 	<div id="bilder"></div>
 	<div id="add">
 	<div id="file">
 	  <form id="uppladdning" method="post" enctype="multipart/form-data" action="/laddaUppBild/<?= $privateID ?>">  
-        <input name="picture" onchange="this.form.submit()" type="file" id="fileinput"/>
+      <input name="picture" onchange="this.form.submit()" type="file" id="fileinput"/>
 	  </form>
-    </div>
+  </div>
 	</div>
 	<div id="testid">
 	  Privat ID för testskapare: <?= $privateID ?><br>
@@ -55,11 +55,11 @@
   function updateTitle()
   {
     $.ajax({ url: "/uppdateraTitel/<?= $privateID ?>", 
-	type: "POST" , 
-	data: {"title": $('#title').val()},
-	success: function(){ $('#title').css("border-style","none") } ,
-	error: function() {alert("det gick dåligt");}
-	})
+	           type: "POST" , 
+	           data: {"title": $('#title').val()},
+	           success: function(){ $('#title').css("border-style","none") } ,
+	           error: function() {alert("det gick dåligt");}
+	  })
   }
 
   function swap(i)
@@ -67,16 +67,16 @@
     $.ajax({ url:     "/bytBild/<?= $privateID ?>/"+i+"/"+(i+1), 
              type:    "GET",
              success: function()
-			 { 
+			       { 
                $('#bild'+i).css('background-image', 'url('+bilder[(i+1)].file+')');
-			   $('#bild'+(i+1)).css('background-image', 'url('+bilder[i].file+')');
-			   temp = bilder[i];
-			   bilder[i] = bilder[(i+1)];
-			   bilder[i+1] = temp;
-			 },
+			         $('#bild'+(i+1)).css('background-image', 'url('+bilder[i].file+')');
+			         temp = bilder[i];
+			         bilder[i] = bilder[(i+1)];
+			         bilder[i+1] = temp;
+			       },
              error:   function() { alert("Det gick dåligt!"); }
            }
-     	  )	  
+     	    )  
    }
    
    function taBortBild(i)
@@ -84,14 +84,14 @@
      $.ajax({ url:    "/taBortBild/<?= $privateID ?>/"+i, 
               type:    "GET",
               success: function() 
-			  { 
-			    $('#bild'+i).css("background-image", "none");
+			        { 
+			          $('#bild'+i).css("background-image", "none");
                 $('#trash'+i).remove();	
-				window.location.reload(true);
-			  },
+				        window.location.reload(true);
+			        },
               error:   function() { alert("Det gick dåligt!"); }
-           }
-     	  )	  
+            }
+     	     ) 
    }
   </script>
   <script src="/scripts/edit.js"></script>
