@@ -93,7 +93,6 @@ p
   height: 100%;
   width: 100%;
   float: left;
- 
 }
 
 u
@@ -243,7 +242,7 @@ u
 @media only all and (max-width: 568px) 
 {
   #text
-    {
+  {
     top: 5%;
     left: 2%;
     width: 98%;
@@ -251,81 +250,81 @@ u
   }
   
   #title
-    {
-	top: 16%;
+  {
+    top: 16%;
     left: 33%;
-	width: 40%;
-	height: 4%;
-	font-size: 80%;
+    width: 40%;
+    height: 4%;
+    font-size: 80%;
   }
   
   .trashdiv
-    {
-	left: 70%;
-	width: 30%;
-	height: 30%;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
+  {
+    left: 70%;
+    width: 30%;
+    height: 30%;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
   }
   
   #add
-    {
-	position: absolute;
-	top: 50%;
-	width: 14%;
-	height: 16%;
+  {
+    position: absolute;
+    top: 50%;
+    width: 14%;
+    height: 16%;
   }
   
   #testid
-    {
+  {
     top: 64%;
-	width: 80%;
-	height: 30%;
-	font-size: 100%;
+    width: 80%;
+    height: 30%;
+    font-size: 100%;
   }
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 767px) and (orientation : landscape)
 {
   #bakgrund2
-   {
+  {
     top: 5%;  
   }
   
   u
-    {
-	display: none;
+  {
+    display: none;
   }
   
   #text
-    {
-	position: absolute;
-	top: 0%;
+  {
+    position: absolute;
+    top: 0%;
   }
   
   #title
-    {
-	top: 11%; 
+  {
+    top: 11%; 
     left: 22%;
-	height: 7%;
+    height: 7%;
   }
   
   .trashdiv
-    {
-	left: 70%;
-	width: 30%;
-	height: 30%;
+  {
+    left: 70%;
+    width: 30%;
+    height: 30%;
   }
   
   #add
-    {
+  {
     top: 80%;
-	left: 66%;
+    left: 66%;
   }
   
   #testid
-   {
+  {
     top: 79%;
-	left: 6%;
+    left: 6%;
   }
 }
