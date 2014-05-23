@@ -3,26 +3,6 @@ html, body
   overflow-x: hidden;
   height: 100%;
   width: 100%;
-  -webkit-text-size-adjust: 100%;
-  font-family: 'Oswald', sans-serif;
-  background-image: url(http://august.friskola.nu/images/kindajean.png);
-}
-
-html, body, div
-{
-  margin: 0;
-  padding: 0;
-}
-
-input, select, textarea, button
-{
-  font-family: inherit;
-}
-
-input
-{
-  -webkit-appearance: none;
-  -webkit-border-radius: 0;
 }
 
 #feltest
