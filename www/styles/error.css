@@ -21,13 +21,30 @@ h1
 
 .svar
 {
-  position: relative;
-  float:left;
-  top: 30%;
-  left: 30%;
   width: 200px;
   height: 200px;
   outline: 2px dashed black;
+}
+
+#svar1
+{
+  position:absolute;
+  top: 6%;
+  left: 25%;
+}
+
+#svar2
+{
+  position:absolute;
+  top: 6%;
+  left: 50%;
+}
+
+#svar3
+{
+  position:absolute;
+  top: 6%;
+  left: 75%;
 }
 
 #fyraett
