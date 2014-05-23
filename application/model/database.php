@@ -5,17 +5,6 @@
   function newTest()
   {
     global $db;
-    //random sträng funktion för att få fram ett 5 tecken långt id
-    function randomString($length = 5) 
-    {
-      $characters = 'abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ';
-      $string = '';
-      for ($i = 0; $i < $length; $i++) 
-        $string .= $characters[rand(0, strlen($characters) - 1)];
-      
-      return $string;
-    }
-
     // Leta efter ett ledigt publikt ID.
     do
     {
