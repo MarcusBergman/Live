@@ -37,6 +37,11 @@ for (var i=0; i<blandadeBilder.length; i++)
   
 var bredd =  84/bilder.length;
 
+if (bredd > 18)
+{
+  bredd = 18;
+}
+
 $(".svar").css("width", bredd +"%");
 $(".svar").css("height", $('.svar').width());
 $(".dragbild").css("height", $('.dragbild').width());
