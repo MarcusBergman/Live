@@ -2,3 +2,40 @@ html
 {
   background-color: purple;
 }
+body
+{
+  background-image: url(http://august.friskola.nu/images/kindajean.png);
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Oswald', sans-serif;
+}
+
+input, select, textarea, button
+{
+  font-family: inherit;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+
+#blackBar
+{
+  position: absolute;
+  width: 99%;
+  padding-right: 1%;
+  padding-bottom: 2px;
+  height: 34px;
+  background-color: black;
+  color: white;
+  text-align: right;
+  font-family: 'Oswald';
+  font-size: 25px;
+  z-index: 100;
+}
+
+@media only all and (max-width: 568px) 
+{
+  #blackBar
+  {
+    height: 30px;
+  }
+}
