@@ -8,14 +8,14 @@
    
   if (empty($test)) : ?>
     <div id="feltest">
-	  <p>Testet du angett finns inte.<br>
-	  Försök igen:</p>
-	  <form id="testform" action="javascript:redirect();">
-	  <input type="text" id="testnamn" size="5" pattern="[A-Za-z]{5}" title="Ange 5 st stora eller små bokstäver"  x-moz-errormessage="Ange 5 st stora eller små bokstäver"  maxlength="5" required>
-	  <input type="submit" id="ok" value="OK">
-	  </form>
-	</div>
-	<script> function redirect(){ window.location.href = "http://august.friskola.nu/testa/"+document.getElementById("testnamn").value } </script>
+      <p>Testet du angett finns inte.<br>
+      Försök igen:</p>
+      <form id="testform" action="javascript:redirect();">
+        <input type="text" id="testnamn" size="5" pattern="[A-Za-z]{5}" title="Ange 5 st stora eller små bokstäver"  x-moz-errormessage="Ange 5 st stora eller små bokstäver"  maxlength="5" required>
+        <input type="submit" id="ok" value="OK">
+      </form>
+    </div>
+    <script> function redirect(){ window.location.href = "http://august.friskola.nu/testa/"+document.getElementById("testnamn").value } </script>
 	
 <?php  else : ?>
   <div id="bakgrund"></div>
@@ -28,15 +28,14 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
-	<script src="/scripts/jquery.ui.touch-punch.js"></script>
+    <script src="/scripts/jquery.ui.touch-punch.js"></script>
     <script>
-	var bilder = [
+      var bilder = [
 <?php $i = 1;  foreach ($test["images"] as $image){ ?>
-	{file: "http://august.friskola.nu/uploads/<?= $id ?>/<?= $image ?>", id: "bild<?= $i++ ?>"}<?= (count($test["images"]) >= $i ? "," : "") ?>
-
+  {file: "http://august.friskola.nu/uploads/<?= $id ?>/<?= $image ?>", id: "bild<?= $i++ ?>"}<?= (count($test["images"]) >= $i ? "," : "") ?>
 <? } ?>];
 
-    var facit = {
+      var facit = {
 <?php 
   $j = count($test["images"]);
   for($i=1; $i<=$j; $i++) : ?>
@@ -45,7 +44,7 @@
 	};
 	
     </script>
-	<script src="/scripts/run.js"></script>
+    <script src="/scripts/run.js"></script>
 <?php endif; ?>
   </body>
 </html>
