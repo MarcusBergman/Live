@@ -18,6 +18,7 @@
 	if (in_array($explodedName, $extensions, FALSE))
 	{
 	  echo 'fel format';
+	  break;
 	}
 	
 	else
