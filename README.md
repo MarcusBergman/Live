@@ -57,7 +57,7 @@ Vi använder databasen "the Berkeley Database"(DB4). Som erbjuder den inbyggda d
 En av de stora fördelarna med att dela upp kod på detta sätt är att man lätt skulle kunna byta ut databasmotorn till något annat, till exempel MySQL genom att endast ändra i php-filen.
 ##### DB4
 
-För att systemet ska fungera så behövs DB4 bli angett i PHP och så behövs rätt rättigheter i den kattalog där databasen ska ligga.
+För att systemet ska fungera så behövs DB4 bli angett i PHP och så behövs rätt rättigheter i den katalog där databasen ska ligga.
 
 #### Views
 
