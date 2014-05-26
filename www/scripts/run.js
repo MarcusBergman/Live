@@ -40,7 +40,7 @@ var bredd =  84/bilder.length;
 if (bredd > 18)
 {
   bredd = 18;
-  $(".svar").css({position: "relative","left": "10%"});
+  $(".svar").css({position: "relative","left": "8%"});
 }
 
 $(".svar").css("width", bredd +"%");
