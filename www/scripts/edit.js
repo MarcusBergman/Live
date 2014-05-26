@@ -21,9 +21,9 @@ for (var i=0; i<bilder.length; i++)
   
 var bredd =  72/bilder.length;
 
-if (bredd > 24)
+if (bredd > 22)
 {
-  bredd = 24;
+  bredd = 22;
   $('#bilder').css("left","22%");
 }
 
