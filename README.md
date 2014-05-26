@@ -12,7 +12,7 @@ tills ordningen stämmer.
 
 ### Kort beskrivning
 
-Man har tre alternativ på första sidan. Du kan skapa ett test, redigera ett befintligt test eller starta ett test. Väljer du att skapa test kommer du in på på http://august.friskola.nu/redigera/"RandomPrivatID". Testet skapar också ett publikt ID. På redigerar sidan kan man lägga upp bilder och sortera dom i den ordning man önskar.
+Man har tre alternativ på första sidan. Du kan skapa ett test, redigera ett befintligt test eller att skapa ett test. Väljer du att skapa test kommer du in på på http://august.friskola.nu/redigera/"RandomPrivatID". Testet skapar också ett publikt ID. På redigerar sidan kan man lägga upp bilder och sortera dom i den ordning man önskar.
 Det privata ID använder du när du ska redigera ditt test och det publika ID används till användare som ska starta testet.
 Sidan kan används helt utan inloggning, vilket passar bra för en skola där elever och lärare glömmer bort sina inloggnings
 -uppgifter hela tiden.
