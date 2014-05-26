@@ -244,8 +244,8 @@ p
   
   #rätta
     {
-    top: 87%;
-	left: 67%;
+    top: 76%;
+	left: 65%;
   }
   
   #resultat
@@ -253,5 +253,11 @@ p
     top: 86%;
 	left: 5%;
 	text-align: left;
+  }
+  
+  #reload
+    {
+	top: 88%;
+	left: 64%;
   }
 }
