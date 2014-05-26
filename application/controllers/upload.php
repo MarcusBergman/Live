@@ -20,17 +20,19 @@
 	  exit;
 	}
 	
-    do
-    {
-      $newName = randomString().".". $explodedName[1];
-    }
-    while(file_exists("$uploads_dir/$publicID/$newName"));
+	else
+	{
+      do
+      {
+        $newName = randomString().".". $explodedName[1];
+      }
+      while(file_exists("$uploads_dir/$publicID/$newName"));
     
-    move_uploaded_file($tmp_name, "$uploads_dir/$publicID/$newName");
+      move_uploaded_file($tmp_name, "$uploads_dir/$publicID/$newName");
 		
-    $test['images'][] = $newName;
-    updateTestByPrivateID($privateID, $test);
-		
+      $test['images'][] = $newName;
+      updateTestByPrivateID($privateID, $test);
+	}	
   }
   exit;
 ?>
