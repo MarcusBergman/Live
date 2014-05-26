@@ -13,7 +13,11 @@
     $tmp_name = $_FILES["picture"]["tmp_name"];
     $name = $_FILES["picture"]["name"];
     $explodedName = explode ("." , $name);
+	$extensions = array('png', 'gif', 'jpg', 'jpeg','PNG', 'GIF', 'JPG', 'JPEG');
     
+	if (in_array($explodedName, $extensions),FALSE)
+	  exit;
+	
     do
     {
       $newName = randomString().".". $explodedName[1];
