@@ -48,6 +48,11 @@ h1
   left: 62%;
 }
 
+.drag
+{
+  cursor: default;
+}
+
 #fyraett
 {
   position: absolute;
