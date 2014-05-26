@@ -67,7 +67,8 @@ $(function()
 var answers = {};
 var count = 0;
 	
-$("input[type=submit]").click(function(){
+$("#rätta").click(function()
+{
   
   count++;
   
@@ -86,8 +87,16 @@ $("input[type=submit]").click(function(){
     }	
  		
 	if (allCorrect)
+	{
 	  $("#resultat").html("Alla svaren stämmer!");
+	  $("#reload").css("display","initial");
+	}
 	else
 	  $("#resultat").html("Något av svaren stämmer inte.");
 	  
 });	
+
+$("#reload").click(function()
+{
+  location.reload();
+});

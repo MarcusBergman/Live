@@ -142,6 +142,19 @@ p
   -webkit-appearance: none;
 }
 
+#reload
+{
+  display: none;
+  position: absolute;
+  top: 85%;
+  left: 6%;
+  width: 8%;
+  height: 10%;
+  font-size: 150%;
+  color: white;
+  background-color: black;
+}
+
 @media only all and (max-width: 568px) 
 {
   #feltest
