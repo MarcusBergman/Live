@@ -16,7 +16,9 @@
 	$extensions = array('png', 'gif', 'jpg', 'jpeg','PNG', 'GIF', 'JPG', 'JPEG');
     
 	if (in_array($explodedName, $extensions),FALSE)
+	{
 	  exit;
+	}
 	
     do
     {
