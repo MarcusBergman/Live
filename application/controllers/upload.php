@@ -15,14 +15,9 @@
     $explodedName = explode ("." , $name);
 	$extensions = array('png', 'gif', 'jpg', 'jpeg','PNG', 'GIF', 'JPG', 'JPEG');
     
-	if (in_array($explodedName, $extensions, FALSE))
+	if (in_array($explodedName[1], $extensions))
 	{
-	  echo 'fel format';
-	  break;
-	}
-	
-	else
-	{
+	  
       do
       {
         $newName = randomString().".". $explodedName[1];
