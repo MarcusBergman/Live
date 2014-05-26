@@ -209,14 +209,23 @@ p
   
   #rätta
     {
-    top: 80%;
+    top: 76%;
     left: 35%;
     width: 32%;
     height: 10%;
     font-size: 100%;
   }
   
-  #resultat
+  #reload
+    {
+	top: 88%;
+	left: 30%;
+	width:40%;
+	height: 10%;
+	font-size: 75%;
+  }
+  
+    #resultat
     {
     font-size: 150%;
   }
