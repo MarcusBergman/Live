@@ -278,11 +278,13 @@ a#testLink:active
 #skickaID
 {
   position: absolute;
-  top: 14.5%;
-  left: 65%;
-  width: 25%;
-  height: 12%;
-  font-size: 100%;
+  top: 16%;
+  left: 95%;
+  width: 17%;
+  height: 13%;
+  font-size: 80%;
+  background-color: black;
+  color: white;
 }
 
 @media only all and (max-width: 568px) 
