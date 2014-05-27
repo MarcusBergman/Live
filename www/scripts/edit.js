@@ -50,6 +50,5 @@ $("#andra").click(function()
 
 $("#skickaID").click(function()
 {
-  var namn = $("#pubID").val();
-  updatePublicID(namn);
+  updatePublicID();
 });
