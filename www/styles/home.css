@@ -264,7 +264,7 @@ p
 }
 	#question
 	{ 
-          position: absolute;
+          position: fixed;
 	  width: 222%;
           height: 218%;
 	}
