@@ -16,6 +16,7 @@
    '/^bytBild\/([a-zA-Z]+)\/(\d+)\/(\d+)$/' => 'controllers/swapImages.php',
    '/^taBortBild\/([a-zA-Z]+)\/(\d+)$/'     => 'controllers/deleteImage.php',
    '/^laddaUppBild\/([a-zA-Z]+)$/'          => 'controllers/upload.php',
+   '/^uppdateraPubliktID\/([a-zA-Z]+)$/'    => 'controllers/updatePubID.php',
    '/.*/'                                   => 'views/error.php.html'
  );
  
