@@ -21,10 +21,10 @@ for (var i=0; i<bilder.length; i++)
   
 var bredd =  72/bilder.length;
 
-if (bredd > 24)
+if (bredd > 18)
 {
-  bredd = 24;
-  $('#bilder').css("left","19%");
+  bredd = 18;
+  $('#bilder').css("left","10%");
 }
 
 $(".imagecontainer").css("width", bredd +"%");
