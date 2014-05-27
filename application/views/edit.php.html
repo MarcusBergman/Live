@@ -93,6 +93,7 @@
     console.log("hopp");
 	$.ajax({ url: "/andraPubID/<?= $privateID ?>/"+$("#pubID").val(), 
 	         type: "GET",
+			 success: function() { $("#pubID").css({"border-style": "none", "text-decoration": "underline"}); }
              error: function() { alert("något gick snett");}			 
 	})
   }

@@ -12,4 +12,6 @@
   {
     renameTest($currentPublicID, $newPublicID);
   }
+  
+  return;
 ?>
