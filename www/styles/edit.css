@@ -256,13 +256,14 @@ a#testLink:active
 #andra
 {
   position: absolute;
-  top: 86%;
-  left: 8%;
-  width: 12%;
-  height: 7%;
-  font-size: 50%;
+  top: 28%;
+  left: 5%;
+  width: 60%;
+  height: 18%;
+  font-size: 75%;
   background-color: black;
   color: white;
+}
 }
 
 @media only all and (max-width: 568px) 
