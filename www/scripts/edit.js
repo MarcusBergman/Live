@@ -44,7 +44,7 @@ $("#testLink").attr('title', 'Gå till testet');
 
 $("#andra").click(function()
 {
-  $("#testid").append('<input type="text" name="pubID" id="pubID"><input type="submit" value="Skicka" id="skickaID">')
+  $("#testid").append('<input type="text" name="pubID" id="pubID"><button id="skickaID">Skicka</button>')
   $("#andra").css("display","none");
 });
 
