@@ -50,5 +50,6 @@ $("#andra").click(function()
 
 $("#skickaID").on('click', function()
 {
+  console.log("hej");
   updatePublicID();
 });
