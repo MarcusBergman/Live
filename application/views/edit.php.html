@@ -94,7 +94,8 @@
   function updatePublicID()
   {
     $.ajax({ url: "/andraPubID/<?= $privateID ?>/"+$("#pubID").val(), 
-	         type: "GET" 
+	         type: "GET",
+             error: function() { alert("något gick snett");}			 
 	  })
   }
   </script>
