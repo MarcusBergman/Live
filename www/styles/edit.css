@@ -323,10 +323,9 @@ a#testLink:active
     display: none;
   }
   
-  #text
-  {
-    position: absolute;
-    top: 0%;
+  h1
+   {
+    top: 2%;  
   }
   
   #title
