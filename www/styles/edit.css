@@ -255,12 +255,23 @@ a#testLink:active
 
 @media only all and (max-width: 568px) 
 {
-  #text
-  {
-    top: 5%;
-    left: 2%;
-    width: 98%;
-    font-size: 100%;	
+  u
+    {
+	display: none;
+  }
+  
+  h1
+    {
+	top: 4%;
+	left: 2%;
+	font-size: 80%;
+  }
+  
+  h2
+    {
+	top: 10%;
+	left: 2%;
+	font-size: 80%;
   }
   
   #title
