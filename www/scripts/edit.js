@@ -32,10 +32,18 @@ $(".imagecontainer").css("height", $('.imagecontainer').width());
 $(".arrows").css("width", bredd/3 +"%");
 $(".arrows").css("height", $('.imagecontainer').width());
 
-$(document).ready(function() {
-  $('#add').on('click', function() {
+$(document).ready(function() 
+{
+  $('#add').on('click', function()
+  {
     $('#fileinput')[0].click();
-    });
+  });
 });
 
 $("#testLink").attr('title', 'Gå till testet');
+
+$("#andra").click(function()
+{
+  $("#testid").append('<input type="text" id="pubID" pattern="[/^\w+$/u]">')
+  $("#andra").css("display","none");
+});

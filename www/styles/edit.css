@@ -264,6 +264,15 @@ a#testLink:active
   background-color: black;
   color: white;
 }
+
+#pubID
+{
+  position: absolute;
+  top: 20%;
+  left: 14%;
+  width: 20%;
+  height: 5%;
+  font-size: 150%; 
 }
 
 @media only all and (max-width: 568px) 
