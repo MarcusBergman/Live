@@ -81,9 +81,7 @@
     $.ajax({ url:    "/taBortBild/<?= $privateID ?>/"+i, 
              type:    "GET",
              success: function() 
-			 { 
-			   $('#bild'+i).css("background-image", "none");
-               $('#trash'+i).remove();	
+			 { 	
 			   window.location.reload(true);
 			 },
              error:   function() { alert("Det gick dåligt!"); }
