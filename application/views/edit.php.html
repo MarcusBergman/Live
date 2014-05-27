@@ -13,7 +13,6 @@
 	  <form id="testform" action="javascript:redirect();">
 	  <input type="text" id="testnamn" size="5" pattern="[A-Za-z]{5}" title="Ange 5 st stora eller små bokstäver"  x-moz-errormessage="Ange 5 st stora eller små bokstäver"  maxlength="5" required>
 	  <input type="submit" id="ok" value="OK">
-	  <input type="submit" value="Skicka" id="skickaID">
 	  </form>
 	</div>
 	<script> function redirect(){ window.location.href = "http://august.friskola.nu/redigera/"+document.getElementById("testnamn").value } </script>
@@ -34,6 +33,7 @@
 	  </form>
   </div>
 	</div>
+	<input type="submit" value="Skicka" id="skickaID">
 	<div id="testid">
 	  Privat ID för testskapare: <?= $privateID ?><br>
 	  <a id="testLink" href="http://august.friskola.nu/testa/<?= $publicID ?>">Publikt ID för testare: <?= $publicID ?></a>
