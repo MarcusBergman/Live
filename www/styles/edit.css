@@ -209,7 +209,7 @@ h2
 #add
 {
   position: absolute;
-  top: 81%;
+  top: 73%;
   left: 42.5%;
   width: 11%;
   height: 14%;
@@ -256,8 +256,8 @@ a#testLink:active
 #andra
 {
   position: absolute;
-  top: 28%;
-  left: 3%;
+  top: 35%;
+  left: -1%;
   width: 60%;
   height: 18%;
   font-size: 75%;
