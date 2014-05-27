@@ -275,6 +275,16 @@ a#testLink:active
   font-size: 100%; 
 }
 
+#skickaID
+{
+  position: absolute;
+  top: 14.5%;
+  left: 65%;
+  width: 25%;
+  height: 12%;
+  font-size: 100%;
+}
+
 @media only all and (max-width: 568px) 
 {
   u

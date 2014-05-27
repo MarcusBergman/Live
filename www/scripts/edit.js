@@ -44,6 +44,6 @@ $("#testLink").attr('title', 'Gå till testet');
 
 $("#andra").click(function()
 {
-  $("#testid").append('<input type="text" id="pubID" pattern="[/^\w+$/u]">')
+  $("#testid").append('<input type="text" name="pubID" id="pubID"><input type="submit" value="Skicka" id="skickaID">')
   $("#andra").css("display","none");
 });

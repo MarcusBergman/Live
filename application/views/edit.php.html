@@ -54,28 +54,26 @@
   function updateTitle()
   {
     $.ajax({ url: "/uppdateraTitel/<?= $privateID ?>", 
-	           type: "POST" , 
-	           data: {"title": $('#title').val()},
-	           success: function(){ $('#title').css("border-style","none") } ,
-	           error: function() {alert("det gick dåligt");}
+	         type: "POST" , 
+	         data: {"title": $('#title').val()},
+	         success: function(){ $('#title').css("border-style","none") }
 	  })
   }
 
   function swap(i)
   {
-    $.ajax({ url:     "/bytBild/<?= $privateID ?>/"+i+"/"+(i+1), 
-             type:    "GET",
+    $.ajax({ url: "/bytBild/<?= $privateID ?>/"+i+"/"+(i+1), 
+             type: "GET",
              success: function()
-			       { 
+			 { 
                $('#bild'+i).css('background-image', 'url('+bilder[(i+1)].file+')');
-			         $('#bild'+(i+1)).css('background-image', 'url('+bilder[i].file+')');
-			         temp = bilder[i];
-			         bilder[i] = bilder[(i+1)];
-			         bilder[i+1] = temp;
-			       },
-             error:   function() { alert("Det gick dåligt!"); }
-           }
-     	    )  
+			   $('#bild'+(i+1)).css('background-image', 'url('+bilder[i].file+')');
+			   temp = bilder[i];
+			   bilder[i] = bilder[(i+1)];
+			   bilder[i+1] = temp;
+			 },
+             error: function() { alert("Det gick dåligt!"); }
+           })  
    }
    
    function taBortBild(i)
@@ -83,11 +81,11 @@
      $.ajax({ url:    "/taBortBild/<?= $privateID ?>/"+i, 
               type:    "GET",
               success: function() 
-			        { 
-			          $('#bild'+i).css("background-image", "none");
+			  { 
+			    $('#bild'+i).css("background-image", "none");
                 $('#trash'+i).remove();	
-				        window.location.reload(true);
-			        },
+			    window.location.reload(true);
+			  },
               error:   function() { alert("Det gick dåligt!"); }
             }
      	     ) 
@@ -95,11 +93,10 @@
    
    function updatePublicID()
   {
-    $.ajax({ url: "/uppdateraPubliktID/<?= $privateID ?>", 
-	           type: "POST" , 
-	           data: {"title": $('#title').val()},
-	           success: function(){ $('#title').css("border-style","none") } ,
-	           error: function() {alert("det gick dåligt");}
+    $.ajax({ url: "/andraPubID/<?= $privateID ?>/"+$('#pubID').val(), 
+	         type: "GET" , 
+	         success: function(){ $('#pubID').css({"border-style":"none", "text-decoration":"underline"})},
+	         error:   function(){ alert("det gick dåligt");}
 	  })
   }
   </script>
