@@ -8,10 +8,10 @@
   {
     return FALSE;
   }
+  
   else	
   {
     renameTest($currentPublicID, $newPublicID);
   }
-  
   return;
 ?>
