@@ -257,7 +257,9 @@ a#testLink:active
 {
   u
     {
-	display: none;
+	top: 4%;
+	left: 3%;
+	font-size: 150%;
   }
   
   h1
