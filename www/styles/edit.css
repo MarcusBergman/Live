@@ -268,11 +268,11 @@ a#testLink:active
 #pubID
 {
   position: absolute;
-  top: 20%;
-  left: 14%;
-  width: 20%;
-  height: 5%;
-  font-size: 150%; 
+  top: 15%;
+  left: 53%;
+  width: 40%;
+  height: 12%;
+  font-size: 100%; 
 }
 
 @media only all and (max-width: 568px) 
