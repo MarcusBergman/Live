@@ -79,25 +79,25 @@ p
 u
 {
   position: absolute;
-  top: 5%;
-  left: 5%;
+  top: 3%;
+  left: 3%;
   font-size: 300%;
 }
 
 h1
 {
   position: absolute; 
-  top: 13%;
-  left: 7%;
-  font-size: 200%;  
+  top: 10%;
+  left: 5%;
+  font-size: 175%;  
 }
 
 h2
 {
   position: absolute;
-  top: 16%;
-  left: 7%;
-  font-size: 200%;
+  top: 15%;
+  left: 5%;
+  font-size: 175%;
 }
 
 #title
