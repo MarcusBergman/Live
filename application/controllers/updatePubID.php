@@ -1,11 +1,18 @@
 <?php
 
   $privateID = $matches[1];
-  $pubID = $matches[2];
+  $publicID = $matches[2];
   $test = getTestByPrivateID($privateID);
   
-  echo $pubID
+  $tempTest = getTestByPublicID($publicID);
   
-  //updateTestByPrivateID($privateID, $test); 
-
+  if ($tempTest)
+  {
+    return FALSE;
+  }
+  else	
+  {
+    $test['publicID'] = $publicID;
+	updateTestByPrivateID($privateID, $test); 
+  }
 ?>
