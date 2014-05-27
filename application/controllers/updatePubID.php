@@ -1,18 +1,15 @@
 <?php
 
   $privateID = $matches[1];
-  $publicID = $matches[2];
-  $test = getTestByPrivateID($privateID);
+  $newPublicID = $matches[2];
+  $currentPublicID = getPublicIDByPrivateID($privateID);
   
-  $tempTest = getTestByPublicID($publicID);
-  
-  if ($tempTest)
+  if (getTestByPublicID($newPublicID))
   {
     return FALSE;
   }
   else	
   {
-    $test['publicID'] = $publicID;
-	updateTestByPrivateID($privateID, $test); 
+    renameTest($currentPublicID, $newPublicID);
   }
 ?>

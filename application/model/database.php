@@ -108,4 +108,11 @@
       return false;
   }
   
+  function renameTest($publicID, $newPublicID)
+  {
+    global $db;
+	
+	dba_replace($newPublicID, dba_fetch($publicID, $db),$db);
+	dba_delete($publicID, $db);
+  }
 ?>
