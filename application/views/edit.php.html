@@ -36,6 +36,7 @@
 	<div id="testid">
 	  Privat ID för testskapare: <?= $privateID ?><br>
 	  <a id="testLink" href="http://august.friskola.nu/testa/<?= $publicID ?>">Publikt ID för testare: <?= $publicID ?></a>
+	  <input type="submit" value="Ändra det publika ID:et" id="andra">
 	</div>
 	</div>
   </div>
@@ -91,6 +92,16 @@
             }
      	     ) 
    }
+   
+   function updatePublicID()
+  {
+    $.ajax({ url: "/uppdateraPubliktID/<?= $privateID ?>", 
+	           type: "POST" , 
+	           data: {"title": $('#title').val()},
+	           success: function(){ $('#title').css("border-style","none") } ,
+	           error: function() {alert("det gick dåligt");}
+	  })
+  }
   </script>
   <script src="/scripts/edit.js"></script>
   <?php } ?>
