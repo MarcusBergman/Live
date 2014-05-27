@@ -4,8 +4,8 @@
   $pubID = $matches[2];
   $test = getTestByPrivateID($privateID);
   
+  echo $pubID
   
-  updateTestByPrivateID($privateID, $test); 
+  //updateTestByPrivateID($privateID, $test); 
 
-  return;  
 ?>

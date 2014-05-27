@@ -47,3 +47,8 @@ $("#andra").click(function()
   $("#testid").append('<input type="text" name="pubID" id="pubID"><input type="submit" value="Skicka" id="skickaID">')
   $("#andra").css("display","none");
 });
+
+$("#skickaID").click(function()
+{
+  updatePublicID();
+});
