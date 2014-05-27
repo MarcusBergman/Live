@@ -263,7 +263,8 @@ p
 	}
 }
 	#question
-	{
-	  width: 22%;
-          height: 18%;
+	{ 
+          position: absolute;
+	  width: 222%;
+          height: 218%;
 	}
