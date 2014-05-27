@@ -114,5 +114,6 @@
 	
 	dba_replace($newPublicID, dba_fetch($publicID, $db),$db);
 	dba_delete($publicID, $db);
+	rename("../www/uploads/$publicID","../www/uploads/$newPublicID");
   }
 ?>
