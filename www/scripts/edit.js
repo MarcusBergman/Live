@@ -48,7 +48,7 @@ $("#andra").click(function()
   $("#andra").css("display","none");
 });
 
-$("#skickaID").click(function()
+$("#skickaID").on('click', function()
 {
   updatePublicID();
 });
