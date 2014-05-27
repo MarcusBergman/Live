@@ -3,7 +3,7 @@ window.onorientationchange = function() { location.reload() };
 $('#title').on('change keydown paste input', function() 
 {
   updateTitle();
-})
+});
 
 for (var i=0; i<bilder.length; i++)
 {
