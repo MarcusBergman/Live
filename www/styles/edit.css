@@ -279,7 +279,7 @@ a#testLink:active
 {
   position: absolute;
   top: 16%;
-  left: 75%;
+  left: 75.5%;
   width: 17%;
   height: 13%;
   font-size: 80%;
@@ -340,7 +340,7 @@ a#testLink:active
   {
     top: 58%;
 	left: 3%;
-    width: 94%;
+    width: 96%;
     height: 30%;
     font-size: 100%;
   }
