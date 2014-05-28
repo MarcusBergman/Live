@@ -89,7 +89,7 @@ h2
 #question a:hover
 {
   text-decoration:underline;
-  color: white;
+  color: black;
 }
 
 #question a:active
@@ -188,7 +188,8 @@ p
 	
 	#question
 	{
-	  
+	  bottom: 0.5%;
+	  font-size: 275%;
 	}
 	
 	#popup
