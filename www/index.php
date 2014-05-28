@@ -9,6 +9,7 @@
  $routes = array
  (
    '/^$/'                                          => 'views/home.php.html',
+   '/^om$/'                                        => 'views/om.php.html',
    '/^redigera\/([a-zA-Z]+)$/'                     => 'views/edit.php.html',
    '/^testa\/([a-zA-Z]+)$/'                        => 'views/run.php.html',
    '/^nytt$/'                                      => 'controllers/new.php',
