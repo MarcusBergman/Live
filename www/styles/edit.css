@@ -401,12 +401,19 @@ a#testLink:active
   #add
   {
     top: 66%;
-    left: 66%;
+    left: 70%;
   }
   
   #testid
-  {
+   {
     top: 65%;
     left: 6%;
+  }
+  
+  #andra
+    {
+	top: 30%;
+	width: 30%;
+	height: 20%;
   }
 }
