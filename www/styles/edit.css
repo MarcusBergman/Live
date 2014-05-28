@@ -353,8 +353,9 @@ a#testLink:active
   
   #pubID
     {
-	top: 25%;
-	left: 46%;
+	top: 23%;
+	left: 46.5%;
+	width: 46%;
   }
   
   #skickaID
