@@ -314,7 +314,7 @@ a#testLink:active
   {
     top: 12.5%;
     left: 33%;
-    width: 40%;
+    width: 55%;
     height: 4%;
     font-size: 80%;
   }
@@ -331,17 +331,23 @@ a#testLink:active
   #add
   {
     position: absolute;
-    top: 50%;
+    top: 45%;
     width: 14%;
     height: 16%;
   }
   
   #testid
   {
-    top: 64%;
-    width: 80%;
+    top: 58%;
+    width: 90%;
     height: 30%;
     font-size: 100%;
+  }
+  
+  #andra
+    {
+	top: 40%;
+	width: 55%;
   }
 }
 
