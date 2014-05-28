@@ -339,7 +339,8 @@ a#testLink:active
   #testid
   {
     top: 58%;
-    width: 90%;
+	left: 3%;
+    width: 94%;
     height: 30%;
     font-size: 100%;
   }
