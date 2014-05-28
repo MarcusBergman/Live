@@ -353,12 +353,16 @@ a#testLink:active
   
   #pubID
     {
-	top: 35%;
-	left: 40%;
-	height: 20%;
+	top: 25%;
+	left: 46%;
   }
   
   #skickaID
+    {
+	top: 40%;
+	width: 20%;
+	height: 20%;
+  }
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 767px) and (orientation : landscape)
