@@ -34,25 +34,25 @@ input, select, textarea, button
   z-index: 100;
 }
 
-a:link
+#blackBar a:link
 {
   text-decoration:none;
   color: white;
 }
 
-a:visited
+#blackBar a:visited
 {
   text-decoration:none;
   color: white;
 }
 
-a:hover
+#blackBar a:hover
 {
   text-decoration:underline;
   color: white;
 }
 
-a:active
+#blackBar a:active
 {
   text-decoration:underline;
   color: white;
