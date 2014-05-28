@@ -74,6 +74,30 @@ h2
   right: 2%;
 }
 
+#question a:link
+{
+  text-decoration: underline;
+  color: black;
+}
+
+#question a:visited
+{
+  text-decoration: underline;
+  color: black;
+}
+
+#question a:hover
+{
+  text-decoration:underline;
+  color: white;
+}
+
+#question a:active
+{
+  text-decoration:underline;
+  color: white;
+}  
+
 #popup
 {
   position: absolute;
