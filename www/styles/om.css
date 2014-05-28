@@ -19,10 +19,12 @@ h1
 {
   Font-size: 250%;
   text-align: center;
+  line-height: 75%;
 }
 
 h2
 {
   Font-size: 175%;
   text-align: center;
+  line-height: 70%;
 }
