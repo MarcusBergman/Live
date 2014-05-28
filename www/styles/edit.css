@@ -361,7 +361,7 @@ a#testLink:active
   #skickaID
     {
 	top: 40%;
-	left: 79%;
+	left: 78.5%;
 	width: 20%;
 	height: 20%;
   }
@@ -400,13 +400,13 @@ a#testLink:active
   
   #add
   {
-    top: 80%;
+    top: 66%;
     left: 66%;
   }
   
   #testid
   {
-    top: 79%;
+    top: 65%;
     left: 6%;
   }
 }
