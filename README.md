@@ -50,7 +50,7 @@ I application/controllers ligger alla controllers där finns alla filer som anv�
 
 #### Model
 
-Modellen består endast av en php-fil som liiger i application/model, den filen utgör ett inteface mot en DB4-databas.
+Modellen består endast av en php-fil som ligger i application/model, den filen utgör ett inteface mot en DB4-databas.
 Vi använder databasen "the Berkeley Database"(DB4). Som erbjuder den inbyggda databasen stöd för både traditionella och klient/server-applikationer. 
 
 En av de stora fördelarna med att dela upp kod på detta sätt är att man lätt skulle kunna byta ut databasmotorn till något annat, till exempel MySQL genom att endast ändra i php-filen.
