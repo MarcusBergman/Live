@@ -257,8 +257,8 @@ a#testLink:active
 {
   position: absolute;
   top: 35%;
-  left: -1%;
-  width: 60%;
+  left: 0%;
+  width: 50%;
   height: 18%;
   font-size: 75%;
   background-color: black;
