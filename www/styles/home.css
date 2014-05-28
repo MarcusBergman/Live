@@ -65,6 +65,15 @@ h2
   color: white;
 }
 
+#question
+{ 
+  position: absolute;
+  color: black;
+  font-size: 350%;
+  bottom: 2%;
+  right: 2%;
+}
+
 #popup
 {
   position: absolute;
@@ -132,7 +141,7 @@ p
 	#starta
 	{
 	  float: none;
-	  top: 22%;
+	  top: 20%;
 	  left: 2%;
 	  width: 92%;
 	}
@@ -140,7 +149,7 @@ p
 	#redigera
 	{
 	  float: none;
-	  top: 47%;
+	  top: 45%;
 	  left: 2%;
 	  width: 92%;
 	}
@@ -148,9 +157,14 @@ p
 	#skapa
 	{
 	  float: none; 
-      top: 72%;
+      top: 70%;
       left: 2%;	
       width: 92%;	  
+	}
+	
+	#question
+	{
+	  
 	}
 	
 	#popup
@@ -168,7 +182,7 @@ p
       width: 40%;
       height: 15%;
       font-size: 175%;
-}
+    }
 	
 	p
 	{
@@ -262,11 +276,3 @@ p
       height: 18%;
 	}
 }
-	#question
-	{ 
-          position: fixed;
-	  color: black;
-          font-size: 350%;
-          top: 85%;
-          left: 95%;
-	}
