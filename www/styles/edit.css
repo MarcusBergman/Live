@@ -350,6 +350,15 @@ a#testLink:active
 	top: 40%;
 	width: 55%;
   }
+  
+  #pubID
+    {
+	top: 35%;
+	left: 40%;
+	height: 20%;
+  }
+  
+  #skickaID
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 767px) and (orientation : landscape)
