@@ -8,7 +8,7 @@
   padding-top: 5%;
   padding-left: 5%;
   width: 96%;
-  height: 94%;
+  height: 300%;
   background-color: white;
   font-size: 150%;
   -moz-border-radius: 15px;
@@ -19,12 +19,12 @@ h1
 {
   Font-size: 250%;
   text-align: center;
-  line-height: 75%;
+  line-height: 0%;
 }
 
 h2
 {
   Font-size: 175%;
   text-align: center;
-  line-height: 70%;
+  line-height: 0%;
 }
