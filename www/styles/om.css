@@ -24,12 +24,12 @@ h1
 
 u
 {
-  font-size: 175%;
+  font-size: 150%;
 }
 
 #add
 {
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  left: 60%;
   width: 8%;
 }
