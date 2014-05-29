@@ -320,6 +320,14 @@ a#testLink:active
     font-size: 80%;
   }
   
+  .arrows:hover 
+    { 
+    -webkit-transform: none; 
+    -moz-transform: none; 
+    -o-transform: none;
+    -ms-transform: none; 
+  }
+  
   .trashdiv
   {
     left: 70%;
