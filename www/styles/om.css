@@ -1,8 +1,9 @@
 #omtext
 {
   position: absolute;
-  box-sizing:border-box;
-  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   top: 7%;
   left: 2%;
   padding: 2%;
