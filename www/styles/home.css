@@ -231,7 +231,7 @@ p
 	}
 }
 
-@media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2)
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) and (orientation : landscape)
 {	
     h1
 	{
