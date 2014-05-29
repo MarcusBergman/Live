@@ -76,11 +76,13 @@ $("#rätta").click(function()
   allCorrect = true;
   
   for (question in facit)
+  
     if (facit[question] != answers[question])
     {
       allCorrect = false;
 	  $("#"+question).html('<img src="/images/rodkryss.png" class="kryss" />');
     }
+	
     else
     {
 	  $("#"+question).html('<img src="/images/gronbock.png" class="bock" />');
@@ -92,6 +94,7 @@ $("#rätta").click(function()
 	  $("#resultat").html("Alla svaren stämmer!");
 	  $("#reload").css("display","initial");
 	}
+	
 	else
 	  $("#resultat").html("Något av svaren stämmer inte.");
 	  
