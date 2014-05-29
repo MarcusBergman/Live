@@ -32,31 +32,31 @@ u
   width: 8%;
 }
 
-a
+#omtext a
 {
   color: black;
   font-style: italic;
 }
 
-a:link
+#omtext a:link
 {
   color: black;
   text-decoration: underline;
 }
 
-a:hover
+#omtext a:hover
 {
   color: black;
   text-decoration: underline;
 }
 
-a:visited
+#omtext a:visited
 {
   color: black;
   text-decoration: none;
 }
 
-a:active
+#omtext a:active
 {
   color: black;
   text-decoration: none;
