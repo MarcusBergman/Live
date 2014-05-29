@@ -247,7 +247,7 @@ p
 	{
 	  float: none;
 	  top: 22%;
-	  left: 2%;
+	  left: 4%;
 	  width: 92%;
 	}
 	
@@ -255,7 +255,7 @@ p
 	{
 	  float: none;
 	  top: 47%;
-	  left: 2%;
+	  left: 4%;
 	  width: 92%;
 	}
 	
@@ -263,8 +263,15 @@ p
 	{
 	  float: none; 
       top: 72%;
-      left: 2%;	
+      left: 4%;	
       width: 92%;	  
+	}
+	
+	#question
+	{
+	  right: 0%;
+	  bottom: -1%;
+	  font-size: 275%;
 	}
 	
 	#popup
@@ -282,7 +289,7 @@ p
       width: 40%;
       height: 15%;
       font-size: 175%;
-}
+    }
 	
 	p
 	{
