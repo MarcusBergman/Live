@@ -144,7 +144,7 @@ h2
   -ms-transition: all 1s ease-in-out; 
 }
 
-.arrows:hover:focus 
+.arrows:hover 
 { 
   -webkit-transform: rotate(360deg); 
   -moz-transform: rotate(360deg); 
