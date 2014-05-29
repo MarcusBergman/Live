@@ -73,8 +73,6 @@ $("#rätta").click(function()
   
   count++;
   
-  if (count = 100){ alert("Du verkar ha problem, ett tips skulle vara att lägga bilderna i rätt ordning innan du försöker rätta igen.")}
-  
   allCorrect = true;
   
   for (question in facit)
