@@ -18,7 +18,6 @@ input, select, textarea, button
   -webkit-border-radius: 0;
 }
 
-
 #blackBar
 {
   position: absolute;
@@ -38,25 +37,25 @@ input, select, textarea, button
 
 #blackBar a:link
 {
-  text-decoration:none;
+  text-decoration: none;
   color: white;
 }
 
 #blackBar a:visited
 {
-  text-decoration:none;
+  text-decoration: none;
   color: white;
 }
 
 #blackBar a:hover
 {
-  text-decoration:underline;
+  text-decoration: underline;
   color: white;
 }
 
 #blackBar a:active
 {
-  text-decoration:underline;
+  text-decoration: underline;
   color: white;
 }  
 
