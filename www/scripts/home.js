@@ -23,6 +23,11 @@ $("#skapa").click(function()
 {
   window.location.href = 'http://august.friskola.nu/nytt'
 });  
+
+$("#question").click(function()
+{
+  window.location.href = 'http://august.friskola.nu/om'
+}
   
 $("#kryss").click(function()
 {
