@@ -6,25 +6,25 @@
   -moz-box-sizing: border-box;
   top: 7%;
   left: 2%;
-  padding: 2%;
+  padding: 8%;
   width: 96%;
   height: 260%;
   background-color: white;
-  font-size: 150%;
+  font-size: 120%;
   -moz-border-radius: 15px;
   border-radius: 15px;
 }
 
 h1
 {
-  Font-size: 250%;
+  Font-size: 200%;
   text-align: center;
   line-height: 0%;
 }
 
 u
 {
-  font-size: 120%;
+  font-size: 100%;
 }
 
 #skapa
