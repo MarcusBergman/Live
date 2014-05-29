@@ -1,3 +1,5 @@
+window.onorientationchange = function() { location.reload() };
+
 var testigera = "";
 
 function redirect()
