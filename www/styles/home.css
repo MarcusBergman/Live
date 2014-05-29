@@ -67,6 +67,7 @@ h2
 
 #question
 { 
+  cursor: pointer;
   position: absolute;
   color: black;
   font-size: 350%;
@@ -188,7 +189,6 @@ p
 	
 	#question
 	{
-	  cursor: pointer;
 	  right: 4%;
 	  bottom: -1%;
 	  font-size: 275%;
