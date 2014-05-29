@@ -22,7 +22,14 @@ h1
   line-height: 0%;
 }
 
+u
+{
+  font-size: 175%;
+}
+
 #add
 {
+  margin-left: auto;
+  margin-right: auto;
   width: 8%;
 }
