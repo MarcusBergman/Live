@@ -294,7 +294,7 @@ p
 	p
 	{
 	  top: 2%;
-      left: 25%;
+      left: 27%;
       font-size: 150%;
 	}
 	
@@ -306,7 +306,8 @@ p
 	
 	#ok
 	{
-	  width: 21%;
-      height: 21%;
+	  width: 20%;
+      height: 20%;
+	  font-size: 100%;
 	}
 }
