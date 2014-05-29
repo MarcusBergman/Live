@@ -24,7 +24,7 @@ $("#skapa").click(function()
   window.location.href = 'http://august.friskola.nu/nytt'
 });  
 
-$("#ankare").click(function()
+$("#question").click(function()
 {
   window.location.href = 'http://august.friskola.nu/om'
 });
