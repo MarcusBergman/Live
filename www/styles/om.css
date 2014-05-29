@@ -8,7 +8,7 @@
   left: 2%;
   padding: 2%;
   width: 96%;
-  height: 300%;
+  height: 260%;
   background-color: white;
   font-size: 150%;
   -moz-border-radius: 15px;
@@ -30,4 +30,17 @@ u
 .ikoner
 {
   width: 8%;
+}
+
+@media only all and (max-width: 568px) 
+{
+  #omtext
+    {
+	font-size: 100%;
+  }
+  
+  h1
+    {
+	display: none;
+  }
 }
