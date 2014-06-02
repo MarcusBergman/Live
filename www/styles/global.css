@@ -21,10 +21,8 @@ input, select, textarea, button
 #blackBar
 {
   position: absolute;
-  width: 100%;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  padding-right: 1%;
+  width: 98%;
+  padding-right: 2%;
   padding-bottom: 1%;
   height: 34px;
   background-color: black;
