@@ -67,5 +67,3 @@ Alla vyer har en gemensam header som gör att alla vyer är uppbyggda på samma 
 #### Uppladdade bilder
 
 För att man ska kunna ladda upp bilder så behövs en uploads mapp med rätt rättigheter för att kunna ladda upp bilder dit från redigera vyn. Där mappar skapas efter vilket test det är man redigerar.
-* Vad måste man göra för att få uppladdning av bilder att fungera?
-
