@@ -58,13 +58,16 @@ u
 #fredrik
 {
   float: left;
-  clear: right;
 }
 
 #marcus
 {
   float: right;
-  clear: left;
+}
+
+p
+{
+  clear: both;
 }
 
 #omtext a
