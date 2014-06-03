@@ -35,20 +35,21 @@ h1
   border: 2px solid black;
 }
 
-#visa+ input 
+.visa+ input 
 {
   display:none;
 }
 
-#visa+ input:checked + *
+.visa+ input + *
+{
+  display: none;
+}
+
+.visa+ input:checked + *
 {
   display:block;
 }
 
-#manual
-{
-  display: none;
-}
 
 u
 {
