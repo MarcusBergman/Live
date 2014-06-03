@@ -49,6 +49,7 @@ h1
 .visaManual+ input:checked + *
 {
   display: block;
+  position: relative;
 }
 
 u
