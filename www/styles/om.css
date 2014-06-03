@@ -106,6 +106,7 @@ u
 {       
 	position: relative;
 	width: 50%;
+
 	
 }
 #dotest
@@ -114,4 +115,5 @@ u
 	width: 40%;
 	height: 25%;
 	left: 50%;
-	
+
+	top:110px;
