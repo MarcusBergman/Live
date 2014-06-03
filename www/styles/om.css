@@ -70,6 +70,11 @@ p
   clear: both;
 }
 
+.logo
+{
+  width: 7%;
+}
+
 #omtext a
 {
   color: black;
