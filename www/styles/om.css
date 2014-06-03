@@ -51,7 +51,7 @@ h1
   display: none;
 }
 
-.visaManual+ input:checked + *
+.visaManual+ input:checked + #manual
 {
   display: block;
 }
