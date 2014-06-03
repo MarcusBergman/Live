@@ -36,6 +36,11 @@ h1
   display: block;
 }
 
+.visaManual
+{
+  cursor: pointer;
+}
+
 .visaManual + input 
 {
   display: none;
