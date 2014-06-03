@@ -48,9 +48,8 @@ h1
 
 .visa+ input:checked + *
 {
-  display:block;
+  display: block;
 }
-
 
 u
 {
