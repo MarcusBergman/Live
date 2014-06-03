@@ -107,7 +107,8 @@ u
 #dotest
 {
 	position: absolute;
-
+        width: 50%;
+        height:26%;
 	float:left;
 	
 	padding:1px;
