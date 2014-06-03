@@ -23,7 +23,7 @@ h1
   line-height: 0%;
 }
 
-.visa
+#visa
 {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -36,17 +36,17 @@ h1
   display: block;
 }
 
-.visa+ input 
+.visaManual + input 
 {
   display: none;
 }
 
-.visa+ input + #manual
+.visaManual + input + *
 {
   display: none;
 }
 
-.visa+ input:checked + #manual
+.visaManual+ input:checked + *
 {
   display: block;
 }
