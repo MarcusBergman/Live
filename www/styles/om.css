@@ -59,6 +59,8 @@ h1
 #manual
 {
   position: relative;
+  left: -2%;
+  z-index: 1;
 }
 
 #utvecklare
