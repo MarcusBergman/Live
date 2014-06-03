@@ -28,7 +28,7 @@ h1
   position: relative;
   width: 50%;
   padding: 1px;
-  border: 1px solid black;
+  border: 3px outset black;
 }
 
 #dotest
@@ -37,7 +37,7 @@ h1
   width: 39.4%;
   float: left;
   padding: 1px;
-  border: 1px solid black;
+  border: 3px outset black;
 }
 
 #visa
