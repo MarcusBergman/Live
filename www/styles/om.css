@@ -121,15 +121,14 @@ p
 {       
 	position: relative;
 	width: 50%;
-        padding:1px;
-        border:1px solid #021a40;
+    padding:1px;
+    border:1px solid #021a40;
 }
 #dotest
 {
 	position: absolute;
-        width: 40%;
-        height:24%;
+    width: 39.4%;
 	float:left;
-	
 	padding:1px;
-        border:1px solid #021a40;
+    border:1px solid #021a40;
+}
