@@ -129,6 +129,7 @@ u
 {       
 	position: relative;
 	width: 50%;
+	margin:10px;
 	
 }
 #dotest
@@ -137,4 +138,4 @@ u
 	width: 40%;
 	height: 25%;
 	left: 50%;
-	
+	margin:10px
