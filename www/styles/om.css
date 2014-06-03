@@ -56,7 +56,7 @@ h1
   display: block;
 }
 
-.visaManual+ input:checked+ #utvecklare
+input:checked+ #utvecklare
 {
   top: 50%;
 }
