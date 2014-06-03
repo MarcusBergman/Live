@@ -106,7 +106,7 @@ u
 }
 #dotest
 {
-	position: absolute;
+	position: relative;
 	width: 40%;
 	height: 26%;
 	float:left;
