@@ -23,6 +23,23 @@ h1
   line-height: 0%;
 }
 
+#editpic
+{       
+  position: relative;
+  width: 50%;
+  padding: 1px;
+  border: 1px solid black;
+}
+
+#dotest
+{
+  position: absolute;
+  width: 39.4%;
+  float: left;
+  padding: 1px;
+  border: 1px solid black;
+}
+
 #visa
 {
   cursor: pointer;
@@ -116,19 +133,4 @@ p
     {
 	display: none;
   }
-}
-#editpic
-{       
-	position: relative;
-	width: 50%;
-    padding:1px;
-    border:1px solid #021a40;
-}
-#dotest
-{
-	position: absolute;
-    width: 39.4%;
-	float:left;
-	padding:1px;
-    border:1px solid #021a40;
-}
+}´
