@@ -49,6 +49,15 @@ h1
 .visaManual+ input:checked + *
 {
   display: block;
+}
+
+#manual
+{
+  position: relative;
+}
+
+#utvecklare
+{
   position: relative;
 }
 
