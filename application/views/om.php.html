@@ -55,7 +55,13 @@ Man kan då flytta om dem felaktiga, och välja att rätta igen, tills ordningen
 
   $("#visa").click(function()
   {
-     $("#manual").show("easing"); 
+     $("#manual").show("slow",function()
+	 {
+	   $("#visa").click(function()
+	   {
+	     $("#manual").hide();
+	   });
+	 }); 
   });
 
 </script>
