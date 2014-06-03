@@ -23,6 +23,11 @@ h1
   line-height: 0%;
 }
 
+#manual
+{
+  display: none;
+}
+
 u
 {
   font-size: 110%;
