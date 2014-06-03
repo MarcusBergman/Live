@@ -1,3 +1,13 @@
+#bakgrund
+{
+  position: absolute;
+  width: 75%;
+  height: 100%;
+  left: 12.5%;
+  top: 7%;
+  background-color: white;
+}
+
 #omtext
 {
   position: absolute;
