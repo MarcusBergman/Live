@@ -56,8 +56,7 @@ Man kan då flytta om dem felaktiga, och välja att rätta igen, tills ordningen
 
   $("#visa").click(function()
   {
-     $("#manual").slideToggle("easing");
-     $("i").val("Dölj");	 
+     $("#manual").slideToggle("easing",function(){ $("i").replaceWith("Dölj Manual"); });	 
   });
 
 </script>
