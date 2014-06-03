@@ -26,9 +26,10 @@ h1
 #visa
 {
   left: 12.5%;
-  padding-left: 8%;
   width: 70%;
   height: 50px;
+  color: white;
+  background-color: black;
 }
 
 #manual
