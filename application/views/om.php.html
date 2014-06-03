@@ -10,19 +10,13 @@
 
 <h1>AUGUST</h1><br>
 
-
-
-
-
-
 August är ett system ämnat för lärare och elever på högstadiet.
 I AUGUST kan man skapa enkla övningar där målet är att lägga ett antal bilder i rätt ordning genom att dra och släppa dem i rätt boxar. 
 När man är nöjd kan man välja Rätta och då se vilka bilder som ligger rätt och vilka som ligger fel.
 Man kan då flytta om dem felaktiga, och välja att rätta igen, tills ordningen stämmer.
 <br>
 <br>
-<div id="visa"><label class="visaManual" for="ett">Visa Manual</label>
-  <input id="ett" type="checkbox">
+<div id="visa"><h2>Visa Manual</h2>
   <div id="manual">
   <u>Hur man gör ett test:</u><br><br>
   Börja med att trycka på Skapa Test för att komma till redigera vyn:<br>
@@ -51,5 +45,15 @@ Man kan då flytta om dem felaktiga, och välja att rätta igen, tills ordningen
     <a href="https://github.com/MarcusBergman/Live">Projektet på GitHub</a><br>
   </div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+<script>
+
+  $("#visa").click(function()
+  {
+     $("#manual").show("easing"); 
+  });
+
+</script>
 </body>
 </html>

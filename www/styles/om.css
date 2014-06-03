@@ -33,34 +33,11 @@ h1
   width: 100%;
   height: 32px;
   border: 2px solid black;
-  display: block;
-}
-
-.visaManual
-{
-  cursor: pointer;
-}
-
-.visaManual + input 
-{
-  display: none;
-}
-
-.visaManual + input + #manual
-{
-  display: none;
-}
-
-.visaManual+ input:checked + #manual
-{
-  display: block;
 }
 
 #manual
 {
-  position: relative;
-  left: -2%;
-  z-index: 1;
+  display: none;
 }
 
 #utvecklare
