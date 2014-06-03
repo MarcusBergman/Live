@@ -46,7 +46,7 @@ h1
   display: none;
 }
 
-.visaManual + input + *
+.visaManual + input + #manual
 {
   display: none;
 }
