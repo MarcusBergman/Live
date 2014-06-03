@@ -41,12 +41,12 @@ h1
   display: none;
 }
 
-.visa+ input + *
+.visa+ input + #manual
 {
   display: none;
 }
 
-.visa+ input:checked + *
+.visa+ input:checked + #manual
 {
   display: block;
 }
