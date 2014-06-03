@@ -55,6 +55,16 @@ u
   width: 5%;
 }
 
+#fredrik
+{
+  float: left;
+}
+
+#marcus
+{
+  float: right;
+}
+
 #omtext a
 {
   color: black;
