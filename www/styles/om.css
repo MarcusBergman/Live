@@ -56,11 +56,6 @@ h1
   display: block;
 }
 
-.visaManual+ input:checked+ #utvecklare
-{
-  top: 50%;
-}
-
 #manual
 {
   position: relative;
