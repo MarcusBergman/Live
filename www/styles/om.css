@@ -120,14 +120,14 @@ u
 }
 #editpic
 {       
-	position: absolute;
+	position: relative;
 	width: 50%;
 	left: 12.5%;
 	border-radius: 15px;
 }
 #dotest
 {
-	position: absolute;
+	position: relative;
 	width: 50%;
 	left: 63.5%;
 	border-radius: 15px;
