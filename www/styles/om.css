@@ -1,6 +1,6 @@
 #omtext
 {
-  position: absolute;
+  position: absolut;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -35,21 +35,10 @@ h1
   border: 2px solid black;
 }
 
-.visa+ input 
-{
-  display:none;
-}
-
-.visa+ input + *
+#manual
 {
   display: none;
 }
-
-.visa+ input:checked + *
-{
-  display:block;
-}
-
 
 u
 {
