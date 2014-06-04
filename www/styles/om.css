@@ -26,8 +26,10 @@ h1
 #editpic
 {       
   position: relative;
-  width: 50%;
+  width: 82%;
+  margin-left: -35%;
   float: left;
+  margin-top: 10%;
   padding: 1px;
   border: 3px outset black;
 }
@@ -35,12 +37,13 @@ h1
 #dotest
 {
   position: relative;
-  width: 75%;
+  width: 81%;
   float: right;
   padding: 1px;
-  margin-top: 10%;
-  margin-right: -35%;
+  margin-top: 11%;
+  margin-right: -37%;
   margin-bottom: 15%;
+  border: 3px outset black;
 }
 
 #visa
