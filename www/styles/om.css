@@ -202,14 +202,46 @@ p
   #editpic
     {
     float: none;
-    width: 100%;
+    width: 97%;
     margin-left: 0%;
   }
   
   #dotest
     {
     float: none;
-    width: 100%;
+    width: 97%;
     margin-right: 0%;    
+  }
+  
+  #visa
+    {
+    margin-left: 0%;
+    width: 97%;    
+  }
+  
+  #fredrik
+    {
+    margin-left: 0%;  
+  }
+  
+  #marcus
+    {
+    margin-right: 0%;  
+  }
+  
+  #SFLogo
+    {
+    margin-left: 0%;  
+  }
+  
+  #TGLogo
+    {
+    margin-left: 5%;
+    margin-right: 5%;    
+  }
+  
+  #RLogo
+    {
+    margin-right: 0%;  
   }
 }´
