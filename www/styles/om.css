@@ -102,6 +102,12 @@ p
   clear: both;
 }
 
+#logotyper
+{
+  position: relative;
+  margin-left: -35%;
+}
+
 .logo
 {
   float: left;
