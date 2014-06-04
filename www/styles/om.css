@@ -106,12 +106,14 @@ p
 {
   position: relative;
   margin-left: -35%;
+  width: 100%;
 }
 
 .logo
 {
   float: left;
   width: 24%;
+  margin-right: 10%;
 }
 
 #omtext a
