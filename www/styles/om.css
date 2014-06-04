@@ -90,7 +90,7 @@ u
 #fredrik
 {
   float: left;
-  text-align: middle;
+  text-align: center;
   margin-left: -15%;
   margin-bottom: 8%;
   line-height: 75%;
@@ -100,7 +100,7 @@ u
 #marcus
 {
   float: right;
-  text-align: middle;
+  text-align: center;
   margin-right: -15%;
   margin-bottom: 8%;
   line-height: 75%;
