@@ -49,6 +49,7 @@ h1
   -moz-box-sizing: border-box;
   left: 12.5%;
   width: 100%;
+  clear: both;
   border: 2px solid black;
 }
 
