@@ -229,19 +229,26 @@ p
     width: 15%;  
   }
   
+  h2
+    {
+    text-align: center;  
+  }
+  
   #fredrik
     {
-    margin-top: 8%;
     float: none;
+    text-align: left;
     line-height: 60%;
+    margin-top: 8%;
     margin-left: 0%;     
   }
   
   #marcus
     {
     float: none;
-    margin-right: 0%; 
-    line-height: 60%;      
+    text-align: left;
+    line-height: 60%;
+    margin-right: 0%;       
   }
   
   #SFLogo
@@ -251,8 +258,8 @@ p
   
   #TGLogo
     {
-    margin-left: 15%;
-    margin-right: 15%;    
+    margin-left: 16%;
+    margin-right: 16%;    
   }
   
   #RLogo
