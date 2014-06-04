@@ -27,7 +27,7 @@ h1
 {       
   position: relative;
   width: 82%;
-  margin-left: -35%;
+  margin-left: -37%;
   float: left;
   margin-top: 10%;
   padding: 1px;
@@ -40,7 +40,7 @@ h1
   width: 82%;
   float: right;
   padding: 1px;
-  margin-top: 11%;
+  margin-top: 10%;
   margin-right: -37%;
   margin-bottom: 15%;
   border: 3px outset black;
@@ -52,8 +52,8 @@ h1
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  left: 12.5%;
-  width: 100%;
+  margin-left: -35%;
+  width: 172%;
   clear: both;
   border: 2px solid black;
 }
