@@ -62,6 +62,7 @@ h1
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   margin-left: -35%;
+  padding: 2%;
   width: 172%;
   clear: both;
   border: 2px solid black;
@@ -189,7 +190,7 @@ p
     left: 3%;
     padding: 2%;
     line-height: 140%;
-    width: 100%;
+    width: 94%;
     font-size: 100%;
   }
   
