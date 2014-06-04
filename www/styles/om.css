@@ -9,7 +9,7 @@
   padding: 18%;
   padding-top: 2%;
   width: 75%;
-  line-height: 150%;
+  line-height: 160%;
   background-color: white;
   font-size: 120%;
   -moz-border-radius: 15px;
@@ -34,9 +34,9 @@ h1
 
 #dotest
 {
-  position: absolute;
+  position: relative;
   width: 39.4%;
-  float: left;
+  float: right;
   padding: 1px;
   border: 3px outset black;
 }
