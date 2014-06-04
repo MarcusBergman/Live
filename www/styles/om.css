@@ -116,6 +116,7 @@ p
 {
   float: left;
   width: 22%;
+  margin-top: 5%;
   margin-left: -5%;
 }
 
@@ -123,6 +124,7 @@ p
 {
   float: left;
   width: 22%;
+  margin-top: 5%;
   margin-right: 22%;
   margin-left: 22%;
 }
@@ -131,6 +133,7 @@ p
 {
   float: right;
   width: 22%;
+  margin-top: 5%;
   margin-right: -5%;
 }
 
