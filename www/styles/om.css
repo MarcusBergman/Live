@@ -40,7 +40,7 @@ h1
   float: left;
   margin-top: 10%;
   padding: 1px;
-  border: 3px outset black;
+  border: 1px outset black;
 }
 
 #dotest
@@ -52,7 +52,7 @@ h1
   margin-top: 10%;
   margin-right: -37%;
   margin-bottom: 15%;
-  border: 3px outset black;
+  border: 1px outset black;
 }
 
 #visa
@@ -65,7 +65,7 @@ h1
   padding: 2%;
   width: 172%;
   clear: both;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 #manual
