@@ -185,9 +185,11 @@ p
 {
   #omtext
     {
+    top: 5%;
     left: 3%;
     padding: 2%;
     line-height: 100%;
+    width: 90%;
     font-size: 100%;
   }
   
