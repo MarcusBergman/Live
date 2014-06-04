@@ -90,11 +90,13 @@ u
 #fredrik
 {
   float: left;
+  margin-left: -35%;
 }
 
 #marcus
 {
   float: right;
+  margin-right: -35%;
 }
 
 p
