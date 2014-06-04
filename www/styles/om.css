@@ -27,6 +27,11 @@ h1
   line-height: 0%;
 }
 
+#intro
+{
+  clear: both;
+}
+
 #editpic
 {       
   position: relative;
