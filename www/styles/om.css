@@ -6,7 +6,7 @@
   -moz-box-sizing: border-box;
   top: 7%;
   left: 12.5%;
-  padding: 8%;
+  padding: 18%;
   padding-top: 2%;
   width: 75%;
   line-height: 150%;
@@ -27,6 +27,7 @@ h1
 {       
   position: relative;
   width: 50%;
+  float: right;
   padding: 1px;
   border: 3px outset black;
 }
