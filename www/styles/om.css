@@ -221,11 +221,13 @@ p
   
   #fredrik
     {
-    margin-left: 0%;  
+    float: none;
+    margin-left: 0%;     
   }
   
   #marcus
     {
+    float: none;
     margin-right: 0%;  
   }
   
@@ -236,8 +238,8 @@ p
   
   #TGLogo
     {
-    margin-left: 5%;
-    margin-right: 5%;    
+    margin-left: 12%;
+    margin-right: 12%;    
   }
   
   #RLogo
