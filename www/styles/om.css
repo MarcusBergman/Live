@@ -185,6 +185,10 @@ p
 {
   #omtext
     {
+    left: 3%;
+    padding: 2%;
+    line-height: 100%;
+    font-size: 100%;
   }
   
   h1
