@@ -196,6 +196,20 @@ p
   
   h1
     {
-	display: none;
+	  display: none;
+  }
+  
+  #editpic
+    {
+    float: none;
+    width: 100%;
+    margin-left: none;
+  }
+  
+  #dotest
+    {
+    float: none;
+    width: 100%;
+    margin-right: none;    
   }
 }´
