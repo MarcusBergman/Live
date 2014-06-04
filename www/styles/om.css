@@ -210,13 +210,20 @@ p
     {
     float: none;
     width: 97%;
-    margin-right: 0%;    
+    margin-right: 0%; 
+    margin-bottom: 7%;    
   }
   
   #visa
     {
     margin-left: 0%;
-    width: 97%;    
+    width: 98%;    
+  }
+  
+  #manual
+    {
+    padding-left: 0%;
+    padding-right: 0%;    
   }
   
   #skapa
