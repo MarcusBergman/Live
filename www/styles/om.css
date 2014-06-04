@@ -115,23 +115,23 @@ p
 #SFLogo
 {
   float: left;
-  width: 18%;
-  margin-right: 5%;
+  width: 22%;
+  margin-left: -5%;
 }
 
 #TGLogo
 {
   float: left;
-  width: 18%;
-  margin-right: 5%;
-  margin-left: 5%;
+  width: 22%;
+  margin-right: 22%;
+  margin-left: 22%;
 }
 
 #RLogo
 {
   float: right;
-  width: 18%;
-  margin-left: 5%;
+  width: 22%;
+  margin-right: -5%;
 }
 
 #omtext a
