@@ -48,6 +48,7 @@ h1
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  top: 42%;
   left: 12.5%;
   width: 100%;
   border: 2px solid black;
