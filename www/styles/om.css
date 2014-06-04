@@ -112,11 +112,26 @@ p
   position: relative;
 }
 
-.logo
+#SFLogo
 {
   float: left;
   width: 18%;
-  margin-right: 3%;
+  margin-right: 5%;
+}
+
+#TGLogo
+{
+  float: left;
+  width: 18%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+#RLogo
+{
+  float: right;
+  width: 18%;
+  margin-left: 5%;
 }
 
 #omtext a
