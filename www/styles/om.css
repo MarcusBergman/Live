@@ -102,6 +102,11 @@ p
   clear: both;
 }
 
+#GHLogo
+{
+  width: 2%;
+}
+
 #logotyper
 {
   position: relative;
