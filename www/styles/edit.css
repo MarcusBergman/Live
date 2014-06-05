@@ -297,7 +297,7 @@ u
   
   #skickaID
     {
-    height: 22%;  
+    height: 20%;  
   }
 }
 
@@ -338,5 +338,10 @@ u
     {
 	  width: 30%;
 	  height: 24%;
+  }
+  
+  #skickaID
+    {
+    height: 24%;  
   }
 }
