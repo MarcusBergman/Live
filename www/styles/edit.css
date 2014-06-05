@@ -66,6 +66,14 @@ p
   -webkit-appearance: none;
 }
 
+#testInfo
+{
+  position: relative;
+  top: 2%;
+  left: 3%; 
+  font-size: 160%;  
+}
+
 #bilder
 {
   position: relative;
@@ -74,15 +82,6 @@ p
   width: 100%;
   float: left;
 }
-
-#testInfo
-{
-  position: absolute;
-  top: 2%;
-  left: 3%; 
-  font-size: 160%;  
-}
-
 u
 {
   font-size: 200%;
@@ -170,7 +169,7 @@ u
 
 #add
 {
-  position: absolute;
+  position: relative;
   top: 73%;
   left: 42.5%;
   width: 11%;
@@ -183,7 +182,7 @@ u
 
 #testid
 {
-  position: absolute;
+  position: relative;
   top: 72%;
   left: 3%;
   width: 44%;
