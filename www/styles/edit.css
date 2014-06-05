@@ -308,6 +308,11 @@ u
     display: none;
   }
   
+  #bilder
+   {
+    top: 20%;
+  }
+  
   .trashdiv
   {
     left: 70%;
@@ -325,7 +330,7 @@ u
   
   #testid
    {
-    top: 5%;
+    top: 2%;
     left: 6%;
   }
   
