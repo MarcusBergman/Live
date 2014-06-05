@@ -287,6 +287,30 @@ a#testLink:active
   color: white;
 }
 
+#publicIDSpan a:link
+{
+  color: black;
+  text-decoration: underline;
+}
+
+#publicIDSpan a:hover
+{
+  color: black;
+  text-decoration: underline;
+}
+
+#publicIDSpan a:visited
+{
+  color: black;
+  text-decoration: none;
+}
+
+#publicIDSpan a:active
+{
+  color: black;
+  text-decoration: none;
+}
+
 @media only all and (max-width: 568px) 
 {
   u
