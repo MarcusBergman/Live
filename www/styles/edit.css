@@ -75,28 +75,16 @@ p
   float: left;
 }
 
+#testInfo
+{
+  position: absolute;
+  top: 4%;
+  left: 6%;  
+}
+
 u
 {
-  position: absolute;
-  top: 2%;
-  left: 6%;
   font-size: 300%;
-}
-
-h1
-{
-  position: absolute; 
-  top: 11%;
-  left: 6%;
-  font-size: 175%;  
-}
-
-h2
-{
-  position: absolute;
-  top: 17%;
-  left: 6%;
-  font-size: 175%;
 }
 
 #title
