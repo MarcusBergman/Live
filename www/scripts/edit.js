@@ -45,6 +45,7 @@ $("#testLink").attr('title', 'Gå till testet');
 $("#andra").click(function()
 {
   $("#pubID").css("display","block");
+  $("#skickaID").css("display","block");
 });
 
 $("#skickaID").on('click', function()
