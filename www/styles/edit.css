@@ -225,7 +225,6 @@ h2
   top: 72%;
   left: 3%;
   width: 44%;
-  height: 40%;
   font-size: 150%;
 }
 
@@ -264,9 +263,7 @@ h2
 
 #pubID
 {
-  position: absolute;
-  top: 36%;
-  left: 0%;
+  float: left;
   width: 49%;
   height: 14%;
   font-size: 100%;
@@ -274,8 +271,7 @@ h2
 
 #skickaID
 {
-  top: 38%;
-  left: 50%;
+  float: right;
   width: 17%;
   height: 13%;
   font-size: 80%;
