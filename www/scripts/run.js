@@ -43,6 +43,7 @@ svarHeight = $('.svar').width()
 
 for (var i=0; i<blandadeBilder.length; i++)
 {	
+
   if (i < 5)
     $("#"+blandadeBilder[i].id).css("top", svarHeight);
   else if (i >= 5 && i < 10)	
@@ -86,27 +87,23 @@ $("#rätta").click(function()
     if (facit[question] != answers[question])
     {
       allCorrect = false;
-	    $("#"+question).html('<img src="/images/rodkryss.png" class="kryss" />');
+	  $("#"+question).html('<img src="/images/rodkryss.png" class="kryss" />');
     }
 	
     else
     {
-	    $("#"+question).html('<img src="/images/gronbock.png" class="bock" />');
-	    $("#"+facit[question]).draggable('disable');
+	  $("#"+question).html('<img src="/images/gronbock.png" class="bock" />');
+	  $("#"+facit[question]).draggable('disable');
     }	
  		
 	if (allCorrect)
 	{
 	  $("#resultat").html("Alla svaren stämmer!");
 	  $("#reload").css("display","initial");
-    var rättSvar = new SpeechSynthesis.Utterance("All correct");
-    speechSynthesis.speak(rättSvar);
 	}
 	
 	else
 	  $("#resultat").html("Något av svaren stämmer inte.");
-    var felSvar = new SpeechSynthesis.Utterance("Something is wrong");
-    speechSynthesis.speak(felSvar);
 	  
 });	
 
