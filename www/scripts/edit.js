@@ -46,6 +46,7 @@ $("#andra").click(function()
 {
   $("#pubID").css("display","block");
   $("#skickaID").css("display","block");
+  $("#andra").css("display","none");
 });
 
 $("#skickaID").on('click', function()
