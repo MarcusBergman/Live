@@ -18,7 +18,7 @@
     <script> function redirect(){ window.location.href = "http://august.friskola.nu/testa/"+document.getElementById("testnamn").value } </script>
 	
 <?php  else : ?>
-  <div id="bakgrund"></div>
+<div id="bakgrund">
   <div id="rubrik"><?= $test["title"] ?> </div>
   <div id="resultat"></div>
   <div id="top"></div>
@@ -26,7 +26,7 @@
 	
   <input type="submit" id="rätta" value="Rätta">
   <input type="submit" id="reload" value="Gör ett nytt försök">
-
+</div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
   <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
   <script src="/scripts/jquery.ui.touch-punch.js"></script>
