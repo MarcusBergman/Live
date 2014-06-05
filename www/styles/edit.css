@@ -266,6 +266,7 @@ h2
   float: left;
   width: 49%;
   height: 14%;
+  border: 1px solid black;
   font-size: 100%;
 }
 
