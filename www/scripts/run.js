@@ -5,8 +5,10 @@ for (var i=1; i<=bilder.length; i++)
   $('#top').append('<div class="svar" id="svar' +i+ '"></div>');
 }
 
-$('#rätta').css("top", "15%"+($('.svar').width()/2));
-	
+$( document ).ready(function()
+{
+  $('#rätta').css("top", "15%"+($('.svar').width()/2));
+});	
 function shuffleArray(array) 
 {
   for (var i = array.length - 1; i > 0; i--)
