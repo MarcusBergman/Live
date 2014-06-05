@@ -294,6 +294,11 @@ u
 	  top: 40%;
 	  width: 55%;
   }
+  
+  #skickaID
+    {
+    height: 22%;  
+  }
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 767px) and (orientation : landscape)
