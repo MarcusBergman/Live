@@ -68,8 +68,8 @@ p
 
 #bilder
 {
-  position: absolute;
-  top: 30%;
+  position: relative;
+  top: 25%;
   left: 3%;
   width: 100%;
   float: left;
