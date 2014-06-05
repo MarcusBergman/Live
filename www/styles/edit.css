@@ -269,18 +269,18 @@ a#testLink:active
 #pubID
 {
   position: absolute;
-  top: 14.2%;
-  left: 35.5%;
-  width: 40%;
+  top: 36%;
+  left: 0%;
+  width: 49%;
   height: 14%;
-  font-size: 100%; 
+  font-size: 100%;
 }
 
 #skickaID
 {
   position: absolute;
-  top: 16%;
-  left: 75.5%;
+  top: 38%;
+  left: 50%;
   width: 17%;
   height: 13%;
   font-size: 80%;
