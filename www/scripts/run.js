@@ -47,7 +47,7 @@ for (var i=0; i<blandadeBilder.length; i++)
 {	
 
   if (i < 5)
-    $("#"+blandadeBilder[i].id).css("top", svarshojd + 10px);
+    $("#"+blandadeBilder[i].id).css("top", "10px"+svarshojd);
   else if (i >= 5 && i < 10)	
     $("#"+blandadeBilder[i].id).css("top", heightCorr);
   else if (i >= 10 && i < 15)	
