@@ -38,19 +38,22 @@ $(".svar").css("width", bredd +"%");
 $(".svar").css("height", $('.svar').width());
 $(".dragbild").css("height", $('.dragbild').width());  
 
-heightCorr = $('.dragbild').width();
+svarshojd = $('.svar').width();
+bildhojd = $('.dragbild').width;
+heightCorr = (bildhojd)+(bildhojd-svarshojd);
+
 
 for (var i=0; i<blandadeBilder.length; i++)
 {	
 
   if (i < 5)
-    $("#"+blandadeBilder[i].id).css("top", heightCorr);
+    $("#"+blandadeBilder[i].id).css("top", svarshojd + 10px);
   else if (i >= 5 && i < 10)	
-    $("#"+blandadeBilder[i].id).css("top", heightCorr*2);
+    $("#"+blandadeBilder[i].id).css("top", heightCorr);
   else if (i >= 10 && i < 15)	
-    $("#"+blandadeBilder[i].id).css("top", heightCorr*3);
+    $("#"+blandadeBilder[i].id).css("top", heightCorr*2);
   else
-    $("#"+blandadeBilder[i].id).css("top", heightCorr*4);  
+    $("#"+blandadeBilder[i].id).css("top", heightCorr*3);  
 }
 	
 $(function()
