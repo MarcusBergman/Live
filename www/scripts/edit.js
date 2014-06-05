@@ -44,8 +44,7 @@ $("#testLink").attr('title', 'Gå till testet');
 
 $("#andra").click(function()
 {
-  $("#testid").append('<input type="text" name="pubID" id="pubID"><button onclick="updatePublicID()" id="skickaID">Skicka</button>')
-  $("#andra").css("display","none");
+  $("#pubID").css("display","block");
 });
 
 $("#skickaID").on('click', function()
