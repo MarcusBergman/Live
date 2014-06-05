@@ -308,11 +308,6 @@ u
     display: none;
   }
   
-  #bilder
-   {
-    top: 10%;
-  }
-  
   .trashdiv
   {
     left: 70%;
@@ -330,8 +325,8 @@ u
   
   #testid
    {
-    top: 2%;
-    left: 6%;
+    top: 4%;
+    left: 3%;
   }
   
   #andra
