@@ -267,6 +267,11 @@ u
     border-radius: 0px;
   }
   
+  .lock
+    {
+    display: none;   
+  }
+  
   #add
   {
     position: relative;
@@ -288,21 +293,6 @@ u
     {
 	  top: 40%;
 	  width: 55%;
-  }
-  
-  #pubID
-    {
-	  top: 20%;
-	  left: 46.5%;
-	  width: 46%;
-  }
-  
-  #skickaID
-    {
-	  top: 40%;
-	  left: 78.5%;
-	  width: 20%;
-	  height: 20%;
   }
 }
 
@@ -328,37 +318,20 @@ u
   
   #add
   {
-    top: 15%;
+    top: 20%;
     left: 72%;
 	  z-index: 101;
   }
   
   #testid
    {
-    top: 20%;
+    top: 18%;
     left: 6%;
   }
   
   #andra
     {
-	top: 56%;
-	width: 30%;
-	height: 24%;
-  }
-  
-  #pubID
-    {
-	top: 27%;
-	left: 30.5%;
-	width: 34%;
-	height: 24%;
-  }
-  
-  #skickaID
-    {
-	top: 59%;
-	left: 51%;
-	width: 18%;
-	height: 24%;
+	  width: 30%;
+	  height: 24%;
   }
 }
