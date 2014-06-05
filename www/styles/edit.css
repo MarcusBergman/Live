@@ -79,7 +79,8 @@ p
 {
   position: absolute;
   top: 4%;
-  left: 6%;  
+  left: 6%; 
+  font-size: 175%;  
 }
 
 u
@@ -89,7 +90,6 @@ u
 
 #title
 {
-  width: 80%;
   font-size: 100%;
 }
  
