@@ -5,10 +5,6 @@ for (var i=1; i<=bilder.length; i++)
   $('#top').append('<div class="svar" id="svar' +i+ '"></div>');
 }
 
-$( document ).ready(function()
-{
-  $('#rätta').css("top", "15%"+($('.svar').width()/2));
-});	
 function shuffleArray(array) 
 {
   for (var i = array.length - 1; i > 0; i--)
@@ -44,6 +40,8 @@ $(".dragbild").css("height", $('.dragbild').width());
 
 heightCorr = $('.dragbild').width();
 svarHeight = $('.svar').width()
+
+$('#rätta').css("top", "15%"+(svarHeight/2));
 
 for (var i=0; i<blandadeBilder.length; i++)
 {	
