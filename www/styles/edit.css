@@ -268,16 +268,16 @@ u
   
   #add
   {
-    position: absolute;
+    position: relative;
     top: 45%;
     width: 14%;
     height: 16%;
   }
   
   #testid
-  {
-    top: 58%;
-	left: 3%;
+   {
+    top: 10%;
+	  left: 3%;
     width: 96%;
     height: 30%;
     font-size: 100%;
