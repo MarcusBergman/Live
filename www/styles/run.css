@@ -85,16 +85,13 @@ p
   outline: 2px dashed black;
 }	
 
-#rätta
+#bilder
 {
   position: absolute;
-  right: 3%;
-  width: 8%;
-  height: 10%;
-  font-size: 150%;
-  color: white;
-  background-color: black;
-  -webkit-appearance: none;
+  top: 50%;
+  left: 3%;
+  width: 100%;
+  height: 100%;
 }
 
 .dragbild
@@ -130,6 +127,19 @@ p
   width: 100%;
   text-align: center;
   font-size: 250%;
+}
+
+#rätta
+{
+  position: absolute;
+  top: 27%;
+  right: 3%;
+  width: 8%;
+  height: 10%;
+  font-size: 150%;
+  color: white;
+  background-color: black;
+  -webkit-appearance: none;
 }
 
 #reload

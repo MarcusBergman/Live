@@ -4,8 +4,6 @@ for (var i=1; i<=bilder.length; i++)
 {
   $('#top').append('<div class="svar" id="svar' +i+ '"></div>');
 }
-
-$('#rätta').css("top", "15%"+($('.svar').width()/2));
 	
 function shuffleArray(array) 
 {
