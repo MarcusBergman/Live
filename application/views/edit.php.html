@@ -102,8 +102,9 @@
 	         type: "GET",
 	         success: function()
 	                  { 
-	                    var link = $('#title').val();
+	                    var link = $('#pubID').val();
 	                    $("#skickaID").css("display","none");
+	                    $("#pubID").css("display","none");
 	                    $("#publicIDSpan").html('<a href="http://august.friskola.nu/testa/'+link+'">Publikt ID för testare: '+link+'</a>'); 
 	                  },
              error: function() { alert("något gick snett");}			 
