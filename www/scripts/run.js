@@ -38,7 +38,7 @@ $(".svar").css("width", bredd +"%");
 $(".svar").css("height", $('.svar').width());
 $(".dragbild").css("height", $('.dragbild').width());  
 
-heightCorr = $('.svar').width();
+heightCorr = $('.dragbild').width();
 
 for (var i=0; i<blandadeBilder.length; i++)
 {	
