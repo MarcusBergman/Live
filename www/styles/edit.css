@@ -93,28 +93,6 @@ u
   font-size: 100%;
 }
  
-#popup
-{
-  position: absolute;
-  top: -100%;
-  left: 22%;
-  width: 55%;
-  height: 55%;
-  background-color: white;
-  border: 1px solid black;
-}
-
-#kryss
-{
-  position:relative;
-  float:right;
-  width: 6%;
-  height: 10%;
-  font-size: 100%;
-  color: white;
-  background-color: black;
-}
- 
 .arrows
 {
   float: left;
