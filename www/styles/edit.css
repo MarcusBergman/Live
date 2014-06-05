@@ -74,14 +74,6 @@ p
   font-size: 160%;  
 }
 
-#bilder
-{
-  position: relative;
-  top: 25%;
-  left: 3%;
-  width: 100%;
-  float: left;
-}
 u
 {
   font-size: 200%;
@@ -90,6 +82,15 @@ u
 #title
 {
   font-size: 100%;
+}
+
+#bilder
+{
+  position: relative;
+  top: 25%;
+  left: 3%;
+  width: 100%;
+  float: left;
 }
  
 .arrows
@@ -243,34 +244,9 @@ u
 
 @media only all and (max-width: 568px) 
 {
-  u
+  #testInfo
     {
-	top: 4%;
-	left: 3%;
-	font-size: 150%;
-  }
-  
-  h1
-    {
-	top: 10%;
-	left: 3%;
-	font-size: 100%;
-  }
-  
-  h2
-    {
-	top: 16%;
-	left: 3%;
-	font-size: 100%;
-  }
-  
-  #title
-  {
-    top: 12.5%;
-    left: 33%;
-    width: 55%;
-    height: 4%;
-    font-size: 80%;
+	  font-size: 100%;
   }
   
   .arrows:hover 
