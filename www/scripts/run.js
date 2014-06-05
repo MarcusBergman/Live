@@ -22,19 +22,10 @@ var blandadeBilder = shuffleArray(bilder);
 for (var i=0; i<blandadeBilder.length; i++)
 {	
   $('#bilder').append('<div id="'+blandadeBilder[i].id+'" class="dragbild" style="background-image: url('+blandadeBilder[i].file+')"></div>');
-  
-  if (i < 5)
-    $("#"+blandadeBilder[i].id).css("top","0%");
-  else if (i >= 5 && i < 10)	
-    $("#"+blandadeBilder[i].id).css("top","36%");
-  else if (i >= 10 && i < 15)	
-    $("#"+blandadeBilder[i].id).css("top","72%");
-  else
-    $("#"+blandadeBilder[i].id).css("top","108%");  
-	
+ 
   $("#"+blandadeBilder[i].id).css("left", (i%5)*18+"%")	
 }
-  
+
 var bredd =  84/bilder.length;
 
 if (bredd > 18)
@@ -45,7 +36,22 @@ if (bredd > 18)
 
 $(".svar").css("width", bredd +"%");
 $(".svar").css("height", $('.svar').width());
-$(".dragbild").css("height", $('.dragbild').width());
+$(".dragbild").css("height", $('.dragbild').width());  
+
+heightCorr = $('.svar').width());
+
+for (var i=0; i<blandadeBilder.length; i++)
+{	
+
+  if (i < 5)
+    $("#"+blandadeBilder[i].id).css("top","0px");
+  else if (i >= 5 && i < 10)	
+    $("#"+blandadeBilder[i].id).css("top",heightCorr);
+  else if (i >= 10 && i < 15)	
+    $("#"+blandadeBilder[i].id).css("top",heightCorr*2);
+  else
+    $("#"+blandadeBilder[i].id).css("top",heightCorr*3);  
+}
 	
 $(function()
 {
