@@ -262,6 +262,7 @@ u
     left: 70%;
     width: 30%;
     height: 30%;
+    background-image: url('/images/delete.png');
     -moz-border-radius: 0px;
     border-radius: 0px;
   }
@@ -285,48 +286,36 @@ u
   
   #andra
     {
-	top: 40%;
-	width: 55%;
+	  top: 40%;
+	  width: 55%;
   }
   
   #pubID
     {
-	top: 20%;
-	left: 46.5%;
-	width: 46%;
+	  top: 20%;
+	  left: 46.5%;
+	  width: 46%;
   }
   
   #skickaID
     {
-	top: 40%;
-	left: 78.5%;
-	width: 20%;
-	height: 20%;
+	  top: 40%;
+	  left: 78.5%;
+	  width: 20%;
+	  height: 20%;
   }
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 767px) and (orientation : landscape)
 {
   #bakgrund2
-  {
+   {
     top: 5%;  
   }
   
   u
-  {
-    display: none;
-  }
-  
-  h1
    {
-    top: 7%;  
-  }
-  
-  #title
-  {
-    top: 11%; 
-    left: 22.5%;
-    height: 7%;
+    display: none;
   }
   
   .trashdiv
@@ -334,18 +323,19 @@ u
     left: 70%;
     width: 30%;
     height: 30%;
+    background-image: url('/images/delete.png');
   }
   
   #add
   {
-    top: 66%;
+    top: 15%;
     left: 72%;
-	z-index: 101;
+	  z-index: 101;
   }
   
   #testid
    {
-    top: 65%;
+    top: 20%;
     left: 6%;
   }
   
